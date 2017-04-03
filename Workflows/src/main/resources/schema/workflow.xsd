@@ -75,7 +75,7 @@
 					</xs:documentation>
 				</xs:annotation>
 			</xs:element>
-			<xs:element name="workflowType" type="WorkflowThpe" maxOccurs="1"
+			<xs:element name="workflowType" type="WorkflowType" maxOccurs="1"
 				minOccurs="0">
 				<xs:annotation>
 					<xs:documentation>
@@ -93,7 +93,7 @@
 		</xs:attribute>
 	</xs:complexType>
 
-	<xs:simpleType name="WorkflowThpe">
+	<xs:simpleType name="WorkflowType">
 		<xs:restriction base="xs:string">
 			<xs:enumeration value="FullyParallel"></xs:enumeration>
 			<xs:enumeration value="PartialParallel"></xs:enumeration>
