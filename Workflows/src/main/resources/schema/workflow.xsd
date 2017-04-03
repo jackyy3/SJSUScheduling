@@ -87,7 +87,7 @@
 		<xs:attribute name="name" type="xs:string">
 			<xs:annotation>
 				<xs:documentation>
-					A unique name which would be used a pointer to the task
+					A unique name which would be used a pointer to the workflow
 				</xs:documentation>
 			</xs:annotation>
 		</xs:attribute>
@@ -148,6 +148,40 @@
 					</xs:documentation>
 				</xs:annotation>
 			</xs:element>
+			
+			<xs:element name="functionName" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>
+						The function name of the function to execute the task
+					</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="className" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>
+						The class name which defines the task execution function
+					</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="inputBinding" type="tns:InputBinding"
+				maxOccurs="unbounded" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>
+						The binding between the qualifier/value
+						to the
+						function parameters
+					</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="outputBinding" type="tns:OutputBinding"
+				    maxOccurs="1" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>
+						The binding from the function return
+						value to the record
+					</xs:documentation>
+				</xs:annotation>
+			</xs:element>
 		</xs:sequence>
 		<xs:attribute name="name" type="xs:string">
 			<xs:annotation>
@@ -156,6 +190,21 @@
 				</xs:documentation>
 			</xs:annotation>
 		</xs:attribute>
+	</xs:complexType>
+	
+        <xs:complexType name="SingleChainWorkflow">
+	</xs:complexType>
+	
+	<xs:complexType name="ChainWorkflow">
+	</xs:complexType>
+	
+	<xs:complexType name="SequentialWorkflow">
+	</xs:complexType>
+	
+	<xs:complexType name="InputBinding">
+	</xs:complexType>
+	
+	<xs:complexType name="OutputBinding">
 	</xs:complexType>
 	
 	<xs:complexType name="Dependencies">
