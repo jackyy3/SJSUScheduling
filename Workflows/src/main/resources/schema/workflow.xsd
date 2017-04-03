@@ -163,7 +163,7 @@
 					</xs:documentation>
 				</xs:annotation>
 			</xs:element>
-			<xs:element name="inputBinding" type="tns:InputBinding"
+			<xs:element name="inputBinding" type="InputBinding"
 				maxOccurs="unbounded" minOccurs="0">
 				<xs:annotation>
 					<xs:documentation>
@@ -173,7 +173,7 @@
 					</xs:documentation>
 				</xs:annotation>
 			</xs:element>
-			<xs:element name="outputBinding" type="tns:OutputBinding"
+			<xs:element name="outputBinding" type="OutputBinding"
 				    maxOccurs="1" minOccurs="0">
 				<xs:annotation>
 					<xs:documentation>
