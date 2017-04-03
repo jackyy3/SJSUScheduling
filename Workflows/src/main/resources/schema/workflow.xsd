@@ -13,10 +13,6 @@
 				    SingleChain (not parallel at all), Chain (partial parallel), TaskGroup (parallel) 
 			</xs:documentation>
 	    </xs:annotation>
-		<xs:unique name="intermediateFieldUnique">
-			<xs:selector xpath="tns:intermediateField"></xs:selector>
-			<xs:field xpath="tns:name"></xs:field>
-		</xs:unique>
 	</xs:element>
 
 	<xs:complexType name="Workflow">
