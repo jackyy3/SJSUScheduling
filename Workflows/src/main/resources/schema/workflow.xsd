@@ -3,19 +3,23 @@
 	xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xml="http://www.w3.org/XML/1998/namespace"
 	elementFormDefault="qualified" version="1.0">
 
-	<xs:import schemaLocation="XInclude.xsd"
-		namespace="http://www.w3.org/2001/XInclude" />
+	<xs:import schemaLocation="XInclude.xsd" namespace="http://www.w3.org/2001/XInclude" />
 
-	<xs:element name="workflow" type="Workflow" abstract="true">
-	    <xs:annotation>
-			<xs:documentation>
-				Abstract, there are different types of workflows:
-				    SingleChain (not parallel at all), Chain (partial parallel), TaskGroup (parallel) 
-			</xs:documentation>
-	    </xs:annotation>
+	<xs:element name="workflow" type="Workflow">
+		<xs:unique name="intermediateFieldUnique">
+			<xs:selector xpath="intermediateField"></xs:selector>
+			<xs:field xpath="workflowId"></xs:field>
+		</xs:unique>
 	</xs:element>
 
-	<xs:complexType name="Workflow">
+	<xs:complexType name="Workflow" abstract="true">
+		<xs:annotation>
+			<xs:documentation>
+				Abstract, there are different types of workflows:
+				SingleChain (not parallel at all), Chain (partial parallel),
+				TaskGroup (parallel)
+			</xs:documentation>
+		</xs:annotation>
 		<xs:sequence>
 			<xs:element name="workflowId" type="xs:string" minOccurs="1"
 				maxOccurs="1">
@@ -33,27 +37,26 @@
 					</xs:documentation>
 				</xs:annotation>
 			</xs:element>
-			<xs:element name="numberOfTasks" type="xs:long"
-				minOccurs="1" maxOccurs="1">
+			<xs:element name="numberOfTasks" type="xs:long" minOccurs="1"
+				maxOccurs="1">
 				<xs:annotation>
 					<xs:documentation>
 						Total tasks in the workflow
 					</xs:documentation>
 				</xs:annotation>
 			</xs:element>
-			<xs:element name="costModel" type="xs:long"
+			<xs:element name="costModel" type="costModelDefinition"
 				minOccurs="0" maxOccurs="1">
 				<xs:annotation>
 					<xs:documentation>
 						Cost calculation model for the workflow.
-						TODO: design a schema model, currently only a long value
+						TODO:
+						design a schema model, currently only a long value
 					</xs:documentation>
 				</xs:annotation>
-				<xs:unique name="costModelDefinition">
-				</xs:unique>
 			</xs:element>
-			<xs:element name="totalSize" type="xs:long"
-				minOccurs="0" maxOccurs="1">
+			<xs:element name="totalSize" type="xs:long" minOccurs="0"
+				maxOccurs="1">
 				<xs:annotation>
 					<xs:documentation>
 						An definition for the total size of the workflow
@@ -61,25 +64,28 @@
 				</xs:annotation>
 			</xs:element>
 			<xs:element name="estimatedDuration" type="xs:long"
-				maxOccurs="0" minOccurs="1">
+				maxOccurs="1" minOccurs="1">
 				<xs:annotation>
 					<xs:documentation>
 						The estimated duration of the workflow
 					</xs:documentation>
 				</xs:annotation>
 			</xs:element>
-			<xs:element type="task" minOccurs="0" maxOccurs="unbounded">
+			<xs:element type="task" name="tasks" minOccurs="0"
+				maxOccurs="unbounded">
 				<xs:annotation>
 					<xs:documentation>
-						The definition of the tasks belong to ths workflow
+						The definition of the tasks belong to ths
+						workflow
 					</xs:documentation>
 				</xs:annotation>
 			</xs:element>
-			<xs:element name="workflowType" type="WorkflowType" maxOccurs="1"
-				minOccurs="0">
+			<xs:element name="workflowType" type="WorkflowType"
+				maxOccurs="1" minOccurs="0">
 				<xs:annotation>
 					<xs:documentation>
-					    Definition of workflow type: Fully parallel, partial parallel, sequential
+						Definition of workflow type: Fully parallel,
+						partial parallel, sequential
 					</xs:documentation>
 				</xs:annotation>
 			</xs:element>
@@ -87,7 +93,8 @@
 		<xs:attribute name="name" type="xs:string">
 			<xs:annotation>
 				<xs:documentation>
-					A unique name which would be used a pointer to the workflow
+					A unique name which would be used a pointer to the
+					workflow
 				</xs:documentation>
 			</xs:annotation>
 		</xs:attribute>
@@ -108,27 +115,21 @@
 			</xs:documentation>
 		</xs:annotation>
 		<xs:sequence>
-		    <xs:element name="taskId" type="xs:long" minOccurs="1" maxOccurs="1"></xs:element>
-			<xs:element name="taskSize" type="xs:long" maxOccurs="1" minOccurs="0">
+			<xs:element name="taskId" type="xs:long" minOccurs="1"
+				maxOccurs="1"></xs:element>
+			<xs:element name="taskSize" type="xs:long" maxOccurs="1"
+				minOccurs="0">
 				<xs:annotation>
 					<xs:documentation>
 						The size of the task
 					</xs:documentation>
 				</xs:annotation>
 			</xs:element>
-			<xs:element name="estimatedDuration" type="xs:long" maxOccurs="1"
-				minOccurs="0">
+			<xs:element name="estimatedDuration" type="xs:long"
+				maxOccurs="1" minOccurs="0">
 				<xs:annotation>
 					<xs:documentation>
-					    Estimated runtime duration.
-					</xs:documentation>
-				</xs:annotation>
-			</xs:element>
-			<xs:element name="estimatedDuration" type="xs:long" maxOccurs="1"
-				minOccurs="0">
-				<xs:annotation>
-					<xs:documentation>
-					    Estimated runtime duration.
+						Estimated runtime duration.
 					</xs:documentation>
 				</xs:annotation>
 			</xs:element>
@@ -136,30 +137,32 @@
 				minOccurs="0">
 				<xs:annotation>
 					<xs:documentation>
-					    The input of the task.
+						The input of the task.
 					</xs:documentation>
 				</xs:annotation>
 			</xs:element>
-			<xs:element type="Dependencies" maxOccurs="1"
-				minOccurs="0">
+			<xs:element type="Dependencies" name="dependencies"
+				maxOccurs="1" minOccurs="0">
 				<xs:annotation>
 					<xs:documentation>
-					    dependencies of current task inside the workflow.
+						dependencies of current task inside the workflow.
 					</xs:documentation>
 				</xs:annotation>
 			</xs:element>
-			
+
 			<xs:element name="functionName" type="xs:string">
 				<xs:annotation>
 					<xs:documentation>
-						The function name of the function to execute the task
+						The function name of the function to execute the
+						task
 					</xs:documentation>
 				</xs:annotation>
 			</xs:element>
 			<xs:element name="className" type="xs:string">
 				<xs:annotation>
 					<xs:documentation>
-						The class name which defines the task execution function
+						The class name which defines the task execution
+						function
 					</xs:documentation>
 				</xs:annotation>
 			</xs:element>
@@ -174,11 +177,12 @@
 				</xs:annotation>
 			</xs:element>
 			<xs:element name="outputBinding" type="OutputBinding"
-				    maxOccurs="1" minOccurs="0">
+				maxOccurs="1" minOccurs="0">
 				<xs:annotation>
 					<xs:documentation>
 						The binding from the function return
-						value to the record
+						value to the
+						record
 					</xs:documentation>
 				</xs:annotation>
 			</xs:element>
@@ -186,32 +190,36 @@
 		<xs:attribute name="name" type="xs:string">
 			<xs:annotation>
 				<xs:documentation>
-					A unique name which would be used a pointer to the task
+					A unique name which would be used a pointer to the
+					task
 				</xs:documentation>
 			</xs:annotation>
 		</xs:attribute>
 	</xs:complexType>
-	
-        <xs:complexType name="SingleChainWorkflow">
+
+	<xs:complexType name="costModelDefinition">
 	</xs:complexType>
-	
+
+	<xs:complexType name="SingleChainWorkflow">
+	</xs:complexType>
+
 	<xs:complexType name="ChainWorkflow">
 	</xs:complexType>
-	
+
 	<xs:complexType name="SequentialWorkflow">
 	</xs:complexType>
-	
+
 	<xs:complexType name="InputBinding">
 	</xs:complexType>
-	
+
 	<xs:complexType name="OutputBinding">
 	</xs:complexType>
-	
+
 	<xs:complexType name="Dependencies">
 		<xs:complexContent>
 			<xs:extension base="task">
 				<xs:sequence>
-					<xs:element type="task" maxOccurs="unbounded"
+					<xs:element type="task" name="tasks" maxOccurs="unbounded"
 						minOccurs="0"></xs:element>
 				</xs:sequence>
 			</xs:extension>
@@ -222,7 +230,7 @@
 		<xs:complexContent>
 			<xs:extension base="task">
 				<xs:sequence>
-					<xs:element type="task" maxOccurs="unbounded"
+					<xs:element type="task" name="tasks" maxOccurs="unbounded"
 						minOccurs="1"></xs:element>
 				</xs:sequence>
 			</xs:extension>
