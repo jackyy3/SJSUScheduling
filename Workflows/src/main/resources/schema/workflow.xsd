@@ -8,7 +8,7 @@
 	<xs:element name="workflow" type="Workflow">
 		<xs:unique name="intermediateFieldUnique">
 			<xs:selector xpath="intermediateField"></xs:selector>
-			<xs:field xpath="workflowId"></xs:field>
+			<xs:field xpath="name"></xs:field>
 		</xs:unique>
 	</xs:element>
 
@@ -16,7 +16,7 @@
 		<xs:annotation>
 			<xs:documentation>
 				Abstract, there are different types of workflows:
-				SingleChain (not parallel at all), Chain (partial parallel),
+				Sequential (not parallel at all), Chain (partial parallel),
 				TaskGroup (parallel)
 			</xs:documentation>
 		</xs:annotation>
@@ -200,13 +200,43 @@
 	<xs:complexType name="costModelDefinition">
 	</xs:complexType>
 
-	<xs:complexType name="SingleChainWorkflow">
+	<xs:complexType name="SequentialWorkflow">
+		<xs:annotation>
+			<xs:documentation>
+				A work flow that contains tasks must be executed sequentially.
+			</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="Workflow">
+				<xs:sequence></xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
 	</xs:complexType>
 
 	<xs:complexType name="ChainWorkflow">
+		<xs:annotation>
+			<xs:documentation>
+				A work flow that contains tasks can be executed in parallel.
+			</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="Workflow">
+				<xs:sequence></xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
 	</xs:complexType>
 
-	<xs:complexType name="SequentialWorkflow">
+	<xs:complexType name="TaskGroupWorkflow">
+		<xs:annotation>
+			<xs:documentation>
+				A work flow that contains all independent tasks.
+			</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="Workflow">
+				<xs:sequence></xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
 	</xs:complexType>
 
 	<xs:complexType name="InputBinding">
