@@ -71,11 +71,11 @@
 					</xs:documentation>
 				</xs:annotation>
 			</xs:element>
-			<xs:element type="task" name="tasks" minOccurs="0"
-				maxOccurs="unbounded">
+			<xs:element type="TaskContainer" name="tasks" minOccurs="0"
+				maxOccurs="1">
 				<xs:annotation>
 					<xs:documentation>
-						The definition of the tasks belong to ths
+						The definition of the tasks belong to this
 						workflow
 					</xs:documentation>
 				</xs:annotation>
@@ -203,7 +203,8 @@
 	<xs:complexType name="SequentialWorkflow">
 		<xs:annotation>
 			<xs:documentation>
-				A work flow that contains tasks must be executed sequentially.
+				A work flow that contains tasks must be executed
+				sequentially.
 			</xs:documentation>
 		</xs:annotation>
 		<xs:complexContent>
@@ -216,7 +217,8 @@
 	<xs:complexType name="ChainWorkflow">
 		<xs:annotation>
 			<xs:documentation>
-				A work flow that contains tasks can be executed in parallel.
+				A work flow that contains tasks can be executed in
+				parallel.
 			</xs:documentation>
 		</xs:annotation>
 		<xs:complexContent>
