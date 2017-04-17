@@ -67,7 +67,7 @@
 				maxOccurs="1" minOccurs="1">
 				<xs:annotation>
 					<xs:documentation>
-						The estimated duration of the workflow
+						The estimated duration of the work flow
 					</xs:documentation>
 				</xs:annotation>
 			</xs:element>
@@ -75,8 +75,7 @@
 				maxOccurs="1">
 				<xs:annotation>
 					<xs:documentation>
-						The definition of the tasks belong to this
-						workflow
+						The definition of the tasks belong to the work flow
 					</xs:documentation>
 				</xs:annotation>
 			</xs:element>
