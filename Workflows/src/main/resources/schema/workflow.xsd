@@ -63,6 +63,13 @@
 					</xs:documentation>
 				</xs:annotation>
 			</xs:element>
+			<xs:element name="deadline" type="xs:long" maxOccurs="1" minOccurs="1">
+				<xs:annotation>
+					<xs:documentation>
+						The deadline that workflow must be completed
+					</xs:documentation>
+				</xs:annotation>
+			</xs:element>
 			<xs:element name="estimatedDuration" type="xs:long"
 				maxOccurs="1" minOccurs="1">
 				<xs:annotation>
@@ -75,7 +82,8 @@
 				maxOccurs="1">
 				<xs:annotation>
 					<xs:documentation>
-						The definition of the tasks belong to the work flow
+						The definition of the tasks belong to the work
+						flow
 					</xs:documentation>
 				</xs:annotation>
 			</xs:element>
@@ -132,7 +140,7 @@
 					</xs:documentation>
 				</xs:annotation>
 			</xs:element>
-			<xs:element name="inputLocation" type="xs:long" maxOccurs="1"
+			<xs:element name="inputLocation" type="xs:string" maxOccurs="1"
 				minOccurs="0">
 				<xs:annotation>
 					<xs:documentation>
@@ -149,7 +157,7 @@
 				</xs:annotation>
 			</xs:element>
 
-			<xs:element name="functionName" type="xs:string">
+			<xs:element name="functionName" type="xs:string" maxOccurs="1" minOccurs="0">
 				<xs:annotation>
 					<xs:documentation>
 						The function name of the function to execute the
@@ -157,7 +165,7 @@
 					</xs:documentation>
 				</xs:annotation>
 			</xs:element>
-			<xs:element name="className" type="xs:string">
+			<xs:element name="className" type="xs:string" maxOccurs="1" minOccurs="0">
 				<xs:annotation>
 					<xs:documentation>
 						The class name which defines the task execution
@@ -197,6 +205,10 @@
 	</xs:complexType>
 
 	<xs:complexType name="costModelDefinition">
+		<xs:sequence>
+			<xs:element name="cost" type="xs:long" minOccurs="1"
+				maxOccurs="1"></xs:element>
+		</xs:sequence>
 	</xs:complexType>
 
 	<xs:complexType name="SequentialWorkflow">
@@ -247,24 +259,18 @@
 	</xs:complexType>
 
 	<xs:complexType name="Dependencies">
-		<xs:complexContent>
-			<xs:extension base="task">
-				<xs:sequence>
-					<xs:element type="task" name="tasks" maxOccurs="unbounded"
-						minOccurs="0"></xs:element>
-				</xs:sequence>
-			</xs:extension>
-		</xs:complexContent>
+		<xs:sequence>
+			<xs:element type="task" name="Task" minOccurs="0"
+				maxOccurs="unbounded">
+			</xs:element>
+		</xs:sequence>
 	</xs:complexType>
 
-	<xs:complexType name="TaskContainer" abstract="true">
-		<xs:complexContent>
-			<xs:extension base="task">
-				<xs:sequence>
-					<xs:element type="task" name="tasks" maxOccurs="unbounded"
-						minOccurs="1"></xs:element>
-				</xs:sequence>
-			</xs:extension>
-		</xs:complexContent>
+	<xs:complexType name="TaskContainer">
+		<xs:sequence>
+			<xs:element type="task" name="Task" minOccurs="0"
+				maxOccurs="unbounded">
+			</xs:element>
+		</xs:sequence>
 	</xs:complexType>
 </xs:schema>
