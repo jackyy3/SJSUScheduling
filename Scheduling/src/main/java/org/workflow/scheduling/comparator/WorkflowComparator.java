@@ -2,8 +2,8 @@ package org.workflow.scheduling.comparator;
 
 import java.util.Comparator;
 
-import org.workflow.scheduling.Workflow;
+import org.workflow.scheduling.ClusterSimWorkflow;
 
-public interface WorkflowComparator<T> extends Comparator<Workflow> {
+public interface WorkflowComparator<T> extends Comparator<ClusterSimWorkflow> {
     String getComparisonField();
 }

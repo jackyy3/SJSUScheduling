@@ -1,6 +1,6 @@
 package org.workflow.scheduling.pool;
 
-import org.workflow.scheduling.BaseWorkflow;
+import org.workflow.scheduling.BaseClusterSimWorkflow;
 import org.workflow.scheduling.algorithms.WorkflowSchedulingAlgorithm;
 import org.workflow.scheduling.algorithms.WorkflowSchedulingAlgorithmType;
 import org.workflow.scheduling.factory.WorkflowSchedulingAlgorithmFactory;
@@ -48,9 +48,9 @@ public class WorkflowPriorityCalculator extends AbstractSchedulingInputHandler {
 	 *
 	 * @return next READY workflow with priority.
 	 */
-	public BaseWorkflow getNextWorkflow() {
-		BaseWorkflow wf = this.listener.nextWorkflow();
-		SchedulingPriority priority = schedulingAlgorithm.calculateSchedulingPriority(wf);
+	public BaseClusterSimWorkflow getNextWorkflow() {
+		BaseClusterSimWorkflow wf = this.listener.nextWorkflow();
+		SchedulingPriority priority = this.schedulingAlgorithm.calculateSchedulingPriority(wf);
 		wf.setSchedulingPriority(priority);
 		return wf;
 	}

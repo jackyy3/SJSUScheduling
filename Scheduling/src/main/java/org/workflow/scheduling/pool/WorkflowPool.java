@@ -5,25 +5,25 @@ import java.util.List;
 import java.util.Map;
 
 import org.workflow.Task;
-import org.workflow.scheduling.BaseWorkflow;
-import org.workflow.scheduling.Workflow;
+import org.workflow.scheduling.BaseClusterSimWorkflow;
+import org.workflow.scheduling.ClusterSimWorkflow;
 
 public enum WorkflowPool {
 	
 	INSTANCE;
 	
-	private final Map<Long, Workflow> workflows = new HashMap<>();
+	private final Map<Long, ClusterSimWorkflow> workflows = new HashMap<>();
 
 	
-	public void addToWorkflows(final Task task, final Workflow workflow) {
+	public void addToWorkflows(final Task task, final ClusterSimWorkflow workflow) {
 		this.workflows.put((long) task.getCloudletId(), workflow);
 	}
 	
-	public Map<Long, Workflow> getWorkflows() {
+	public Map<Long, ClusterSimWorkflow> getWorkflows() {
 		return this.workflows;
 	}
 	
-	public Workflow getSingleWorkflow(final Long taskId) {
+	public ClusterSimWorkflow getSingleWorkflow(final Long taskId) {
 		return workflows.get(taskId);
 	}
 	
@@ -31,11 +31,11 @@ public enum WorkflowPool {
 		return workflows.containsKey(taskId);
 	}
 	
-	public boolean contains(final Workflow workflow) {
+	public boolean contains(final ClusterSimWorkflow workflow) {
 		return workflows.containsValue(workflow);
 	}
 	
-	public List<BaseWorkflow> aggregateWorkflows(final List<? extends Task> tasks) {
+	public List<BaseClusterSimWorkflow> aggregateWorkflows(final List<? extends Task> tasks) {
 		
 		for(Task task : tasks){
 			

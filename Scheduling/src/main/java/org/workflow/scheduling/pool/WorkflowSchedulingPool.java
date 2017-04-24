@@ -3,7 +3,7 @@ package org.workflow.scheduling.pool;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.workflow.scheduling.BaseWorkflow;
+import org.workflow.scheduling.BaseClusterSimWorkflow;
 
 /**
  * Workflow Ready Pool.
@@ -17,7 +17,7 @@ public class WorkflowSchedulingPool extends AbstractSchedulingPool {
 	 *
 	 * @param workflow
 	 */
-	public void addToPool(final BaseWorkflow workflow) {
+	public void addToPool(final BaseClusterSimWorkflow workflow) {
 		SchedulingPriority schedulingPriority = workflow.getSchedulingPriority();
 		PoolTasksContainer container = null;
 		if (workflowPool.containsKey(schedulingPriority)) {
@@ -34,7 +34,7 @@ public class WorkflowSchedulingPool extends AbstractSchedulingPool {
 	 *
 	 * @param workflow
 	 */
-	public void removeFromPool(final BaseWorkflow workflow) {
+	public void removeFromPool(final BaseClusterSimWorkflow workflow) {
 		SchedulingPriority schedulingPriority = workflow.getSchedulingPriority();
 		if (workflowPool.containsKey(schedulingPriority)) {
 			PoolTasksContainer container = workflowPool.get(schedulingPriority);
@@ -48,11 +48,11 @@ public class WorkflowSchedulingPool extends AbstractSchedulingPool {
 	 * @param sp
 	 * @return next ready workflow
 	 */
-	public BaseWorkflow retrieveNextWorkflow(final SchedulingPriority sp) {
+	public BaseClusterSimWorkflow retrieveNextWorkflow(final SchedulingPriority sp) {
 		if (!this.poolContainsWF(sp)) {
 			return null;
 		}
-		BaseWorkflow wf = this.workflowPool.get(sp).retrieveNextWorkflow(sp);
+		BaseClusterSimWorkflow wf = this.workflowPool.get(sp).retrieveNextWorkflow(sp);
 		this.removeFromPool(wf);
 		return wf;
 	}
@@ -71,5 +71,9 @@ public class WorkflowSchedulingPool extends AbstractSchedulingPool {
 			return false;
 		}
 		return true;
+	}
+	
+	public synchronized long getPoolSize(){
+		return this.workflowPool.size();
 	}
 }

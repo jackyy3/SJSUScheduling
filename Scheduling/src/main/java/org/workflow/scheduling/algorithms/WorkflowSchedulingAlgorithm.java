@@ -2,14 +2,14 @@ package org.workflow.scheduling.algorithms;
 
 import java.util.List;
 
-import org.workflow.scheduling.Workflow;
+import org.workflow.scheduling.ClusterSimWorkflow;
 import org.workflow.scheduling.pool.SchedulingPriority;
 
 public interface WorkflowSchedulingAlgorithm {
 
 	WorkflowSchedulingAlgorithmType getWorkflowSchedulingAlgorithmType();
 	
-	List<Workflow> scheduleWorkflows(final List<Workflow> workflows);
+	List<ClusterSimWorkflow> scheduleWorkflows(final List<ClusterSimWorkflow> workflows);
 	
-	SchedulingPriority calculateSchedulingPriority(final Workflow workflow);
+	SchedulingPriority calculateSchedulingPriority(final ClusterSimWorkflow workflow);
 }

@@ -28,8 +28,8 @@ import org.jdom2.Document;
 import org.jdom2.Element;
 import org.jdom2.JDOMException;
 import org.jdom2.input.SAXBuilder;
-import org.workflow.scheduling.BaseWorkflow;
-import org.workflow.scheduling.Workflow;
+import org.workflow.scheduling.BaseClusterSimWorkflow;
+import org.workflow.scheduling.ClusterSimWorkflow;
 import org.workflow.scheduling.algorithms.WorkflowSchedulingAlgorithm;
 import org.workflow.scheduling.algorithms.WorkflowSchedulingAlgorithmType;
 import org.workflow.scheduling.factory.WorkflowSchedulingAlgorithmFactory;
@@ -73,7 +73,7 @@ public final class WorkflowParser {
      */
     private int jobIdStartsFrom;
     
-    private List<Workflow> workflows;
+    private List<ClusterSimWorkflow> workflows;
     
     
     public static void main(String[] args) {
@@ -109,11 +109,11 @@ public final class WorkflowParser {
    	 }
    }
 
-    public List<Workflow> getWorkflows() {
+    public List<ClusterSimWorkflow> getWorkflows() {
     	return this.workflows;
     }
     
-    public void setWorkflows(final List<Workflow> workflows) {
+    public void setWorkflows(final List<ClusterSimWorkflow> workflows) {
     	this.workflows = workflows;
     }
     
@@ -171,7 +171,7 @@ public final class WorkflowParser {
         if (this.daxPath != null) {
             parseXmlFile(this.daxPath);
         } else if (this.daxPaths != null) {
-        	List<Workflow> workflows = new ArrayList<>();
+        	List<ClusterSimWorkflow> workflows = new ArrayList<>();
             for (String path : this.daxPaths) {
             	workflows.add(parseWorkflow(path));
             }
@@ -179,13 +179,13 @@ public final class WorkflowParser {
         }
     }
     
-    private void addTasksFromWorkflowToTaskList(final List<Workflow> workflows) {
+    private void addTasksFromWorkflowToTaskList(final List<ClusterSimWorkflow> workflows) {
     	WorkflowSchedulingAlgorithm algorithm =
     			(new WorkflowSchedulingAlgorithmFactory())
     			.getWorkflowSchedulingAlgorithm(getWorkflowSchedulingAlgorithmType());
-    	List<Workflow> orderedWorkflows = algorithm.scheduleWorkflows(workflows);
-    	for(Workflow workflow : orderedWorkflows){
-    		BaseWorkflow baseWorkflow = (BaseWorkflow) workflow;
+    	List<ClusterSimWorkflow> orderedWorkflows = algorithm.scheduleWorkflows(workflows);
+    	for(ClusterSimWorkflow workflow : orderedWorkflows){
+    		BaseClusterSimWorkflow baseWorkflow = (BaseClusterSimWorkflow) workflow;
     		List<Task> tasksInWorkflow = baseWorkflow.getTasks();
     		for(Task taskSingle : tasksInWorkflow) {
                 this.getTaskList().add(taskSingle);
@@ -208,17 +208,17 @@ public final class WorkflowParser {
         }
     }
 
-    private Workflow parseWorkflow(final String path) {
+    private ClusterSimWorkflow parseWorkflow(final String path) {
         return parseSingleWorkflow(path);
     }
     
-    private Workflow parseSingleWorkflow(final String path) {
-    	Workflow workflow = this.parseWorkflowFromXmlFile(path);
+    private ClusterSimWorkflow parseSingleWorkflow(final String path) {
+    	ClusterSimWorkflow workflow = this.parseWorkflowFromXmlFile(path);
     	return workflow;
     }
     
-    private Workflow parseWorkflowFromXmlFile(final String path) {
-    	BaseWorkflow parsedWorkflow = new BaseWorkflow(path);
+    private ClusterSimWorkflow parseWorkflowFromXmlFile(final String path) {
+    	BaseClusterSimWorkflow parsedWorkflow = new BaseClusterSimWorkflow(path);
     	List<Task> tasks = new ArrayList<>();
         try {
 

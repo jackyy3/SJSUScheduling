@@ -1,7 +1,5 @@
 package org.workflow.scheduling.task;
 
-import org.workflow.scheduling.pool.SchedulingPriority;
-
 public class WorkflowTask extends org.workflow.Task {
 
 	private long workflowId;

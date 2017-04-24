@@ -2,13 +2,13 @@ package org.workflow.scheduling.pool;
 
 import java.util.Vector;
 
-import org.workflow.scheduling.BaseWorkflow;
-import org.workflow.scheduling.Workflow;
+import org.workflow.scheduling.BaseClusterSimWorkflow;
+import org.workflow.scheduling.ClusterSimWorkflow;
 
 public class PoolTasksContainer {
 
 	private final SchedulingPriority schedulingPriority;
-	private final Vector<BaseWorkflow> workflows = new Vector<>();
+	private final Vector<BaseClusterSimWorkflow> workflows = new Vector<>();
 
 	public PoolTasksContainer(final SchedulingPriority schedulingPriority) {
 		this.schedulingPriority = schedulingPriority;
@@ -21,14 +21,14 @@ public class PoolTasksContainer {
 		return schedulingPriority;
 	}
 
-	public void addToContainer(final BaseWorkflow workflow) {
+	public void addToContainer(final BaseClusterSimWorkflow workflow) {
 		if (!workflow.getSchedulingPriority().equals(this.schedulingPriority)) {
 			// throw new exception
 		}
 		this.workflows.addElement(workflow);
 	}
 
-	public void removeFromContainer(final Workflow workflow) {
+	public void removeFromContainer(final ClusterSimWorkflow workflow) {
 		this.workflows.remove(workflow);
 	}
 
@@ -36,11 +36,11 @@ public class PoolTasksContainer {
         return this.workflows.isEmpty();
 	}
 	
-	public BaseWorkflow retrieveNextWorkflow(final SchedulingPriority schedulingPriority){
+	public BaseClusterSimWorkflow retrieveNextWorkflow(final SchedulingPriority schedulingPriority){
 		if(this.schedulingPriority != schedulingPriority || this.isContainerEmpty()){
 			return null;
 		}
-		BaseWorkflow bwf = this.workflows.get(0);
+		BaseClusterSimWorkflow bwf = this.workflows.get(0);
 		this.removeFromContainer(bwf);
 		return bwf;
 	}

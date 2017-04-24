@@ -1,6 +1,6 @@
 package org.workflow.scheduling.pool;
 
-import org.workflow.scheduling.BaseWorkflow;
+import org.workflow.scheduling.BaseClusterSimWorkflow;
 
 /**
  * Handles output from workflow scheduling.
@@ -12,7 +12,7 @@ public class WorkflowSchedulingOutputHandler extends AbstractSchedulingOutputHan
 	 * 
 	 * @param workflow
 	 */
-	public void execute(final BaseWorkflow workflow) {
+	public void execute(final BaseClusterSimWorkflow workflow) {
 		System.out.println("success " + workflow.getSchedulingPriority().getPriorityIndex());
 	}
 }

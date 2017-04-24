@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import org.workflow.scheduling.Workflow;
+import org.workflow.scheduling.ClusterSimWorkflow;
 import org.workflow.scheduling.comparator.DeadlineComparator;
 import org.workflow.scheduling.pool.SchedulingPriority;
 
@@ -22,16 +22,16 @@ public class EDFWorkflowSchedulingAlgorithm implements WorkflowSchedulingAlgorit
 	}
 
 	@Override
-	public List<Workflow> scheduleWorkflows(List<Workflow> workflows) {
-		List<Workflow> orderedWorkflows = new ArrayList<>(workflows);
+	public List<ClusterSimWorkflow> scheduleWorkflows(List<ClusterSimWorkflow> workflows) {
+		List<ClusterSimWorkflow> orderedWorkflows = new ArrayList<>(workflows);
 		Collections.sort(orderedWorkflows, new DeadlineComparator());
 		return orderedWorkflows;
 	}
 
 	@Override
-	public SchedulingPriority calculateSchedulingPriority(Workflow workflow) {
-		// TODO Auto-generated method stub
-		return null;
+	public SchedulingPriority calculateSchedulingPriority(ClusterSimWorkflow workflow) {
+		long priorityValue = workflow.getDeadline() - System.currentTimeMillis();
+		return new SchedulingPriority(priorityValue);
 	}
 
 }
