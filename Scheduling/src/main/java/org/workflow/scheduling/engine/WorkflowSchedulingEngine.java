@@ -69,7 +69,7 @@ public final class WorkflowSchedulingEngine {
 							.append(pool.getPoolSize());
 
 					System.out.println(sb.toString());
-					sb.delete(0, sb.length() - 1);
+					sb.delete(0, sb.length());
 				}
 			}
 		}
