@@ -12,9 +12,9 @@ import org.workflow.scheduling.adapter.GenericWorkflowAdapter;
  * TODO:implementation.
  */
 public class InputStreamingListener {
-	
+
 	private WorkflowFactory wfFactory = new RandomWorkflowFactory();
-	
+
 	/**
 	 * Return next workflow for scheduling.
 	 * 
@@ -22,6 +22,17 @@ public class InputStreamingListener {
 	 */
 	public BaseClusterSimWorkflow nextWorkflow() {
 		Workflow wf = wfFactory.createSingleWorkflow();
+		BaseClusterSimWorkflow bwf = (BaseClusterSimWorkflow) (new GenericWorkflowAdapter(wf)).adapt();
+		return bwf;
+	}
+
+	/**
+	 * @param filePath
+	 *
+	 * @return {@link BaseClusterSimWorkflow}
+	 */
+	public BaseClusterSimWorkflow nextWorkflow(final String filePath) {
+		Workflow wf = wfFactory.createSingleWorkflow(filePath);
 		BaseClusterSimWorkflow bwf = (BaseClusterSimWorkflow) (new GenericWorkflowAdapter(wf)).adapt();
 		return bwf;
 	}
