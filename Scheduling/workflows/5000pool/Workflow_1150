@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_1150">
+    <workflowId>1150</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/2500pool</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>896</cost>
+    </costModel>
+    <totalSize>41341</totalSize>
+    <deadline>1495486653173</deadline>
+    <estimatedDuration>5223</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_1150_Task_0">
+            <taskId>0</taskId>
+            <taskSize>7274</taskSize>
+            <estimatedDuration>939</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1150_Task_1">
+            <taskId>1</taskId>
+            <taskSize>9798</taskSize>
+            <estimatedDuration>596</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1150_Task_2">
+            <taskId>2</taskId>
+            <taskSize>1501</taskSize>
+            <estimatedDuration>733</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1150_Task_3">
+            <taskId>3</taskId>
+            <taskSize>6073</taskSize>
+            <estimatedDuration>808</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1150_Task_4">
+            <taskId>4</taskId>
+            <taskSize>6448</taskSize>
+            <estimatedDuration>548</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1150_Task_5">
+            <taskId>5</taskId>
+            <taskSize>1732</taskSize>
+            <estimatedDuration>72</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1150_Task_6">
+            <taskId>6</taskId>
+            <taskSize>6367</taskSize>
+            <estimatedDuration>665</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1150_Task_7">
+            <taskId>7</taskId>
+            <taskSize>2148</taskSize>
+            <estimatedDuration>832</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sequentialWorkflow name="Workflow_2691">
+    <workflowId>2691</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Montage_50.xml</inputFilePath>
+    <numberOfTasks>2</numberOfTasks>
+    <costModel>
+        <cost>269</cost>
+    </costModel>
+    <totalSize>14586</totalSize>
+    <deadline>1493547807907</deadline>
+    <estimatedDuration>1078</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_2691_Task_0">
+            <taskId>0</taskId>
+            <taskSize>9651</taskSize>
+            <estimatedDuration>467</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2691_Task_1">
+            <taskId>1</taskId>
+            <taskSize>4935</taskSize>
+            <estimatedDuration>581</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>Sequential</workflowType>
+</sequentialWorkflow>

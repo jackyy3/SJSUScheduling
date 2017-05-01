@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_3170">
+    <workflowId>3170</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Montage_100.xml</inputFilePath>
+    <numberOfTasks>1</numberOfTasks>
+    <costModel>
+        <cost>4410</cost>
+    </costModel>
+    <totalSize>8153</totalSize>
+    <deadline>1493488841956</deadline>
+    <estimatedDuration>681</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_3170_Task_0">
+            <taskId>0</taskId>
+            <taskSize>8153</taskSize>
+            <estimatedDuration>625</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

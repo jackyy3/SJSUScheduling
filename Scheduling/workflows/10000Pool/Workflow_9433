@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<taskGroupWorkflow name="Workflow_9433">
+    <workflowId>9433</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Montage_50.xml</inputFilePath>
+    <numberOfTasks>5</numberOfTasks>
+    <costModel>
+        <cost>883</cost>
+    </costModel>
+    <totalSize>20869</totalSize>
+    <deadline>1494792756260</deadline>
+    <estimatedDuration>2278</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_9433_Task_0">
+            <taskId>0</taskId>
+            <taskSize>1895</taskSize>
+            <estimatedDuration>311</estimatedDuration>
+        </Task>
+        <Task name="Workflow_9433_Task_1">
+            <taskId>1</taskId>
+            <taskSize>7343</taskSize>
+            <estimatedDuration>163</estimatedDuration>
+        </Task>
+        <Task name="Workflow_9433_Task_2">
+            <taskId>2</taskId>
+            <taskSize>2789</taskSize>
+            <estimatedDuration>776</estimatedDuration>
+        </Task>
+        <Task name="Workflow_9433_Task_3">
+            <taskId>3</taskId>
+            <taskSize>3344</taskSize>
+            <estimatedDuration>138</estimatedDuration>
+        </Task>
+        <Task name="Workflow_9433_Task_4">
+            <taskId>4</taskId>
+            <taskSize>5498</taskSize>
+            <estimatedDuration>825</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>FullyParallel</workflowType>
+</taskGroupWorkflow>

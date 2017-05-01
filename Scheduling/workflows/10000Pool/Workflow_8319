@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<taskGroupWorkflow name="Workflow_8319">
+    <workflowId>8319</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Inspiral_50.xml</inputFilePath>
+    <numberOfTasks>5</numberOfTasks>
+    <costModel>
+        <cost>4527</cost>
+    </costModel>
+    <totalSize>12161</totalSize>
+    <deadline>1493826905040</deadline>
+    <estimatedDuration>2405</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_8319_Task_0">
+            <taskId>0</taskId>
+            <taskSize>3904</taskSize>
+            <estimatedDuration>693</estimatedDuration>
+        </Task>
+        <Task name="Workflow_8319_Task_1">
+            <taskId>1</taskId>
+            <taskSize>929</taskSize>
+            <estimatedDuration>73</estimatedDuration>
+        </Task>
+        <Task name="Workflow_8319_Task_2">
+            <taskId>2</taskId>
+            <taskSize>3131</taskSize>
+            <estimatedDuration>684</estimatedDuration>
+        </Task>
+        <Task name="Workflow_8319_Task_3">
+            <taskId>3</taskId>
+            <taskSize>1151</taskSize>
+            <estimatedDuration>698</estimatedDuration>
+        </Task>
+        <Task name="Workflow_8319_Task_4">
+            <taskId>4</taskId>
+            <taskSize>3046</taskSize>
+            <estimatedDuration>249</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>FullyParallel</workflowType>
+</taskGroupWorkflow>

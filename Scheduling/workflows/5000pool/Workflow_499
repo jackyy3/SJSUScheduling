@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_499">
+    <workflowId>499</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/5000pool</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>4471</cost>
+    </costModel>
+    <totalSize>48279</totalSize>
+    <deadline>1493752765237</deadline>
+    <estimatedDuration>4046</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_499_Task_0">
+            <taskId>0</taskId>
+            <taskSize>8858</taskSize>
+            <estimatedDuration>331</estimatedDuration>
+        </Task>
+        <Task name="Workflow_499_Task_1">
+            <taskId>1</taskId>
+            <taskSize>3665</taskSize>
+            <estimatedDuration>107</estimatedDuration>
+        </Task>
+        <Task name="Workflow_499_Task_2">
+            <taskId>2</taskId>
+            <taskSize>9179</taskSize>
+            <estimatedDuration>522</estimatedDuration>
+        </Task>
+        <Task name="Workflow_499_Task_3">
+            <taskId>3</taskId>
+            <taskSize>9630</taskSize>
+            <estimatedDuration>614</estimatedDuration>
+        </Task>
+        <Task name="Workflow_499_Task_4">
+            <taskId>4</taskId>
+            <taskSize>3664</taskSize>
+            <estimatedDuration>631</estimatedDuration>
+        </Task>
+        <Task name="Workflow_499_Task_5">
+            <taskId>5</taskId>
+            <taskSize>7932</taskSize>
+            <estimatedDuration>895</estimatedDuration>
+        </Task>
+        <Task name="Workflow_499_Task_6">
+            <taskId>6</taskId>
+            <taskSize>3287</taskSize>
+            <estimatedDuration>826</estimatedDuration>
+        </Task>
+        <Task name="Workflow_499_Task_7">
+            <taskId>7</taskId>
+            <taskSize>2064</taskSize>
+            <estimatedDuration>114</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

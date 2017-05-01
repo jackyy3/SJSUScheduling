@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sequentialWorkflow name="Workflow_7223">
+    <workflowId>7223</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Montage_50.xml</inputFilePath>
+    <numberOfTasks>6</numberOfTasks>
+    <costModel>
+        <cost>2136</cost>
+    </costModel>
+    <totalSize>28405</totalSize>
+    <deadline>1493596884512</deadline>
+    <estimatedDuration>3440</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_7223_Task_0">
+            <taskId>0</taskId>
+            <taskSize>3756</taskSize>
+            <estimatedDuration>86</estimatedDuration>
+        </Task>
+        <Task name="Workflow_7223_Task_1">
+            <taskId>1</taskId>
+            <taskSize>7286</taskSize>
+            <estimatedDuration>967</estimatedDuration>
+        </Task>
+        <Task name="Workflow_7223_Task_2">
+            <taskId>2</taskId>
+            <taskSize>2700</taskSize>
+            <estimatedDuration>824</estimatedDuration>
+        </Task>
+        <Task name="Workflow_7223_Task_3">
+            <taskId>3</taskId>
+            <taskSize>6572</taskSize>
+            <estimatedDuration>585</estimatedDuration>
+        </Task>
+        <Task name="Workflow_7223_Task_4">
+            <taskId>4</taskId>
+            <taskSize>6692</taskSize>
+            <estimatedDuration>868</estimatedDuration>
+        </Task>
+        <Task name="Workflow_7223_Task_5">
+            <taskId>5</taskId>
+            <taskSize>1399</taskSize>
+            <estimatedDuration>49</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>Sequential</workflowType>
+</sequentialWorkflow>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_8800">
+    <workflowId>8800</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/CyberShake_100.xml</inputFilePath>
+    <numberOfTasks>5</numberOfTasks>
+    <costModel>
+        <cost>1852</cost>
+    </costModel>
+    <totalSize>25819</totalSize>
+    <deadline>1495357865315</deadline>
+    <estimatedDuration>2850</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_8800_Task_0">
+            <taskId>0</taskId>
+            <taskSize>8183</taskSize>
+            <estimatedDuration>698</estimatedDuration>
+        </Task>
+        <Task name="Workflow_8800_Task_1">
+            <taskId>1</taskId>
+            <taskSize>3133</taskSize>
+            <estimatedDuration>159</estimatedDuration>
+        </Task>
+        <Task name="Workflow_8800_Task_2">
+            <taskId>2</taskId>
+            <taskSize>7533</taskSize>
+            <estimatedDuration>779</estimatedDuration>
+        </Task>
+        <Task name="Workflow_8800_Task_3">
+            <taskId>3</taskId>
+            <taskSize>4823</taskSize>
+            <estimatedDuration>790</estimatedDuration>
+        </Task>
+        <Task name="Workflow_8800_Task_4">
+            <taskId>4</taskId>
+            <taskSize>2147</taskSize>
+            <estimatedDuration>374</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

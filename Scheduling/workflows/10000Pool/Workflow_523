@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<taskGroupWorkflow name="Workflow_523">
+    <workflowId>523</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/HEFT_paper.xml</inputFilePath>
+    <numberOfTasks>4</numberOfTasks>
+    <costModel>
+        <cost>7235</cost>
+    </costModel>
+    <totalSize>21527</totalSize>
+    <deadline>1495476212759</deadline>
+    <estimatedDuration>1252</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_523_Task_0">
+            <taskId>0</taskId>
+            <taskSize>8718</taskSize>
+            <estimatedDuration>341</estimatedDuration>
+        </Task>
+        <Task name="Workflow_523_Task_1">
+            <taskId>1</taskId>
+            <taskSize>4339</taskSize>
+            <estimatedDuration>122</estimatedDuration>
+        </Task>
+        <Task name="Workflow_523_Task_2">
+            <taskId>2</taskId>
+            <taskSize>1393</taskSize>
+            <estimatedDuration>308</estimatedDuration>
+        </Task>
+        <Task name="Workflow_523_Task_3">
+            <taskId>3</taskId>
+            <taskSize>7077</taskSize>
+            <estimatedDuration>468</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>FullyParallel</workflowType>
+</taskGroupWorkflow>

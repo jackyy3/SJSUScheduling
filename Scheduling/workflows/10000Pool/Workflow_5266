@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_5266">
+    <workflowId>5266</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/2500pool</inputFilePath>
+    <numberOfTasks>3</numberOfTasks>
+    <costModel>
+        <cost>2242</cost>
+    </costModel>
+    <totalSize>13253</totalSize>
+    <deadline>1494046590045</deadline>
+    <estimatedDuration>1575</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_5266_Task_0">
+            <taskId>0</taskId>
+            <taskSize>7313</taskSize>
+            <estimatedDuration>90</estimatedDuration>
+        </Task>
+        <Task name="Workflow_5266_Task_1">
+            <taskId>1</taskId>
+            <taskSize>1098</taskSize>
+            <estimatedDuration>905</estimatedDuration>
+        </Task>
+        <Task name="Workflow_5266_Task_2">
+            <taskId>2</taskId>
+            <taskSize>4842</taskSize>
+            <estimatedDuration>523</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<taskGroupWorkflow name="Workflow_33">
+    <workflowId>33</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Sipht_1000.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>6098</cost>
+    </costModel>
+    <totalSize>33697</totalSize>
+    <deadline>1495193055659</deadline>
+    <estimatedDuration>4788</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_33_Task_0">
+            <taskId>0</taskId>
+            <taskSize>2421</taskSize>
+            <estimatedDuration>702</estimatedDuration>
+        </Task>
+        <Task name="Workflow_33_Task_1">
+            <taskId>1</taskId>
+            <taskSize>9195</taskSize>
+            <estimatedDuration>458</estimatedDuration>
+        </Task>
+        <Task name="Workflow_33_Task_2">
+            <taskId>2</taskId>
+            <taskSize>7209</taskSize>
+            <estimatedDuration>925</estimatedDuration>
+        </Task>
+        <Task name="Workflow_33_Task_3">
+            <taskId>3</taskId>
+            <taskSize>1924</taskSize>
+            <estimatedDuration>389</estimatedDuration>
+        </Task>
+        <Task name="Workflow_33_Task_4">
+            <taskId>4</taskId>
+            <taskSize>2744</taskSize>
+            <estimatedDuration>476</estimatedDuration>
+        </Task>
+        <Task name="Workflow_33_Task_5">
+            <taskId>5</taskId>
+            <taskSize>3410</taskSize>
+            <estimatedDuration>441</estimatedDuration>
+        </Task>
+        <Task name="Workflow_33_Task_6">
+            <taskId>6</taskId>
+            <taskSize>2110</taskSize>
+            <estimatedDuration>958</estimatedDuration>
+        </Task>
+        <Task name="Workflow_33_Task_7">
+            <taskId>7</taskId>
+            <taskSize>4684</taskSize>
+            <estimatedDuration>405</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>FullyParallel</workflowType>
+</taskGroupWorkflow>

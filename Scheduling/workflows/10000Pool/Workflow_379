@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_379">
+    <workflowId>379</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/1000pool</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>868</cost>
+    </costModel>
+    <totalSize>45450</totalSize>
+    <deadline>1495024310029</deadline>
+    <estimatedDuration>4086</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_379_Task_0">
+            <taskId>0</taskId>
+            <taskSize>2233</taskSize>
+            <estimatedDuration>576</estimatedDuration>
+        </Task>
+        <Task name="Workflow_379_Task_1">
+            <taskId>1</taskId>
+            <taskSize>587</taskSize>
+            <estimatedDuration>116</estimatedDuration>
+        </Task>
+        <Task name="Workflow_379_Task_2">
+            <taskId>2</taskId>
+            <taskSize>6005</taskSize>
+            <estimatedDuration>986</estimatedDuration>
+        </Task>
+        <Task name="Workflow_379_Task_3">
+            <taskId>3</taskId>
+            <taskSize>9034</taskSize>
+            <estimatedDuration>56</estimatedDuration>
+        </Task>
+        <Task name="Workflow_379_Task_4">
+            <taskId>4</taskId>
+            <taskSize>8982</taskSize>
+            <estimatedDuration>782</estimatedDuration>
+        </Task>
+        <Task name="Workflow_379_Task_5">
+            <taskId>5</taskId>
+            <taskSize>2096</taskSize>
+            <estimatedDuration>540</estimatedDuration>
+        </Task>
+        <Task name="Workflow_379_Task_6">
+            <taskId>6</taskId>
+            <taskSize>6543</taskSize>
+            <estimatedDuration>167</estimatedDuration>
+        </Task>
+        <Task name="Workflow_379_Task_7">
+            <taskId>7</taskId>
+            <taskSize>9970</taskSize>
+            <estimatedDuration>826</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<taskGroupWorkflow name="Workflow_7262">
+    <workflowId>7262</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Epigenomics_100.xml</inputFilePath>
+    <numberOfTasks>3</numberOfTasks>
+    <costModel>
+        <cost>1779</cost>
+    </costModel>
+    <totalSize>15160</totalSize>
+    <deadline>1494073022012</deadline>
+    <estimatedDuration>919</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_7262_Task_0">
+            <taskId>0</taskId>
+            <taskSize>4503</taskSize>
+            <estimatedDuration>557</estimatedDuration>
+        </Task>
+        <Task name="Workflow_7262_Task_1">
+            <taskId>1</taskId>
+            <taskSize>1509</taskSize>
+            <estimatedDuration>136</estimatedDuration>
+        </Task>
+        <Task name="Workflow_7262_Task_2">
+            <taskId>2</taskId>
+            <taskSize>9148</taskSize>
+            <estimatedDuration>218</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>FullyParallel</workflowType>
+</taskGroupWorkflow>

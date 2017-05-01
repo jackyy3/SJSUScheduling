@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_34">
+    <workflowId>34</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Sipht_100.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>6243</cost>
+    </costModel>
+    <totalSize>44779</totalSize>
+    <deadline>1494905457977</deadline>
+    <estimatedDuration>3962</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_34_Task_0">
+            <taskId>0</taskId>
+            <taskSize>6316</taskSize>
+            <estimatedDuration>502</estimatedDuration>
+        </Task>
+        <Task name="Workflow_34_Task_1">
+            <taskId>1</taskId>
+            <taskSize>2777</taskSize>
+            <estimatedDuration>183</estimatedDuration>
+        </Task>
+        <Task name="Workflow_34_Task_2">
+            <taskId>2</taskId>
+            <taskSize>579</taskSize>
+            <estimatedDuration>949</estimatedDuration>
+        </Task>
+        <Task name="Workflow_34_Task_3">
+            <taskId>3</taskId>
+            <taskSize>9337</taskSize>
+            <estimatedDuration>832</estimatedDuration>
+        </Task>
+        <Task name="Workflow_34_Task_4">
+            <taskId>4</taskId>
+            <taskSize>8658</taskSize>
+            <estimatedDuration>284</estimatedDuration>
+        </Task>
+        <Task name="Workflow_34_Task_5">
+            <taskId>5</taskId>
+            <taskSize>2695</taskSize>
+            <estimatedDuration>551</estimatedDuration>
+        </Task>
+        <Task name="Workflow_34_Task_6">
+            <taskId>6</taskId>
+            <taskSize>9173</taskSize>
+            <estimatedDuration>201</estimatedDuration>
+        </Task>
+        <Task name="Workflow_34_Task_7">
+            <taskId>7</taskId>
+            <taskSize>5244</taskSize>
+            <estimatedDuration>424</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

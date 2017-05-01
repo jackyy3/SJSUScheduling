@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_2817">
+    <workflowId>2817</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Sipht_60.xml</inputFilePath>
+    <numberOfTasks>7</numberOfTasks>
+    <costModel>
+        <cost>7736</cost>
+    </costModel>
+    <totalSize>41925</totalSize>
+    <deadline>1495461224530</deadline>
+    <estimatedDuration>2773</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_2817_Task_0">
+            <taskId>0</taskId>
+            <taskSize>5761</taskSize>
+            <estimatedDuration>297</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2817_Task_1">
+            <taskId>1</taskId>
+            <taskSize>2818</taskSize>
+            <estimatedDuration>486</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2817_Task_2">
+            <taskId>2</taskId>
+            <taskSize>2599</taskSize>
+            <estimatedDuration>138</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2817_Task_3">
+            <taskId>3</taskId>
+            <taskSize>7460</taskSize>
+            <estimatedDuration>492</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2817_Task_4">
+            <taskId>4</taskId>
+            <taskSize>3685</taskSize>
+            <estimatedDuration>721</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2817_Task_5">
+            <taskId>5</taskId>
+            <taskSize>9809</taskSize>
+            <estimatedDuration>311</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2817_Task_6">
+            <taskId>6</taskId>
+            <taskSize>9793</taskSize>
+            <estimatedDuration>304</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

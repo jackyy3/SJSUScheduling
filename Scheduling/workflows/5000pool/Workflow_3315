@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sequentialWorkflow name="Workflow_3315">
+    <workflowId>3315</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Montage_50.xml</inputFilePath>
+    <numberOfTasks>7</numberOfTasks>
+    <costModel>
+        <cost>3800</cost>
+    </costModel>
+    <totalSize>38127</totalSize>
+    <deadline>1493634016932</deadline>
+    <estimatedDuration>2921</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_3315_Task_0">
+            <taskId>0</taskId>
+            <taskSize>9778</taskSize>
+            <estimatedDuration>973</estimatedDuration>
+        </Task>
+        <Task name="Workflow_3315_Task_1">
+            <taskId>1</taskId>
+            <taskSize>949</taskSize>
+            <estimatedDuration>630</estimatedDuration>
+        </Task>
+        <Task name="Workflow_3315_Task_2">
+            <taskId>2</taskId>
+            <taskSize>4942</taskSize>
+            <estimatedDuration>414</estimatedDuration>
+        </Task>
+        <Task name="Workflow_3315_Task_3">
+            <taskId>3</taskId>
+            <taskSize>9831</taskSize>
+            <estimatedDuration>250</estimatedDuration>
+        </Task>
+        <Task name="Workflow_3315_Task_4">
+            <taskId>4</taskId>
+            <taskSize>346</taskSize>
+            <estimatedDuration>163</estimatedDuration>
+        </Task>
+        <Task name="Workflow_3315_Task_5">
+            <taskId>5</taskId>
+            <taskSize>3143</taskSize>
+            <estimatedDuration>200</estimatedDuration>
+        </Task>
+        <Task name="Workflow_3315_Task_6">
+            <taskId>6</taskId>
+            <taskSize>9138</taskSize>
+            <estimatedDuration>240</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>Sequential</workflowType>
+</sequentialWorkflow>

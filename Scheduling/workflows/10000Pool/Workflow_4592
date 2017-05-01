@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<taskGroupWorkflow name="Workflow_4592">
+    <workflowId>4592</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/10000Pool</inputFilePath>
+    <numberOfTasks>3</numberOfTasks>
+    <costModel>
+        <cost>5594</cost>
+    </costModel>
+    <totalSize>17400</totalSize>
+    <deadline>1493424636747</deadline>
+    <estimatedDuration>1698</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_4592_Task_0">
+            <taskId>0</taskId>
+            <taskSize>1113</taskSize>
+            <estimatedDuration>620</estimatedDuration>
+        </Task>
+        <Task name="Workflow_4592_Task_1">
+            <taskId>1</taskId>
+            <taskSize>9954</taskSize>
+            <estimatedDuration>407</estimatedDuration>
+        </Task>
+        <Task name="Workflow_4592_Task_2">
+            <taskId>2</taskId>
+            <taskSize>6333</taskSize>
+            <estimatedDuration>611</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>FullyParallel</workflowType>
+</taskGroupWorkflow>

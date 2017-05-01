@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<taskGroupWorkflow name="Workflow_8116">
+    <workflowId>8116</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/floodplain.xml</inputFilePath>
+    <numberOfTasks>7</numberOfTasks>
+    <costModel>
+        <cost>5509</cost>
+    </costModel>
+    <totalSize>27916</totalSize>
+    <deadline>1495412933099</deadline>
+    <estimatedDuration>2948</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_8116_Task_0">
+            <taskId>0</taskId>
+            <taskSize>3520</taskSize>
+            <estimatedDuration>269</estimatedDuration>
+        </Task>
+        <Task name="Workflow_8116_Task_1">
+            <taskId>1</taskId>
+            <taskSize>5198</taskSize>
+            <estimatedDuration>157</estimatedDuration>
+        </Task>
+        <Task name="Workflow_8116_Task_2">
+            <taskId>2</taskId>
+            <taskSize>1669</taskSize>
+            <estimatedDuration>263</estimatedDuration>
+        </Task>
+        <Task name="Workflow_8116_Task_3">
+            <taskId>3</taskId>
+            <taskSize>7726</taskSize>
+            <estimatedDuration>929</estimatedDuration>
+        </Task>
+        <Task name="Workflow_8116_Task_4">
+            <taskId>4</taskId>
+            <taskSize>209</taskSize>
+            <estimatedDuration>344</estimatedDuration>
+        </Task>
+        <Task name="Workflow_8116_Task_5">
+            <taskId>5</taskId>
+            <taskSize>2658</taskSize>
+            <estimatedDuration>138</estimatedDuration>
+        </Task>
+        <Task name="Workflow_8116_Task_6">
+            <taskId>6</taskId>
+            <taskSize>6936</taskSize>
+            <estimatedDuration>766</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>FullyParallel</workflowType>
+</taskGroupWorkflow>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<taskGroupWorkflow name="Workflow_1436">
+    <workflowId>1436</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Sipht_30.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>4745</cost>
+    </costModel>
+    <totalSize>31049</totalSize>
+    <deadline>1494105768637</deadline>
+    <estimatedDuration>4710</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_1436_Task_0">
+            <taskId>0</taskId>
+            <taskSize>1441</taskSize>
+            <estimatedDuration>938</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1436_Task_1">
+            <taskId>1</taskId>
+            <taskSize>6469</taskSize>
+            <estimatedDuration>746</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1436_Task_2">
+            <taskId>2</taskId>
+            <taskSize>4965</taskSize>
+            <estimatedDuration>491</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1436_Task_3">
+            <taskId>3</taskId>
+            <taskSize>6862</taskSize>
+            <estimatedDuration>122</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1436_Task_4">
+            <taskId>4</taskId>
+            <taskSize>1694</taskSize>
+            <estimatedDuration>584</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1436_Task_5">
+            <taskId>5</taskId>
+            <taskSize>585</taskSize>
+            <estimatedDuration>949</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1436_Task_6">
+            <taskId>6</taskId>
+            <taskSize>7689</taskSize>
+            <estimatedDuration>527</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1436_Task_7">
+            <taskId>7</taskId>
+            <taskSize>1344</taskSize>
+            <estimatedDuration>325</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>FullyParallel</workflowType>
+</taskGroupWorkflow>

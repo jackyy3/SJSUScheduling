@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_247">
+    <workflowId>247</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Montage_50.xml</inputFilePath>
+    <numberOfTasks>6</numberOfTasks>
+    <costModel>
+        <cost>7989</cost>
+    </costModel>
+    <totalSize>15140</totalSize>
+    <deadline>1494929958571</deadline>
+    <estimatedDuration>3345</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_247_Task_0">
+            <taskId>0</taskId>
+            <taskSize>202</taskSize>
+            <estimatedDuration>709</estimatedDuration>
+        </Task>
+        <Task name="Workflow_247_Task_1">
+            <taskId>1</taskId>
+            <taskSize>1467</taskSize>
+            <estimatedDuration>737</estimatedDuration>
+        </Task>
+        <Task name="Workflow_247_Task_2">
+            <taskId>2</taskId>
+            <taskSize>1817</taskSize>
+            <estimatedDuration>946</estimatedDuration>
+        </Task>
+        <Task name="Workflow_247_Task_3">
+            <taskId>3</taskId>
+            <taskSize>7543</taskSize>
+            <estimatedDuration>458</estimatedDuration>
+        </Task>
+        <Task name="Workflow_247_Task_4">
+            <taskId>4</taskId>
+            <taskSize>2975</taskSize>
+            <estimatedDuration>379</estimatedDuration>
+        </Task>
+        <Task name="Workflow_247_Task_5">
+            <taskId>5</taskId>
+            <taskSize>1136</taskSize>
+            <estimatedDuration>68</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

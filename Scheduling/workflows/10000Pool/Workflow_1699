@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_1699">
+    <workflowId>1699</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/CyberShake_50.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>3936</cost>
+    </costModel>
+    <totalSize>30478</totalSize>
+    <deadline>1494024363608</deadline>
+    <estimatedDuration>4020</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_1699_Task_0">
+            <taskId>0</taskId>
+            <taskSize>1039</taskSize>
+            <estimatedDuration>160</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1699_Task_1">
+            <taskId>1</taskId>
+            <taskSize>3349</taskSize>
+            <estimatedDuration>283</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1699_Task_2">
+            <taskId>2</taskId>
+            <taskSize>7904</taskSize>
+            <estimatedDuration>366</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1699_Task_3">
+            <taskId>3</taskId>
+            <taskSize>9655</taskSize>
+            <estimatedDuration>581</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1699_Task_4">
+            <taskId>4</taskId>
+            <taskSize>1081</taskSize>
+            <estimatedDuration>249</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1699_Task_5">
+            <taskId>5</taskId>
+            <taskSize>33</taskSize>
+            <estimatedDuration>827</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1699_Task_6">
+            <taskId>6</taskId>
+            <taskSize>4350</taskSize>
+            <estimatedDuration>739</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1699_Task_7">
+            <taskId>7</taskId>
+            <taskSize>3067</taskSize>
+            <estimatedDuration>803</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

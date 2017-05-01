@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_6530">
+    <workflowId>6530</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/floodplain.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>8619</cost>
+    </costModel>
+    <totalSize>42397</totalSize>
+    <deadline>1494202403546</deadline>
+    <estimatedDuration>3034</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_6530_Task_0">
+            <taskId>0</taskId>
+            <taskSize>4229</taskSize>
+            <estimatedDuration>39</estimatedDuration>
+        </Task>
+        <Task name="Workflow_6530_Task_1">
+            <taskId>1</taskId>
+            <taskSize>9630</taskSize>
+            <estimatedDuration>60</estimatedDuration>
+        </Task>
+        <Task name="Workflow_6530_Task_2">
+            <taskId>2</taskId>
+            <taskSize>9647</taskSize>
+            <estimatedDuration>799</estimatedDuration>
+        </Task>
+        <Task name="Workflow_6530_Task_3">
+            <taskId>3</taskId>
+            <taskSize>4483</taskSize>
+            <estimatedDuration>149</estimatedDuration>
+        </Task>
+        <Task name="Workflow_6530_Task_4">
+            <taskId>4</taskId>
+            <taskSize>4047</taskSize>
+            <estimatedDuration>988</estimatedDuration>
+        </Task>
+        <Task name="Workflow_6530_Task_5">
+            <taskId>5</taskId>
+            <taskSize>2828</taskSize>
+            <estimatedDuration>138</estimatedDuration>
+        </Task>
+        <Task name="Workflow_6530_Task_6">
+            <taskId>6</taskId>
+            <taskSize>6343</taskSize>
+            <estimatedDuration>604</estimatedDuration>
+        </Task>
+        <Task name="Workflow_6530_Task_7">
+            <taskId>7</taskId>
+            <taskSize>1190</taskSize>
+            <estimatedDuration>174</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

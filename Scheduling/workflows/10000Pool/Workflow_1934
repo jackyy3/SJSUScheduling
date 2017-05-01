@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_1934">
+    <workflowId>1934</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/CyberShake_30.xml</inputFilePath>
+    <numberOfTasks>1</numberOfTasks>
+    <costModel>
+        <cost>3356</cost>
+    </costModel>
+    <totalSize>548</totalSize>
+    <deadline>1494203769592</deadline>
+    <estimatedDuration>150</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_1934_Task_0">
+            <taskId>0</taskId>
+            <taskSize>548</taskSize>
+            <estimatedDuration>120</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

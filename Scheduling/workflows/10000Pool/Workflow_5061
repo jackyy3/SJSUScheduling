@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sequentialWorkflow name="Workflow_5061">
+    <workflowId>5061</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Sipht_60.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>1907</cost>
+    </costModel>
+    <totalSize>37753</totalSize>
+    <deadline>1495374279250</deadline>
+    <estimatedDuration>2538</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_5061_Task_0">
+            <taskId>0</taskId>
+            <taskSize>2143</taskSize>
+            <estimatedDuration>36</estimatedDuration>
+        </Task>
+        <Task name="Workflow_5061_Task_1">
+            <taskId>1</taskId>
+            <taskSize>2302</taskSize>
+            <estimatedDuration>71</estimatedDuration>
+        </Task>
+        <Task name="Workflow_5061_Task_2">
+            <taskId>2</taskId>
+            <taskSize>5785</taskSize>
+            <estimatedDuration>359</estimatedDuration>
+        </Task>
+        <Task name="Workflow_5061_Task_3">
+            <taskId>3</taskId>
+            <taskSize>9236</taskSize>
+            <estimatedDuration>932</estimatedDuration>
+        </Task>
+        <Task name="Workflow_5061_Task_4">
+            <taskId>4</taskId>
+            <taskSize>2008</taskSize>
+            <estimatedDuration>331</estimatedDuration>
+        </Task>
+        <Task name="Workflow_5061_Task_5">
+            <taskId>5</taskId>
+            <taskSize>3375</taskSize>
+            <estimatedDuration>144</estimatedDuration>
+        </Task>
+        <Task name="Workflow_5061_Task_6">
+            <taskId>6</taskId>
+            <taskSize>7808</taskSize>
+            <estimatedDuration>532</estimatedDuration>
+        </Task>
+        <Task name="Workflow_5061_Task_7">
+            <taskId>7</taskId>
+            <taskSize>5096</taskSize>
+            <estimatedDuration>91</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>Sequential</workflowType>
+</sequentialWorkflow>

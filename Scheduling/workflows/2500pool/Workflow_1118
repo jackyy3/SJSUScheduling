@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sequentialWorkflow name="Workflow_1118">
+    <workflowId>1118</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/CyberShake_100.xml</inputFilePath>
+    <numberOfTasks>1</numberOfTasks>
+    <costModel>
+        <cost>3870</cost>
+    </costModel>
+    <totalSize>744</totalSize>
+    <deadline>1495087137038</deadline>
+    <estimatedDuration>942</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_1118_Task_0">
+            <taskId>0</taskId>
+            <taskSize>744</taskSize>
+            <estimatedDuration>895</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>Sequential</workflowType>
+</sequentialWorkflow>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_405">
+    <workflowId>405</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Montage_1000.xml</inputFilePath>
+    <numberOfTasks>6</numberOfTasks>
+    <costModel>
+        <cost>9109</cost>
+    </costModel>
+    <totalSize>31803</totalSize>
+    <deadline>1494351870089</deadline>
+    <estimatedDuration>3511</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_405_Task_0">
+            <taskId>0</taskId>
+            <taskSize>9946</taskSize>
+            <estimatedDuration>215</estimatedDuration>
+        </Task>
+        <Task name="Workflow_405_Task_1">
+            <taskId>1</taskId>
+            <taskSize>3261</taskSize>
+            <estimatedDuration>838</estimatedDuration>
+        </Task>
+        <Task name="Workflow_405_Task_2">
+            <taskId>2</taskId>
+            <taskSize>2119</taskSize>
+            <estimatedDuration>214</estimatedDuration>
+        </Task>
+        <Task name="Workflow_405_Task_3">
+            <taskId>3</taskId>
+            <taskSize>1234</taskSize>
+            <estimatedDuration>855</estimatedDuration>
+        </Task>
+        <Task name="Workflow_405_Task_4">
+            <taskId>4</taskId>
+            <taskSize>5934</taskSize>
+            <estimatedDuration>509</estimatedDuration>
+        </Task>
+        <Task name="Workflow_405_Task_5">
+            <taskId>5</taskId>
+            <taskSize>9309</taskSize>
+            <estimatedDuration>814</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

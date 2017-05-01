@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_82">
+    <workflowId>82</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Epigenomics_100.xml</inputFilePath>
+    <numberOfTasks>4</numberOfTasks>
+    <costModel>
+        <cost>6441</cost>
+    </costModel>
+    <totalSize>17939</totalSize>
+    <deadline>1495423814400</deadline>
+    <estimatedDuration>2667</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_82_Task_0">
+            <taskId>0</taskId>
+            <taskSize>1153</taskSize>
+            <estimatedDuration>860</estimatedDuration>
+        </Task>
+        <Task name="Workflow_82_Task_1">
+            <taskId>1</taskId>
+            <taskSize>8064</taskSize>
+            <estimatedDuration>973</estimatedDuration>
+        </Task>
+        <Task name="Workflow_82_Task_2">
+            <taskId>2</taskId>
+            <taskSize>3615</taskSize>
+            <estimatedDuration>653</estimatedDuration>
+        </Task>
+        <Task name="Workflow_82_Task_3">
+            <taskId>3</taskId>
+            <taskSize>5107</taskSize>
+            <estimatedDuration>140</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

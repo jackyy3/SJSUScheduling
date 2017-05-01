@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sequentialWorkflow name="Workflow_48">
+    <workflowId>48</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/floodplain.xml</inputFilePath>
+    <numberOfTasks>1</numberOfTasks>
+    <costModel>
+        <cost>3952</cost>
+    </costModel>
+    <totalSize>2295</totalSize>
+    <deadline>1495500099672</deadline>
+    <estimatedDuration>438</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_48_Task_0">
+            <taskId>0</taskId>
+            <taskSize>2295</taskSize>
+            <estimatedDuration>384</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>Sequential</workflowType>
+</sequentialWorkflow>

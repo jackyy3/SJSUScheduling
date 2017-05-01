@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<taskGroupWorkflow name="Workflow_1982">
+    <workflowId>1982</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Sipht_30.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>585</cost>
+    </costModel>
+    <totalSize>31132</totalSize>
+    <deadline>1493826320287</deadline>
+    <estimatedDuration>3901</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_1982_Task_0">
+            <taskId>0</taskId>
+            <taskSize>4083</taskSize>
+            <estimatedDuration>411</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1982_Task_1">
+            <taskId>1</taskId>
+            <taskSize>7143</taskSize>
+            <estimatedDuration>709</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1982_Task_2">
+            <taskId>2</taskId>
+            <taskSize>537</taskSize>
+            <estimatedDuration>808</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1982_Task_3">
+            <taskId>3</taskId>
+            <taskSize>5664</taskSize>
+            <estimatedDuration>467</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1982_Task_4">
+            <taskId>4</taskId>
+            <taskSize>843</taskSize>
+            <estimatedDuration>253</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1982_Task_5">
+            <taskId>5</taskId>
+            <taskSize>3446</taskSize>
+            <estimatedDuration>69</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1982_Task_6">
+            <taskId>6</taskId>
+            <taskSize>3296</taskSize>
+            <estimatedDuration>163</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1982_Task_7">
+            <taskId>7</taskId>
+            <taskSize>6120</taskSize>
+            <estimatedDuration>928</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>FullyParallel</workflowType>
+</taskGroupWorkflow>

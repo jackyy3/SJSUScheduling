@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_2813">
+    <workflowId>2813</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/5000pool</inputFilePath>
+    <numberOfTasks>7</numberOfTasks>
+    <costModel>
+        <cost>1397</cost>
+    </costModel>
+    <totalSize>48987</totalSize>
+    <deadline>1493729942720</deadline>
+    <estimatedDuration>4470</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_2813_Task_0">
+            <taskId>0</taskId>
+            <taskSize>7473</taskSize>
+            <estimatedDuration>802</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2813_Task_1">
+            <taskId>1</taskId>
+            <taskSize>9587</taskSize>
+            <estimatedDuration>574</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2813_Task_2">
+            <taskId>2</taskId>
+            <taskSize>6472</taskSize>
+            <estimatedDuration>266</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2813_Task_3">
+            <taskId>3</taskId>
+            <taskSize>9542</taskSize>
+            <estimatedDuration>743</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2813_Task_4">
+            <taskId>4</taskId>
+            <taskSize>3629</taskSize>
+            <estimatedDuration>427</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2813_Task_5">
+            <taskId>5</taskId>
+            <taskSize>9491</taskSize>
+            <estimatedDuration>968</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2813_Task_6">
+            <taskId>6</taskId>
+            <taskSize>2793</taskSize>
+            <estimatedDuration>592</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

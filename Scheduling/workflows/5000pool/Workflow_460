@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_460">
+    <workflowId>460</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Inspiral_30.xml</inputFilePath>
+    <numberOfTasks>2</numberOfTasks>
+    <costModel>
+        <cost>9388</cost>
+    </costModel>
+    <totalSize>6010</totalSize>
+    <deadline>1493782546635</deadline>
+    <estimatedDuration>1191</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_460_Task_0">
+            <taskId>0</taskId>
+            <taskSize>3446</taskSize>
+            <estimatedDuration>382</estimatedDuration>
+        </Task>
+        <Task name="Workflow_460_Task_1">
+            <taskId>1</taskId>
+            <taskSize>2564</taskSize>
+            <estimatedDuration>754</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

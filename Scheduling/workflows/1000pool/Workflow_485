@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sequentialWorkflow name="Workflow_485">
+    <workflowId>485</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Montage_50.xml</inputFilePath>
+    <numberOfTasks>6</numberOfTasks>
+    <costModel>
+        <cost>3460</cost>
+    </costModel>
+    <totalSize>21464</totalSize>
+    <deadline>1495250436425</deadline>
+    <estimatedDuration>3004</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_485_Task_0">
+            <taskId>0</taskId>
+            <taskSize>5101</taskSize>
+            <estimatedDuration>968</estimatedDuration>
+        </Task>
+        <Task name="Workflow_485_Task_1">
+            <taskId>1</taskId>
+            <taskSize>4323</taskSize>
+            <estimatedDuration>19</estimatedDuration>
+        </Task>
+        <Task name="Workflow_485_Task_2">
+            <taskId>2</taskId>
+            <taskSize>2076</taskSize>
+            <estimatedDuration>181</estimatedDuration>
+        </Task>
+        <Task name="Workflow_485_Task_3">
+            <taskId>3</taskId>
+            <taskSize>2499</taskSize>
+            <estimatedDuration>893</estimatedDuration>
+        </Task>
+        <Task name="Workflow_485_Task_4">
+            <taskId>4</taskId>
+            <taskSize>2903</taskSize>
+            <estimatedDuration>222</estimatedDuration>
+        </Task>
+        <Task name="Workflow_485_Task_5">
+            <taskId>5</taskId>
+            <taskSize>4562</taskSize>
+            <estimatedDuration>646</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>Sequential</workflowType>
+</sequentialWorkflow>

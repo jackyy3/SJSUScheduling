@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sequentialWorkflow name="Workflow_9911">
+    <workflowId>9911</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Epigenomics_997.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>3157</cost>
+    </costModel>
+    <totalSize>61878</totalSize>
+    <deadline>1493925257187</deadline>
+    <estimatedDuration>3274</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_9911_Task_0">
+            <taskId>0</taskId>
+            <taskSize>8603</taskSize>
+            <estimatedDuration>897</estimatedDuration>
+        </Task>
+        <Task name="Workflow_9911_Task_1">
+            <taskId>1</taskId>
+            <taskSize>6256</taskSize>
+            <estimatedDuration>208</estimatedDuration>
+        </Task>
+        <Task name="Workflow_9911_Task_2">
+            <taskId>2</taskId>
+            <taskSize>4627</taskSize>
+            <estimatedDuration>126</estimatedDuration>
+        </Task>
+        <Task name="Workflow_9911_Task_3">
+            <taskId>3</taskId>
+            <taskSize>9223</taskSize>
+            <estimatedDuration>177</estimatedDuration>
+        </Task>
+        <Task name="Workflow_9911_Task_4">
+            <taskId>4</taskId>
+            <taskSize>8960</taskSize>
+            <estimatedDuration>833</estimatedDuration>
+        </Task>
+        <Task name="Workflow_9911_Task_5">
+            <taskId>5</taskId>
+            <taskSize>9192</taskSize>
+            <estimatedDuration>63</estimatedDuration>
+        </Task>
+        <Task name="Workflow_9911_Task_6">
+            <taskId>6</taskId>
+            <taskSize>9381</taskSize>
+            <estimatedDuration>264</estimatedDuration>
+        </Task>
+        <Task name="Workflow_9911_Task_7">
+            <taskId>7</taskId>
+            <taskSize>5636</taskSize>
+            <estimatedDuration>681</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>Sequential</workflowType>
+</sequentialWorkflow>

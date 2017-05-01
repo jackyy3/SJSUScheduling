@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_9564">
+    <workflowId>9564</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Montage_25.xml</inputFilePath>
+    <numberOfTasks>5</numberOfTasks>
+    <costModel>
+        <cost>2758</cost>
+    </costModel>
+    <totalSize>29356</totalSize>
+    <deadline>1495052543323</deadline>
+    <estimatedDuration>2058</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_9564_Task_0">
+            <taskId>0</taskId>
+            <taskSize>7361</taskSize>
+            <estimatedDuration>914</estimatedDuration>
+        </Task>
+        <Task name="Workflow_9564_Task_1">
+            <taskId>1</taskId>
+            <taskSize>6455</taskSize>
+            <estimatedDuration>488</estimatedDuration>
+        </Task>
+        <Task name="Workflow_9564_Task_2">
+            <taskId>2</taskId>
+            <taskSize>1515</taskSize>
+            <estimatedDuration>110</estimatedDuration>
+        </Task>
+        <Task name="Workflow_9564_Task_3">
+            <taskId>3</taskId>
+            <taskSize>4584</taskSize>
+            <estimatedDuration>57</estimatedDuration>
+        </Task>
+        <Task name="Workflow_9564_Task_4">
+            <taskId>4</taskId>
+            <taskSize>9441</taskSize>
+            <estimatedDuration>466</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

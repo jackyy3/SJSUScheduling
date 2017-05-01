@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_364">
+    <workflowId>364</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/floodplain.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>9328</cost>
+    </costModel>
+    <totalSize>37504</totalSize>
+    <deadline>1494102558995</deadline>
+    <estimatedDuration>3036</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_364_Task_0">
+            <taskId>0</taskId>
+            <taskSize>1744</taskSize>
+            <estimatedDuration>191</estimatedDuration>
+        </Task>
+        <Task name="Workflow_364_Task_1">
+            <taskId>1</taskId>
+            <taskSize>8479</taskSize>
+            <estimatedDuration>778</estimatedDuration>
+        </Task>
+        <Task name="Workflow_364_Task_2">
+            <taskId>2</taskId>
+            <taskSize>8447</taskSize>
+            <estimatedDuration>485</estimatedDuration>
+        </Task>
+        <Task name="Workflow_364_Task_3">
+            <taskId>3</taskId>
+            <taskSize>4342</taskSize>
+            <estimatedDuration>123</estimatedDuration>
+        </Task>
+        <Task name="Workflow_364_Task_4">
+            <taskId>4</taskId>
+            <taskSize>783</taskSize>
+            <estimatedDuration>743</estimatedDuration>
+        </Task>
+        <Task name="Workflow_364_Task_5">
+            <taskId>5</taskId>
+            <taskSize>3710</taskSize>
+            <estimatedDuration>9</estimatedDuration>
+        </Task>
+        <Task name="Workflow_364_Task_6">
+            <taskId>6</taskId>
+            <taskSize>4964</taskSize>
+            <estimatedDuration>35</estimatedDuration>
+        </Task>
+        <Task name="Workflow_364_Task_7">
+            <taskId>7</taskId>
+            <taskSize>5035</taskSize>
+            <estimatedDuration>578</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

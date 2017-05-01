@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_1659">
+    <workflowId>1659</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/HEFT_paper.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>9001</cost>
+    </costModel>
+    <totalSize>37849</totalSize>
+    <deadline>1494972105580</deadline>
+    <estimatedDuration>4069</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_1659_Task_0">
+            <taskId>0</taskId>
+            <taskSize>5386</taskSize>
+            <estimatedDuration>473</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1659_Task_1">
+            <taskId>1</taskId>
+            <taskSize>6300</taskSize>
+            <estimatedDuration>987</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1659_Task_2">
+            <taskId>2</taskId>
+            <taskSize>6430</taskSize>
+            <estimatedDuration>447</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1659_Task_3">
+            <taskId>3</taskId>
+            <taskSize>8015</taskSize>
+            <estimatedDuration>312</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1659_Task_4">
+            <taskId>4</taskId>
+            <taskSize>1502</taskSize>
+            <estimatedDuration>390</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1659_Task_5">
+            <taskId>5</taskId>
+            <taskSize>1900</taskSize>
+            <estimatedDuration>199</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1659_Task_6">
+            <taskId>6</taskId>
+            <taskSize>3037</taskSize>
+            <estimatedDuration>257</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1659_Task_7">
+            <taskId>7</taskId>
+            <taskSize>5279</taskSize>
+            <estimatedDuration>922</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

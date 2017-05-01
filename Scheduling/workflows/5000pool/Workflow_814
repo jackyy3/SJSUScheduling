@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_814">
+    <workflowId>814</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/10000Pool</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>4243</cost>
+    </costModel>
+    <totalSize>29159</totalSize>
+    <deadline>1493960446019</deadline>
+    <estimatedDuration>3754</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_814_Task_0">
+            <taskId>0</taskId>
+            <taskSize>2313</taskSize>
+            <estimatedDuration>861</estimatedDuration>
+        </Task>
+        <Task name="Workflow_814_Task_1">
+            <taskId>1</taskId>
+            <taskSize>2474</taskSize>
+            <estimatedDuration>817</estimatedDuration>
+        </Task>
+        <Task name="Workflow_814_Task_2">
+            <taskId>2</taskId>
+            <taskSize>6246</taskSize>
+            <estimatedDuration>197</estimatedDuration>
+        </Task>
+        <Task name="Workflow_814_Task_3">
+            <taskId>3</taskId>
+            <taskSize>5408</taskSize>
+            <estimatedDuration>514</estimatedDuration>
+        </Task>
+        <Task name="Workflow_814_Task_4">
+            <taskId>4</taskId>
+            <taskSize>1869</taskSize>
+            <estimatedDuration>277</estimatedDuration>
+        </Task>
+        <Task name="Workflow_814_Task_5">
+            <taskId>5</taskId>
+            <taskSize>3333</taskSize>
+            <estimatedDuration>337</estimatedDuration>
+        </Task>
+        <Task name="Workflow_814_Task_6">
+            <taskId>6</taskId>
+            <taskSize>4951</taskSize>
+            <estimatedDuration>439</estimatedDuration>
+        </Task>
+        <Task name="Workflow_814_Task_7">
+            <taskId>7</taskId>
+            <taskSize>2565</taskSize>
+            <estimatedDuration>218</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

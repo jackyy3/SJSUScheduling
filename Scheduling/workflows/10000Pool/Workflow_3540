@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_3540">
+    <workflowId>3540</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/floodplain.xml</inputFilePath>
+    <numberOfTasks>4</numberOfTasks>
+    <costModel>
+        <cost>7218</cost>
+    </costModel>
+    <totalSize>21783</totalSize>
+    <deadline>1494472529618</deadline>
+    <estimatedDuration>753</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_3540_Task_0">
+            <taskId>0</taskId>
+            <taskSize>9999</taskSize>
+            <estimatedDuration>33</estimatedDuration>
+        </Task>
+        <Task name="Workflow_3540_Task_1">
+            <taskId>1</taskId>
+            <taskSize>7377</taskSize>
+            <estimatedDuration>113</estimatedDuration>
+        </Task>
+        <Task name="Workflow_3540_Task_2">
+            <taskId>2</taskId>
+            <taskSize>283</taskSize>
+            <estimatedDuration>277</estimatedDuration>
+        </Task>
+        <Task name="Workflow_3540_Task_3">
+            <taskId>3</taskId>
+            <taskSize>4124</taskSize>
+            <estimatedDuration>259</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

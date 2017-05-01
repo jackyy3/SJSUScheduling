@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_2200">
+    <workflowId>2200</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Montage_100.xml</inputFilePath>
+    <numberOfTasks>4</numberOfTasks>
+    <costModel>
+        <cost>3663</cost>
+    </costModel>
+    <totalSize>18766</totalSize>
+    <deadline>1494660488381</deadline>
+    <estimatedDuration>2879</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_2200_Task_0">
+            <taskId>0</taskId>
+            <taskSize>3026</taskSize>
+            <estimatedDuration>849</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2200_Task_1">
+            <taskId>1</taskId>
+            <taskSize>8638</taskSize>
+            <estimatedDuration>855</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2200_Task_2">
+            <taskId>2</taskId>
+            <taskSize>468</taskSize>
+            <estimatedDuration>345</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2200_Task_3">
+            <taskId>3</taskId>
+            <taskSize>6634</taskSize>
+            <estimatedDuration>803</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

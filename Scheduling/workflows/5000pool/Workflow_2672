@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<taskGroupWorkflow name="Workflow_2672">
+    <workflowId>2672</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Inspiral_100.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>9466</cost>
+    </costModel>
+    <totalSize>32709</totalSize>
+    <deadline>1493579863349</deadline>
+    <estimatedDuration>4778</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_2672_Task_0">
+            <taskId>0</taskId>
+            <taskSize>6145</taskSize>
+            <estimatedDuration>663</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2672_Task_1">
+            <taskId>1</taskId>
+            <taskSize>6531</taskSize>
+            <estimatedDuration>652</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2672_Task_2">
+            <taskId>2</taskId>
+            <taskSize>4074</taskSize>
+            <estimatedDuration>664</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2672_Task_3">
+            <taskId>3</taskId>
+            <taskSize>6351</taskSize>
+            <estimatedDuration>866</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2672_Task_4">
+            <taskId>4</taskId>
+            <taskSize>4837</taskSize>
+            <estimatedDuration>867</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2672_Task_5">
+            <taskId>5</taskId>
+            <taskSize>2433</taskSize>
+            <estimatedDuration>194</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2672_Task_6">
+            <taskId>6</taskId>
+            <taskSize>1078</taskSize>
+            <estimatedDuration>699</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2672_Task_7">
+            <taskId>7</taskId>
+            <taskSize>1260</taskSize>
+            <estimatedDuration>126</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>FullyParallel</workflowType>
+</taskGroupWorkflow>

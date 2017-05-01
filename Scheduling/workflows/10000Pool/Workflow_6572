@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sequentialWorkflow name="Workflow_6572">
+    <workflowId>6572</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Sipht_100.xml</inputFilePath>
+    <numberOfTasks>5</numberOfTasks>
+    <costModel>
+        <cost>457</cost>
+    </costModel>
+    <totalSize>35457</totalSize>
+    <deadline>1494368014966</deadline>
+    <estimatedDuration>2758</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_6572_Task_0">
+            <taskId>0</taskId>
+            <taskSize>8610</taskSize>
+            <estimatedDuration>380</estimatedDuration>
+        </Task>
+        <Task name="Workflow_6572_Task_1">
+            <taskId>1</taskId>
+            <taskSize>7909</taskSize>
+            <estimatedDuration>940</estimatedDuration>
+        </Task>
+        <Task name="Workflow_6572_Task_2">
+            <taskId>2</taskId>
+            <taskSize>6488</taskSize>
+            <estimatedDuration>346</estimatedDuration>
+        </Task>
+        <Task name="Workflow_6572_Task_3">
+            <taskId>3</taskId>
+            <taskSize>9487</taskSize>
+            <estimatedDuration>595</estimatedDuration>
+        </Task>
+        <Task name="Workflow_6572_Task_4">
+            <taskId>4</taskId>
+            <taskSize>2963</taskSize>
+            <estimatedDuration>418</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>Sequential</workflowType>
+</sequentialWorkflow>

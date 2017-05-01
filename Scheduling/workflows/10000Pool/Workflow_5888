@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_5888">
+    <workflowId>5888</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/CyberShake_100.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>6790</cost>
+    </costModel>
+    <totalSize>43997</totalSize>
+    <deadline>1495443759993</deadline>
+    <estimatedDuration>5304</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_5888_Task_0">
+            <taskId>0</taskId>
+            <taskSize>6475</taskSize>
+            <estimatedDuration>843</estimatedDuration>
+        </Task>
+        <Task name="Workflow_5888_Task_1">
+            <taskId>1</taskId>
+            <taskSize>7037</taskSize>
+            <estimatedDuration>5</estimatedDuration>
+        </Task>
+        <Task name="Workflow_5888_Task_2">
+            <taskId>2</taskId>
+            <taskSize>3246</taskSize>
+            <estimatedDuration>598</estimatedDuration>
+        </Task>
+        <Task name="Workflow_5888_Task_3">
+            <taskId>3</taskId>
+            <taskSize>7863</taskSize>
+            <estimatedDuration>997</estimatedDuration>
+        </Task>
+        <Task name="Workflow_5888_Task_4">
+            <taskId>4</taskId>
+            <taskSize>1657</taskSize>
+            <estimatedDuration>364</estimatedDuration>
+        </Task>
+        <Task name="Workflow_5888_Task_5">
+            <taskId>5</taskId>
+            <taskSize>3510</taskSize>
+            <estimatedDuration>899</estimatedDuration>
+        </Task>
+        <Task name="Workflow_5888_Task_6">
+            <taskId>6</taskId>
+            <taskSize>6779</taskSize>
+            <estimatedDuration>666</estimatedDuration>
+        </Task>
+        <Task name="Workflow_5888_Task_7">
+            <taskId>7</taskId>
+            <taskSize>7430</taskSize>
+            <estimatedDuration>882</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

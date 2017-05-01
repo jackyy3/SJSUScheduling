@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sequentialWorkflow name="Workflow_2198">
+    <workflowId>2198</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/2500pool</inputFilePath>
+    <numberOfTasks>6</numberOfTasks>
+    <costModel>
+        <cost>2185</cost>
+    </costModel>
+    <totalSize>19585</totalSize>
+    <deadline>1494056739086</deadline>
+    <estimatedDuration>2218</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_2198_Task_0">
+            <taskId>0</taskId>
+            <taskSize>1710</taskSize>
+            <estimatedDuration>418</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2198_Task_1">
+            <taskId>1</taskId>
+            <taskSize>1395</taskSize>
+            <estimatedDuration>396</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2198_Task_2">
+            <taskId>2</taskId>
+            <taskSize>8814</taskSize>
+            <estimatedDuration>99</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2198_Task_3">
+            <taskId>3</taskId>
+            <taskSize>684</taskSize>
+            <estimatedDuration>569</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2198_Task_4">
+            <taskId>4</taskId>
+            <taskSize>330</taskSize>
+            <estimatedDuration>660</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2198_Task_5">
+            <taskId>5</taskId>
+            <taskSize>6652</taskSize>
+            <estimatedDuration>4</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>Sequential</workflowType>
+</sequentialWorkflow>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_742">
+    <workflowId>742</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/2500pool</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>9551</cost>
+    </costModel>
+    <totalSize>31829</totalSize>
+    <deadline>1494681116236</deadline>
+    <estimatedDuration>3553</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_742_Task_0">
+            <taskId>0</taskId>
+            <taskSize>1486</taskSize>
+            <estimatedDuration>597</estimatedDuration>
+        </Task>
+        <Task name="Workflow_742_Task_1">
+            <taskId>1</taskId>
+            <taskSize>674</taskSize>
+            <estimatedDuration>314</estimatedDuration>
+        </Task>
+        <Task name="Workflow_742_Task_2">
+            <taskId>2</taskId>
+            <taskSize>4234</taskSize>
+            <estimatedDuration>224</estimatedDuration>
+        </Task>
+        <Task name="Workflow_742_Task_3">
+            <taskId>3</taskId>
+            <taskSize>2948</taskSize>
+            <estimatedDuration>872</estimatedDuration>
+        </Task>
+        <Task name="Workflow_742_Task_4">
+            <taskId>4</taskId>
+            <taskSize>7974</taskSize>
+            <estimatedDuration>293</estimatedDuration>
+        </Task>
+        <Task name="Workflow_742_Task_5">
+            <taskId>5</taskId>
+            <taskSize>5369</taskSize>
+            <estimatedDuration>41</estimatedDuration>
+        </Task>
+        <Task name="Workflow_742_Task_6">
+            <taskId>6</taskId>
+            <taskSize>9052</taskSize>
+            <estimatedDuration>952</estimatedDuration>
+        </Task>
+        <Task name="Workflow_742_Task_7">
+            <taskId>7</taskId>
+            <taskSize>92</taskSize>
+            <estimatedDuration>205</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

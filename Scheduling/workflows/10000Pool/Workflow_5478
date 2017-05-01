@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<taskGroupWorkflow name="Workflow_5478">
+    <workflowId>5478</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Sipht_30.xml</inputFilePath>
+    <numberOfTasks>3</numberOfTasks>
+    <costModel>
+        <cost>6133</cost>
+    </costModel>
+    <totalSize>18511</totalSize>
+    <deadline>1494805637872</deadline>
+    <estimatedDuration>1481</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_5478_Task_0">
+            <taskId>0</taskId>
+            <taskSize>7567</taskSize>
+            <estimatedDuration>325</estimatedDuration>
+        </Task>
+        <Task name="Workflow_5478_Task_1">
+            <taskId>1</taskId>
+            <taskSize>3780</taskSize>
+            <estimatedDuration>894</estimatedDuration>
+        </Task>
+        <Task name="Workflow_5478_Task_2">
+            <taskId>2</taskId>
+            <taskSize>7164</taskSize>
+            <estimatedDuration>245</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>FullyParallel</workflowType>
+</taskGroupWorkflow>

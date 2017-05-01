@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sequentialWorkflow name="Workflow_4449">
+    <workflowId>4449</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/HEFT_paper.xml</inputFilePath>
+    <numberOfTasks>4</numberOfTasks>
+    <costModel>
+        <cost>4848</cost>
+    </costModel>
+    <totalSize>10928</totalSize>
+    <deadline>1495519430265</deadline>
+    <estimatedDuration>2137</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_4449_Task_0">
+            <taskId>0</taskId>
+            <taskSize>1928</taskSize>
+            <estimatedDuration>981</estimatedDuration>
+        </Task>
+        <Task name="Workflow_4449_Task_1">
+            <taskId>1</taskId>
+            <taskSize>2042</taskSize>
+            <estimatedDuration>503</estimatedDuration>
+        </Task>
+        <Task name="Workflow_4449_Task_2">
+            <taskId>2</taskId>
+            <taskSize>6037</taskSize>
+            <estimatedDuration>237</estimatedDuration>
+        </Task>
+        <Task name="Workflow_4449_Task_3">
+            <taskId>3</taskId>
+            <taskSize>921</taskSize>
+            <estimatedDuration>372</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>Sequential</workflowType>
+</sequentialWorkflow>

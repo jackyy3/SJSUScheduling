@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sequentialWorkflow name="Workflow_589">
+    <workflowId>589</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Sipht_60.xml</inputFilePath>
+    <numberOfTasks>4</numberOfTasks>
+    <costModel>
+        <cost>9452</cost>
+    </costModel>
+    <totalSize>17215</totalSize>
+    <deadline>1494388600468</deadline>
+    <estimatedDuration>2386</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_589_Task_0">
+            <taskId>0</taskId>
+            <taskSize>5166</taskSize>
+            <estimatedDuration>530</estimatedDuration>
+        </Task>
+        <Task name="Workflow_589_Task_1">
+            <taskId>1</taskId>
+            <taskSize>5306</taskSize>
+            <estimatedDuration>394</estimatedDuration>
+        </Task>
+        <Task name="Workflow_589_Task_2">
+            <taskId>2</taskId>
+            <taskSize>5578</taskSize>
+            <estimatedDuration>417</estimatedDuration>
+        </Task>
+        <Task name="Workflow_589_Task_3">
+            <taskId>3</taskId>
+            <taskSize>1165</taskSize>
+            <estimatedDuration>980</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>Sequential</workflowType>
+</sequentialWorkflow>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_633">
+    <workflowId>633</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Montage_50.xml</inputFilePath>
+    <numberOfTasks>7</numberOfTasks>
+    <costModel>
+        <cost>973</cost>
+    </costModel>
+    <totalSize>34104</totalSize>
+    <deadline>1493663183272</deadline>
+    <estimatedDuration>3893</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_633_Task_0">
+            <taskId>0</taskId>
+            <taskSize>1265</taskSize>
+            <estimatedDuration>716</estimatedDuration>
+        </Task>
+        <Task name="Workflow_633_Task_1">
+            <taskId>1</taskId>
+            <taskSize>5465</taskSize>
+            <estimatedDuration>710</estimatedDuration>
+        </Task>
+        <Task name="Workflow_633_Task_2">
+            <taskId>2</taskId>
+            <taskSize>6413</taskSize>
+            <estimatedDuration>677</estimatedDuration>
+        </Task>
+        <Task name="Workflow_633_Task_3">
+            <taskId>3</taskId>
+            <taskSize>6976</taskSize>
+            <estimatedDuration>102</estimatedDuration>
+        </Task>
+        <Task name="Workflow_633_Task_4">
+            <taskId>4</taskId>
+            <taskSize>7457</taskSize>
+            <estimatedDuration>263</estimatedDuration>
+        </Task>
+        <Task name="Workflow_633_Task_5">
+            <taskId>5</taskId>
+            <taskSize>1065</taskSize>
+            <estimatedDuration>912</estimatedDuration>
+        </Task>
+        <Task name="Workflow_633_Task_6">
+            <taskId>6</taskId>
+            <taskSize>5463</taskSize>
+            <estimatedDuration>484</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

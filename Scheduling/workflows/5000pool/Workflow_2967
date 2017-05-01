@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<taskGroupWorkflow name="Workflow_2967">
+    <workflowId>2967</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/CyberShake_1000.xml</inputFilePath>
+    <numberOfTasks>6</numberOfTasks>
+    <costModel>
+        <cost>5777</cost>
+    </costModel>
+    <totalSize>23661</totalSize>
+    <deadline>1493477214060</deadline>
+    <estimatedDuration>2249</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_2967_Task_0">
+            <taskId>0</taskId>
+            <taskSize>5614</taskSize>
+            <estimatedDuration>127</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2967_Task_1">
+            <taskId>1</taskId>
+            <taskSize>3500</taskSize>
+            <estimatedDuration>750</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2967_Task_2">
+            <taskId>2</taskId>
+            <taskSize>3016</taskSize>
+            <estimatedDuration>92</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2967_Task_3">
+            <taskId>3</taskId>
+            <taskSize>9596</taskSize>
+            <estimatedDuration>801</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2967_Task_4">
+            <taskId>4</taskId>
+            <taskSize>1518</taskSize>
+            <estimatedDuration>88</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2967_Task_5">
+            <taskId>5</taskId>
+            <taskSize>417</taskSize>
+            <estimatedDuration>381</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>FullyParallel</workflowType>
+</taskGroupWorkflow>

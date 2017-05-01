@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sequentialWorkflow name="Workflow_212">
+    <workflowId>212</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/floodplain.xml</inputFilePath>
+    <numberOfTasks>4</numberOfTasks>
+    <costModel>
+        <cost>3535</cost>
+    </costModel>
+    <totalSize>18695</totalSize>
+    <deadline>1495201264725</deadline>
+    <estimatedDuration>1197</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_212_Task_0">
+            <taskId>0</taskId>
+            <taskSize>7859</taskSize>
+            <estimatedDuration>616</estimatedDuration>
+        </Task>
+        <Task name="Workflow_212_Task_1">
+            <taskId>1</taskId>
+            <taskSize>1194</taskSize>
+            <estimatedDuration>292</estimatedDuration>
+        </Task>
+        <Task name="Workflow_212_Task_2">
+            <taskId>2</taskId>
+            <taskSize>1140</taskSize>
+            <estimatedDuration>254</estimatedDuration>
+        </Task>
+        <Task name="Workflow_212_Task_3">
+            <taskId>3</taskId>
+            <taskSize>8502</taskSize>
+            <estimatedDuration>12</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>Sequential</workflowType>
+</sequentialWorkflow>

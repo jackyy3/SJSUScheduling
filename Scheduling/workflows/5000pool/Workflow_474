@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sequentialWorkflow name="Workflow_474">
+    <workflowId>474</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/2500pool</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>5003</cost>
+    </costModel>
+    <totalSize>40826</totalSize>
+    <deadline>1493772388091</deadline>
+    <estimatedDuration>2797</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_474_Task_0">
+            <taskId>0</taskId>
+            <taskSize>7498</taskSize>
+            <estimatedDuration>529</estimatedDuration>
+        </Task>
+        <Task name="Workflow_474_Task_1">
+            <taskId>1</taskId>
+            <taskSize>1386</taskSize>
+            <estimatedDuration>17</estimatedDuration>
+        </Task>
+        <Task name="Workflow_474_Task_2">
+            <taskId>2</taskId>
+            <taskSize>7439</taskSize>
+            <estimatedDuration>797</estimatedDuration>
+        </Task>
+        <Task name="Workflow_474_Task_3">
+            <taskId>3</taskId>
+            <taskSize>2929</taskSize>
+            <estimatedDuration>150</estimatedDuration>
+        </Task>
+        <Task name="Workflow_474_Task_4">
+            <taskId>4</taskId>
+            <taskSize>4658</taskSize>
+            <estimatedDuration>492</estimatedDuration>
+        </Task>
+        <Task name="Workflow_474_Task_5">
+            <taskId>5</taskId>
+            <taskSize>5221</taskSize>
+            <estimatedDuration>282</estimatedDuration>
+        </Task>
+        <Task name="Workflow_474_Task_6">
+            <taskId>6</taskId>
+            <taskSize>4960</taskSize>
+            <estimatedDuration>432</estimatedDuration>
+        </Task>
+        <Task name="Workflow_474_Task_7">
+            <taskId>7</taskId>
+            <taskSize>6735</taskSize>
+            <estimatedDuration>24</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>Sequential</workflowType>
+</sequentialWorkflow>

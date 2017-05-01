@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sequentialWorkflow name="Workflow_1628">
+    <workflowId>1628</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/10000Pool</inputFilePath>
+    <numberOfTasks>5</numberOfTasks>
+    <costModel>
+        <cost>6658</cost>
+    </costModel>
+    <totalSize>22425</totalSize>
+    <deadline>1493921099253</deadline>
+    <estimatedDuration>2636</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_1628_Task_0">
+            <taskId>0</taskId>
+            <taskSize>7414</taskSize>
+            <estimatedDuration>504</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1628_Task_1">
+            <taskId>1</taskId>
+            <taskSize>1906</taskSize>
+            <estimatedDuration>287</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1628_Task_2">
+            <taskId>2</taskId>
+            <taskSize>1878</taskSize>
+            <estimatedDuration>164</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1628_Task_3">
+            <taskId>3</taskId>
+            <taskSize>6927</taskSize>
+            <estimatedDuration>815</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1628_Task_4">
+            <taskId>4</taskId>
+            <taskSize>4300</taskSize>
+            <estimatedDuration>788</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>Sequential</workflowType>
+</sequentialWorkflow>

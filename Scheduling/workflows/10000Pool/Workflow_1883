@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sequentialWorkflow name="Workflow_1883">
+    <workflowId>1883</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/CyberShake_1000.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>3773</cost>
+    </costModel>
+    <totalSize>42474</totalSize>
+    <deadline>1495236797217</deadline>
+    <estimatedDuration>4470</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_1883_Task_0">
+            <taskId>0</taskId>
+            <taskSize>7534</taskSize>
+            <estimatedDuration>728</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1883_Task_1">
+            <taskId>1</taskId>
+            <taskSize>9485</taskSize>
+            <estimatedDuration>681</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1883_Task_2">
+            <taskId>2</taskId>
+            <taskSize>3410</taskSize>
+            <estimatedDuration>856</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1883_Task_3">
+            <taskId>3</taskId>
+            <taskSize>3434</taskSize>
+            <estimatedDuration>547</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1883_Task_4">
+            <taskId>4</taskId>
+            <taskSize>6755</taskSize>
+            <estimatedDuration>384</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1883_Task_5">
+            <taskId>5</taskId>
+            <taskSize>5257</taskSize>
+            <estimatedDuration>302</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1883_Task_6">
+            <taskId>6</taskId>
+            <taskSize>4676</taskSize>
+            <estimatedDuration>13</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1883_Task_7">
+            <taskId>7</taskId>
+            <taskSize>1923</taskSize>
+            <estimatedDuration>894</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>Sequential</workflowType>
+</sequentialWorkflow>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_390">
+    <workflowId>390</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Inspiral_30.xml</inputFilePath>
+    <numberOfTasks>6</numberOfTasks>
+    <costModel>
+        <cost>9150</cost>
+    </costModel>
+    <totalSize>20323</totalSize>
+    <deadline>1494654569793</deadline>
+    <estimatedDuration>2558</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_390_Task_0">
+            <taskId>0</taskId>
+            <taskSize>983</taskSize>
+            <estimatedDuration>911</estimatedDuration>
+        </Task>
+        <Task name="Workflow_390_Task_1">
+            <taskId>1</taskId>
+            <taskSize>3654</taskSize>
+            <estimatedDuration>221</estimatedDuration>
+        </Task>
+        <Task name="Workflow_390_Task_2">
+            <taskId>2</taskId>
+            <taskSize>2972</taskSize>
+            <estimatedDuration>125</estimatedDuration>
+        </Task>
+        <Task name="Workflow_390_Task_3">
+            <taskId>3</taskId>
+            <taskSize>7733</taskSize>
+            <estimatedDuration>264</estimatedDuration>
+        </Task>
+        <Task name="Workflow_390_Task_4">
+            <taskId>4</taskId>
+            <taskSize>2481</taskSize>
+            <estimatedDuration>809</estimatedDuration>
+        </Task>
+        <Task name="Workflow_390_Task_5">
+            <taskId>5</taskId>
+            <taskSize>2500</taskSize>
+            <estimatedDuration>202</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

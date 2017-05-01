@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<taskGroupWorkflow name="Workflow_4731">
+    <workflowId>4731</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Inspiral_50.xml</inputFilePath>
+    <numberOfTasks>1</numberOfTasks>
+    <costModel>
+        <cost>2869</cost>
+    </costModel>
+    <totalSize>8812</totalSize>
+    <deadline>1493944502071</deadline>
+    <estimatedDuration>762</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_4731_Task_0">
+            <taskId>0</taskId>
+            <taskSize>8812</taskSize>
+            <estimatedDuration>672</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>FullyParallel</workflowType>
+</taskGroupWorkflow>

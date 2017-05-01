@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<taskGroupWorkflow name="Workflow_2237">
+    <workflowId>2237</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/CyberShake_50.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>5998</cost>
+    </costModel>
+    <totalSize>33209</totalSize>
+    <deadline>1494962597359</deadline>
+    <estimatedDuration>4323</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_2237_Task_0">
+            <taskId>0</taskId>
+            <taskSize>303</taskSize>
+            <estimatedDuration>701</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2237_Task_1">
+            <taskId>1</taskId>
+            <taskSize>7329</taskSize>
+            <estimatedDuration>201</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2237_Task_2">
+            <taskId>2</taskId>
+            <taskSize>3963</taskSize>
+            <estimatedDuration>211</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2237_Task_3">
+            <taskId>3</taskId>
+            <taskSize>1652</taskSize>
+            <estimatedDuration>931</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2237_Task_4">
+            <taskId>4</taskId>
+            <taskSize>2997</taskSize>
+            <estimatedDuration>767</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2237_Task_5">
+            <taskId>5</taskId>
+            <taskSize>1036</taskSize>
+            <estimatedDuration>858</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2237_Task_6">
+            <taskId>6</taskId>
+            <taskSize>5949</taskSize>
+            <estimatedDuration>371</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2237_Task_7">
+            <taskId>7</taskId>
+            <taskSize>9980</taskSize>
+            <estimatedDuration>238</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>FullyParallel</workflowType>
+</taskGroupWorkflow>

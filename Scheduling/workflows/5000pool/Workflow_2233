@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_2233">
+    <workflowId>2233</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Epigenomics_997.xml</inputFilePath>
+    <numberOfTasks>9</numberOfTasks>
+    <costModel>
+        <cost>1608</cost>
+    </costModel>
+    <totalSize>24382</totalSize>
+    <deadline>1493737684377</deadline>
+    <estimatedDuration>3038</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_2233_Task_0">
+            <taskId>0</taskId>
+            <taskSize>1715</taskSize>
+            <estimatedDuration>660</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2233_Task_1">
+            <taskId>1</taskId>
+            <taskSize>3760</taskSize>
+            <estimatedDuration>930</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2233_Task_2">
+            <taskId>2</taskId>
+            <taskSize>9925</taskSize>
+            <estimatedDuration>430</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2233_Task_3">
+            <taskId>3</taskId>
+            <taskSize>130</taskSize>
+            <estimatedDuration>132</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2233_Task_4">
+            <taskId>4</taskId>
+            <taskSize>237</taskSize>
+            <estimatedDuration>61</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2233_Task_5">
+            <taskId>5</taskId>
+            <taskSize>2552</taskSize>
+            <estimatedDuration>263</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2233_Task_6">
+            <taskId>6</taskId>
+            <taskSize>3524</taskSize>
+            <estimatedDuration>255</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2233_Task_7">
+            <taskId>7</taskId>
+            <taskSize>1640</taskSize>
+            <estimatedDuration>55</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2233_Task_8">
+            <taskId>8</taskId>
+            <taskSize>899</taskSize>
+            <estimatedDuration>234</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

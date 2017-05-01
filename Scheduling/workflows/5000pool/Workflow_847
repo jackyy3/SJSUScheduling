@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<taskGroupWorkflow name="Workflow_847">
+    <workflowId>847</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Montage_1000.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>9133</cost>
+    </costModel>
+    <totalSize>36113</totalSize>
+    <deadline>1493606343158</deadline>
+    <estimatedDuration>4124</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_847_Task_0">
+            <taskId>0</taskId>
+            <taskSize>7062</taskSize>
+            <estimatedDuration>839</estimatedDuration>
+        </Task>
+        <Task name="Workflow_847_Task_1">
+            <taskId>1</taskId>
+            <taskSize>5336</taskSize>
+            <estimatedDuration>281</estimatedDuration>
+        </Task>
+        <Task name="Workflow_847_Task_2">
+            <taskId>2</taskId>
+            <taskSize>642</taskSize>
+            <estimatedDuration>27</estimatedDuration>
+        </Task>
+        <Task name="Workflow_847_Task_3">
+            <taskId>3</taskId>
+            <taskSize>6821</taskSize>
+            <estimatedDuration>428</estimatedDuration>
+        </Task>
+        <Task name="Workflow_847_Task_4">
+            <taskId>4</taskId>
+            <taskSize>2123</taskSize>
+            <estimatedDuration>996</estimatedDuration>
+        </Task>
+        <Task name="Workflow_847_Task_5">
+            <taskId>5</taskId>
+            <taskSize>4302</taskSize>
+            <estimatedDuration>564</estimatedDuration>
+        </Task>
+        <Task name="Workflow_847_Task_6">
+            <taskId>6</taskId>
+            <taskSize>5153</taskSize>
+            <estimatedDuration>771</estimatedDuration>
+        </Task>
+        <Task name="Workflow_847_Task_7">
+            <taskId>7</taskId>
+            <taskSize>4674</taskSize>
+            <estimatedDuration>123</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>FullyParallel</workflowType>
+</taskGroupWorkflow>

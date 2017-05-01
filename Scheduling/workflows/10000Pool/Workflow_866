@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<taskGroupWorkflow name="Workflow_866">
+    <workflowId>866</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Epigenomics_100.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>6433</cost>
+    </costModel>
+    <totalSize>33051</totalSize>
+    <deadline>1493899674677</deadline>
+    <estimatedDuration>4022</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_866_Task_0">
+            <taskId>0</taskId>
+            <taskSize>1225</taskSize>
+            <estimatedDuration>805</estimatedDuration>
+        </Task>
+        <Task name="Workflow_866_Task_1">
+            <taskId>1</taskId>
+            <taskSize>6149</taskSize>
+            <estimatedDuration>950</estimatedDuration>
+        </Task>
+        <Task name="Workflow_866_Task_2">
+            <taskId>2</taskId>
+            <taskSize>8053</taskSize>
+            <estimatedDuration>223</estimatedDuration>
+        </Task>
+        <Task name="Workflow_866_Task_3">
+            <taskId>3</taskId>
+            <taskSize>5789</taskSize>
+            <estimatedDuration>123</estimatedDuration>
+        </Task>
+        <Task name="Workflow_866_Task_4">
+            <taskId>4</taskId>
+            <taskSize>1610</taskSize>
+            <estimatedDuration>469</estimatedDuration>
+        </Task>
+        <Task name="Workflow_866_Task_5">
+            <taskId>5</taskId>
+            <taskSize>3075</taskSize>
+            <estimatedDuration>406</estimatedDuration>
+        </Task>
+        <Task name="Workflow_866_Task_6">
+            <taskId>6</taskId>
+            <taskSize>6588</taskSize>
+            <estimatedDuration>568</estimatedDuration>
+        </Task>
+        <Task name="Workflow_866_Task_7">
+            <taskId>7</taskId>
+            <taskSize>562</taskSize>
+            <estimatedDuration>472</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>FullyParallel</workflowType>
+</taskGroupWorkflow>

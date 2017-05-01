@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sequentialWorkflow name="Workflow_538">
+    <workflowId>538</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Inspiral_30.xml</inputFilePath>
+    <numberOfTasks>7</numberOfTasks>
+    <costModel>
+        <cost>2691</cost>
+    </costModel>
+    <totalSize>25739</totalSize>
+    <deadline>1494757122415</deadline>
+    <estimatedDuration>3977</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_538_Task_0">
+            <taskId>0</taskId>
+            <taskSize>7049</taskSize>
+            <estimatedDuration>122</estimatedDuration>
+        </Task>
+        <Task name="Workflow_538_Task_1">
+            <taskId>1</taskId>
+            <taskSize>2837</taskSize>
+            <estimatedDuration>415</estimatedDuration>
+        </Task>
+        <Task name="Workflow_538_Task_2">
+            <taskId>2</taskId>
+            <taskSize>177</taskSize>
+            <estimatedDuration>374</estimatedDuration>
+        </Task>
+        <Task name="Workflow_538_Task_3">
+            <taskId>3</taskId>
+            <taskSize>8833</taskSize>
+            <estimatedDuration>934</estimatedDuration>
+        </Task>
+        <Task name="Workflow_538_Task_4">
+            <taskId>4</taskId>
+            <taskSize>4708</taskSize>
+            <estimatedDuration>507</estimatedDuration>
+        </Task>
+        <Task name="Workflow_538_Task_5">
+            <taskId>5</taskId>
+            <taskSize>549</taskSize>
+            <estimatedDuration>583</estimatedDuration>
+        </Task>
+        <Task name="Workflow_538_Task_6">
+            <taskId>6</taskId>
+            <taskSize>1586</taskSize>
+            <estimatedDuration>984</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>Sequential</workflowType>
+</sequentialWorkflow>

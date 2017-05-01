@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_542">
+    <workflowId>542</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Montage_25.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>8974</cost>
+    </costModel>
+    <totalSize>48873</totalSize>
+    <deadline>1493846619004</deadline>
+    <estimatedDuration>4630</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_542_Task_0">
+            <taskId>0</taskId>
+            <taskSize>5652</taskSize>
+            <estimatedDuration>881</estimatedDuration>
+        </Task>
+        <Task name="Workflow_542_Task_1">
+            <taskId>1</taskId>
+            <taskSize>8881</taskSize>
+            <estimatedDuration>162</estimatedDuration>
+        </Task>
+        <Task name="Workflow_542_Task_2">
+            <taskId>2</taskId>
+            <taskSize>7785</taskSize>
+            <estimatedDuration>764</estimatedDuration>
+        </Task>
+        <Task name="Workflow_542_Task_3">
+            <taskId>3</taskId>
+            <taskSize>811</taskSize>
+            <estimatedDuration>293</estimatedDuration>
+        </Task>
+        <Task name="Workflow_542_Task_4">
+            <taskId>4</taskId>
+            <taskSize>9217</taskSize>
+            <estimatedDuration>607</estimatedDuration>
+        </Task>
+        <Task name="Workflow_542_Task_5">
+            <taskId>5</taskId>
+            <taskSize>5692</taskSize>
+            <estimatedDuration>372</estimatedDuration>
+        </Task>
+        <Task name="Workflow_542_Task_6">
+            <taskId>6</taskId>
+            <taskSize>4085</taskSize>
+            <estimatedDuration>988</estimatedDuration>
+        </Task>
+        <Task name="Workflow_542_Task_7">
+            <taskId>7</taskId>
+            <taskSize>6750</taskSize>
+            <estimatedDuration>519</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<taskGroupWorkflow name="Workflow_1343">
+    <workflowId>1343</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/HEFT_paper.xml</inputFilePath>
+    <numberOfTasks>2</numberOfTasks>
+    <costModel>
+        <cost>788</cost>
+    </costModel>
+    <totalSize>1042</totalSize>
+    <deadline>1494920587206</deadline>
+    <estimatedDuration>354</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_1343_Task_0">
+            <taskId>0</taskId>
+            <taskSize>783</taskSize>
+            <estimatedDuration>192</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1343_Task_1">
+            <taskId>1</taskId>
+            <taskSize>259</taskSize>
+            <estimatedDuration>98</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>FullyParallel</workflowType>
+</taskGroupWorkflow>

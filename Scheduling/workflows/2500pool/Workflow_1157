@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sequentialWorkflow name="Workflow_1157">
+    <workflowId>1157</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Inspiral_50.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>5360</cost>
+    </costModel>
+    <totalSize>36296</totalSize>
+    <deadline>1495237071605</deadline>
+    <estimatedDuration>4902</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_1157_Task_0">
+            <taskId>0</taskId>
+            <taskSize>4201</taskSize>
+            <estimatedDuration>636</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1157_Task_1">
+            <taskId>1</taskId>
+            <taskSize>9625</taskSize>
+            <estimatedDuration>995</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1157_Task_2">
+            <taskId>2</taskId>
+            <taskSize>2545</taskSize>
+            <estimatedDuration>151</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1157_Task_3">
+            <taskId>3</taskId>
+            <taskSize>5462</taskSize>
+            <estimatedDuration>304</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1157_Task_4">
+            <taskId>4</taskId>
+            <taskSize>5964</taskSize>
+            <estimatedDuration>767</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1157_Task_5">
+            <taskId>5</taskId>
+            <taskSize>2027</taskSize>
+            <estimatedDuration>407</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1157_Task_6">
+            <taskId>6</taskId>
+            <taskSize>2763</taskSize>
+            <estimatedDuration>997</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1157_Task_7">
+            <taskId>7</taskId>
+            <taskSize>3709</taskSize>
+            <estimatedDuration>581</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>Sequential</workflowType>
+</sequentialWorkflow>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<taskGroupWorkflow name="Workflow_2311">
+    <workflowId>2311</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Epigenomics_997.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>2279</cost>
+    </costModel>
+    <totalSize>53146</totalSize>
+    <deadline>1493864150302</deadline>
+    <estimatedDuration>3513</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_2311_Task_0">
+            <taskId>0</taskId>
+            <taskSize>8416</taskSize>
+            <estimatedDuration>102</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2311_Task_1">
+            <taskId>1</taskId>
+            <taskSize>7235</taskSize>
+            <estimatedDuration>101</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2311_Task_2">
+            <taskId>2</taskId>
+            <taskSize>2989</taskSize>
+            <estimatedDuration>51</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2311_Task_3">
+            <taskId>3</taskId>
+            <taskSize>9272</taskSize>
+            <estimatedDuration>962</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2311_Task_4">
+            <taskId>4</taskId>
+            <taskSize>4519</taskSize>
+            <estimatedDuration>815</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2311_Task_5">
+            <taskId>5</taskId>
+            <taskSize>6080</taskSize>
+            <estimatedDuration>181</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2311_Task_6">
+            <taskId>6</taskId>
+            <taskSize>9057</taskSize>
+            <estimatedDuration>262</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2311_Task_7">
+            <taskId>7</taskId>
+            <taskSize>5578</taskSize>
+            <estimatedDuration>973</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>FullyParallel</workflowType>
+</taskGroupWorkflow>

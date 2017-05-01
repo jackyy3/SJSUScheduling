@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_3856">
+    <workflowId>3856</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/10000Pool</inputFilePath>
+    <numberOfTasks>1</numberOfTasks>
+    <costModel>
+        <cost>1932</cost>
+    </costModel>
+    <totalSize>7588</totalSize>
+    <deadline>1494102204606</deadline>
+    <estimatedDuration>35</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_3856_Task_0">
+            <taskId>0</taskId>
+            <taskSize>7588</taskSize>
+            <estimatedDuration>34</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

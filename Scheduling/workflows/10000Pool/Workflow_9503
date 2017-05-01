@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<taskGroupWorkflow name="Workflow_9503">
+    <workflowId>9503</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/5000pool</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>3020</cost>
+    </costModel>
+    <totalSize>42931</totalSize>
+    <deadline>1494440371220</deadline>
+    <estimatedDuration>3845</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_9503_Task_0">
+            <taskId>0</taskId>
+            <taskSize>9770</taskSize>
+            <estimatedDuration>554</estimatedDuration>
+        </Task>
+        <Task name="Workflow_9503_Task_1">
+            <taskId>1</taskId>
+            <taskSize>2907</taskSize>
+            <estimatedDuration>707</estimatedDuration>
+        </Task>
+        <Task name="Workflow_9503_Task_2">
+            <taskId>2</taskId>
+            <taskSize>1320</taskSize>
+            <estimatedDuration>361</estimatedDuration>
+        </Task>
+        <Task name="Workflow_9503_Task_3">
+            <taskId>3</taskId>
+            <taskSize>4290</taskSize>
+            <estimatedDuration>622</estimatedDuration>
+        </Task>
+        <Task name="Workflow_9503_Task_4">
+            <taskId>4</taskId>
+            <taskSize>7119</taskSize>
+            <estimatedDuration>185</estimatedDuration>
+        </Task>
+        <Task name="Workflow_9503_Task_5">
+            <taskId>5</taskId>
+            <taskSize>6921</taskSize>
+            <estimatedDuration>86</estimatedDuration>
+        </Task>
+        <Task name="Workflow_9503_Task_6">
+            <taskId>6</taskId>
+            <taskSize>4099</taskSize>
+            <estimatedDuration>931</estimatedDuration>
+        </Task>
+        <Task name="Workflow_9503_Task_7">
+            <taskId>7</taskId>
+            <taskSize>6505</taskSize>
+            <estimatedDuration>309</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>FullyParallel</workflowType>
+</taskGroupWorkflow>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_3814">
+    <workflowId>3814</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Sipht_30.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>8570</cost>
+    </costModel>
+    <totalSize>42835</totalSize>
+    <deadline>1494020499377</deadline>
+    <estimatedDuration>4494</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_3814_Task_0">
+            <taskId>0</taskId>
+            <taskSize>9902</taskSize>
+            <estimatedDuration>404</estimatedDuration>
+        </Task>
+        <Task name="Workflow_3814_Task_1">
+            <taskId>1</taskId>
+            <taskSize>8135</taskSize>
+            <estimatedDuration>529</estimatedDuration>
+        </Task>
+        <Task name="Workflow_3814_Task_2">
+            <taskId>2</taskId>
+            <taskSize>714</taskSize>
+            <estimatedDuration>465</estimatedDuration>
+        </Task>
+        <Task name="Workflow_3814_Task_3">
+            <taskId>3</taskId>
+            <taskSize>655</taskSize>
+            <estimatedDuration>584</estimatedDuration>
+        </Task>
+        <Task name="Workflow_3814_Task_4">
+            <taskId>4</taskId>
+            <taskSize>9477</taskSize>
+            <estimatedDuration>252</estimatedDuration>
+        </Task>
+        <Task name="Workflow_3814_Task_5">
+            <taskId>5</taskId>
+            <taskSize>5434</taskSize>
+            <estimatedDuration>895</estimatedDuration>
+        </Task>
+        <Task name="Workflow_3814_Task_6">
+            <taskId>6</taskId>
+            <taskSize>3088</taskSize>
+            <estimatedDuration>323</estimatedDuration>
+        </Task>
+        <Task name="Workflow_3814_Task_7">
+            <taskId>7</taskId>
+            <taskSize>5430</taskSize>
+            <estimatedDuration>964</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

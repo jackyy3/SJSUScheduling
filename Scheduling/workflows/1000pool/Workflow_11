@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_11">
+    <workflowId>11</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/1000pool</inputFilePath>
+    <numberOfTasks>5</numberOfTasks>
+    <costModel>
+        <cost>8824</cost>
+    </costModel>
+    <totalSize>27347</totalSize>
+    <deadline>1493636170645</deadline>
+    <estimatedDuration>2157</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_11_Task_0">
+            <taskId>0</taskId>
+            <taskSize>897</taskSize>
+            <estimatedDuration>38</estimatedDuration>
+        </Task>
+        <Task name="Workflow_11_Task_1">
+            <taskId>1</taskId>
+            <taskSize>547</taskSize>
+            <estimatedDuration>821</estimatedDuration>
+        </Task>
+        <Task name="Workflow_11_Task_2">
+            <taskId>2</taskId>
+            <taskSize>8485</taskSize>
+            <estimatedDuration>149</estimatedDuration>
+        </Task>
+        <Task name="Workflow_11_Task_3">
+            <taskId>3</taskId>
+            <taskSize>9647</taskSize>
+            <estimatedDuration>698</estimatedDuration>
+        </Task>
+        <Task name="Workflow_11_Task_4">
+            <taskId>4</taskId>
+            <taskSize>7771</taskSize>
+            <estimatedDuration>428</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

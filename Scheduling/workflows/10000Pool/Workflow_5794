@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_5794">
+    <workflowId>5794</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Montage_25.xml</inputFilePath>
+    <numberOfTasks>2</numberOfTasks>
+    <costModel>
+        <cost>4643</cost>
+    </costModel>
+    <totalSize>15787</totalSize>
+    <deadline>1494217258903</deadline>
+    <estimatedDuration>1482</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_5794_Task_0">
+            <taskId>0</taskId>
+            <taskSize>5832</taskSize>
+            <estimatedDuration>650</estimatedDuration>
+        </Task>
+        <Task name="Workflow_5794_Task_1">
+            <taskId>1</taskId>
+            <taskSize>9955</taskSize>
+            <estimatedDuration>764</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

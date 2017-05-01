@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_2218">
+    <workflowId>2218</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Sipht_100.xml</inputFilePath>
+    <numberOfTasks>1</numberOfTasks>
+    <costModel>
+        <cost>7609</cost>
+    </costModel>
+    <totalSize>2126</totalSize>
+    <deadline>1493733246529</deadline>
+    <estimatedDuration>825</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_2218_Task_0">
+            <taskId>0</taskId>
+            <taskSize>2126</taskSize>
+            <estimatedDuration>764</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_1864">
+    <workflowId>1864</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Inspiral_30.xml</inputFilePath>
+    <numberOfTasks>6</numberOfTasks>
+    <costModel>
+        <cost>5984</cost>
+    </costModel>
+    <totalSize>24491</totalSize>
+    <deadline>1495270449623</deadline>
+    <estimatedDuration>3225</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_1864_Task_0">
+            <taskId>0</taskId>
+            <taskSize>5522</taskSize>
+            <estimatedDuration>17</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1864_Task_1">
+            <taskId>1</taskId>
+            <taskSize>7232</taskSize>
+            <estimatedDuration>685</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1864_Task_2">
+            <taskId>2</taskId>
+            <taskSize>6160</taskSize>
+            <estimatedDuration>335</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1864_Task_3">
+            <taskId>3</taskId>
+            <taskSize>1330</taskSize>
+            <estimatedDuration>612</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1864_Task_4">
+            <taskId>4</taskId>
+            <taskSize>2051</taskSize>
+            <estimatedDuration>688</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1864_Task_5">
+            <taskId>5</taskId>
+            <taskSize>2196</taskSize>
+            <estimatedDuration>801</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

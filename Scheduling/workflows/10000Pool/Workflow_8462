@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<taskGroupWorkflow name="Workflow_8462">
+    <workflowId>8462</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/CyberShake_100.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>4863</cost>
+    </costModel>
+    <totalSize>41627</totalSize>
+    <deadline>1493752372968</deadline>
+    <estimatedDuration>4020</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_8462_Task_0">
+            <taskId>0</taskId>
+            <taskSize>8756</taskSize>
+            <estimatedDuration>512</estimatedDuration>
+        </Task>
+        <Task name="Workflow_8462_Task_1">
+            <taskId>1</taskId>
+            <taskSize>9832</taskSize>
+            <estimatedDuration>187</estimatedDuration>
+        </Task>
+        <Task name="Workflow_8462_Task_2">
+            <taskId>2</taskId>
+            <taskSize>5157</taskSize>
+            <estimatedDuration>833</estimatedDuration>
+        </Task>
+        <Task name="Workflow_8462_Task_3">
+            <taskId>3</taskId>
+            <taskSize>4984</taskSize>
+            <estimatedDuration>446</estimatedDuration>
+        </Task>
+        <Task name="Workflow_8462_Task_4">
+            <taskId>4</taskId>
+            <taskSize>9200</taskSize>
+            <estimatedDuration>999</estimatedDuration>
+        </Task>
+        <Task name="Workflow_8462_Task_5">
+            <taskId>5</taskId>
+            <taskSize>1620</taskSize>
+            <estimatedDuration>441</estimatedDuration>
+        </Task>
+        <Task name="Workflow_8462_Task_6">
+            <taskId>6</taskId>
+            <taskSize>1440</taskSize>
+            <estimatedDuration>154</estimatedDuration>
+        </Task>
+        <Task name="Workflow_8462_Task_7">
+            <taskId>7</taskId>
+            <taskSize>638</taskSize>
+            <estimatedDuration>385</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>FullyParallel</workflowType>
+</taskGroupWorkflow>

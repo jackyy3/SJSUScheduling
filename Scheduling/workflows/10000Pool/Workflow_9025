@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_9025">
+    <workflowId>9025</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/HEFT_paper.xml</inputFilePath>
+    <numberOfTasks>2</numberOfTasks>
+    <costModel>
+        <cost>2176</cost>
+    </costModel>
+    <totalSize>17464</totalSize>
+    <deadline>1494323663772</deadline>
+    <estimatedDuration>1426</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_9025_Task_0">
+            <taskId>0</taskId>
+            <taskSize>8626</taskSize>
+            <estimatedDuration>851</estimatedDuration>
+        </Task>
+        <Task name="Workflow_9025_Task_1">
+            <taskId>1</taskId>
+            <taskSize>8838</taskSize>
+            <estimatedDuration>524</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

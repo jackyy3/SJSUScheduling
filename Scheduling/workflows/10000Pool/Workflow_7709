@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sequentialWorkflow name="Workflow_7709">
+    <workflowId>7709</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/5000pool</inputFilePath>
+    <numberOfTasks>4</numberOfTasks>
+    <costModel>
+        <cost>9854</cost>
+    </costModel>
+    <totalSize>14887</totalSize>
+    <deadline>1495571012146</deadline>
+    <estimatedDuration>1098</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_7709_Task_0">
+            <taskId>0</taskId>
+            <taskSize>4000</taskSize>
+            <estimatedDuration>5</estimatedDuration>
+        </Task>
+        <Task name="Workflow_7709_Task_1">
+            <taskId>1</taskId>
+            <taskSize>7602</taskSize>
+            <estimatedDuration>432</estimatedDuration>
+        </Task>
+        <Task name="Workflow_7709_Task_2">
+            <taskId>2</taskId>
+            <taskSize>2648</taskSize>
+            <estimatedDuration>594</estimatedDuration>
+        </Task>
+        <Task name="Workflow_7709_Task_3">
+            <taskId>3</taskId>
+            <taskSize>637</taskSize>
+            <estimatedDuration>63</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>Sequential</workflowType>
+</sequentialWorkflow>

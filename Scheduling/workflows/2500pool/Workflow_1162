@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sequentialWorkflow name="Workflow_1162">
+    <workflowId>1162</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/floodplain.xml</inputFilePath>
+    <numberOfTasks>9</numberOfTasks>
+    <costModel>
+        <cost>9864</cost>
+    </costModel>
+    <totalSize>47649</totalSize>
+    <deadline>1494013935708</deadline>
+    <estimatedDuration>4058</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_1162_Task_0">
+            <taskId>0</taskId>
+            <taskSize>8214</taskSize>
+            <estimatedDuration>47</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1162_Task_1">
+            <taskId>1</taskId>
+            <taskSize>5858</taskSize>
+            <estimatedDuration>505</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1162_Task_2">
+            <taskId>2</taskId>
+            <taskSize>7891</taskSize>
+            <estimatedDuration>152</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1162_Task_3">
+            <taskId>3</taskId>
+            <taskSize>3531</taskSize>
+            <estimatedDuration>998</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1162_Task_4">
+            <taskId>4</taskId>
+            <taskSize>7133</taskSize>
+            <estimatedDuration>573</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1162_Task_5">
+            <taskId>5</taskId>
+            <taskSize>4457</taskSize>
+            <estimatedDuration>419</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1162_Task_6">
+            <taskId>6</taskId>
+            <taskSize>3041</taskSize>
+            <estimatedDuration>836</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1162_Task_7">
+            <taskId>7</taskId>
+            <taskSize>3326</taskSize>
+            <estimatedDuration>269</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1162_Task_8">
+            <taskId>8</taskId>
+            <taskSize>4198</taskSize>
+            <estimatedDuration>225</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>Sequential</workflowType>
+</sequentialWorkflow>

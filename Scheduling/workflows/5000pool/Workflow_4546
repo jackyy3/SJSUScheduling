@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_4546">
+    <workflowId>4546</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/floodplain.xml</inputFilePath>
+    <numberOfTasks>7</numberOfTasks>
+    <costModel>
+        <cost>276</cost>
+    </costModel>
+    <totalSize>38866</totalSize>
+    <deadline>1494863615445</deadline>
+    <estimatedDuration>3134</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_4546_Task_0">
+            <taskId>0</taskId>
+            <taskSize>9104</taskSize>
+            <estimatedDuration>687</estimatedDuration>
+        </Task>
+        <Task name="Workflow_4546_Task_1">
+            <taskId>1</taskId>
+            <taskSize>3843</taskSize>
+            <estimatedDuration>275</estimatedDuration>
+        </Task>
+        <Task name="Workflow_4546_Task_2">
+            <taskId>2</taskId>
+            <taskSize>6689</taskSize>
+            <estimatedDuration>671</estimatedDuration>
+        </Task>
+        <Task name="Workflow_4546_Task_3">
+            <taskId>3</taskId>
+            <taskSize>4039</taskSize>
+            <estimatedDuration>735</estimatedDuration>
+        </Task>
+        <Task name="Workflow_4546_Task_4">
+            <taskId>4</taskId>
+            <taskSize>1896</taskSize>
+            <estimatedDuration>40</estimatedDuration>
+        </Task>
+        <Task name="Workflow_4546_Task_5">
+            <taskId>5</taskId>
+            <taskSize>3848</taskSize>
+            <estimatedDuration>435</estimatedDuration>
+        </Task>
+        <Task name="Workflow_4546_Task_6">
+            <taskId>6</taskId>
+            <taskSize>9447</taskSize>
+            <estimatedDuration>208</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

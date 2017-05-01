@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_2365">
+    <workflowId>2365</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Inspiral_50.xml</inputFilePath>
+    <numberOfTasks>5</numberOfTasks>
+    <costModel>
+        <cost>1724</cost>
+    </costModel>
+    <totalSize>39676</totalSize>
+    <deadline>1494794930752</deadline>
+    <estimatedDuration>1530</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_2365_Task_0">
+            <taskId>0</taskId>
+            <taskSize>9942</taskSize>
+            <estimatedDuration>241</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2365_Task_1">
+            <taskId>1</taskId>
+            <taskSize>9737</taskSize>
+            <estimatedDuration>75</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2365_Task_2">
+            <taskId>2</taskId>
+            <taskSize>7887</taskSize>
+            <estimatedDuration>717</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2365_Task_3">
+            <taskId>3</taskId>
+            <taskSize>5009</taskSize>
+            <estimatedDuration>260</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2365_Task_4">
+            <taskId>4</taskId>
+            <taskSize>7101</taskSize>
+            <estimatedDuration>165</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_320">
+    <workflowId>320</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Sipht_100.xml</inputFilePath>
+    <numberOfTasks>3</numberOfTasks>
+    <costModel>
+        <cost>3838</cost>
+    </costModel>
+    <totalSize>11848</totalSize>
+    <deadline>1495068373413</deadline>
+    <estimatedDuration>2133</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_320_Task_0">
+            <taskId>0</taskId>
+            <taskSize>6186</taskSize>
+            <estimatedDuration>565</estimatedDuration>
+        </Task>
+        <Task name="Workflow_320_Task_1">
+            <taskId>1</taskId>
+            <taskSize>1390</taskSize>
+            <estimatedDuration>547</estimatedDuration>
+        </Task>
+        <Task name="Workflow_320_Task_2">
+            <taskId>2</taskId>
+            <taskSize>4272</taskSize>
+            <estimatedDuration>950</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

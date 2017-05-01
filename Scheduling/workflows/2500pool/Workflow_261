@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sequentialWorkflow name="Workflow_261">
+    <workflowId>261</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/5000pool</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>6621</cost>
+    </costModel>
+    <totalSize>36583</totalSize>
+    <deadline>1493872251524</deadline>
+    <estimatedDuration>3731</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_261_Task_0">
+            <taskId>0</taskId>
+            <taskSize>667</taskSize>
+            <estimatedDuration>40</estimatedDuration>
+        </Task>
+        <Task name="Workflow_261_Task_1">
+            <taskId>1</taskId>
+            <taskSize>9115</taskSize>
+            <estimatedDuration>218</estimatedDuration>
+        </Task>
+        <Task name="Workflow_261_Task_2">
+            <taskId>2</taskId>
+            <taskSize>7809</taskSize>
+            <estimatedDuration>759</estimatedDuration>
+        </Task>
+        <Task name="Workflow_261_Task_3">
+            <taskId>3</taskId>
+            <taskSize>2372</taskSize>
+            <estimatedDuration>973</estimatedDuration>
+        </Task>
+        <Task name="Workflow_261_Task_4">
+            <taskId>4</taskId>
+            <taskSize>4281</taskSize>
+            <estimatedDuration>216</estimatedDuration>
+        </Task>
+        <Task name="Workflow_261_Task_5">
+            <taskId>5</taskId>
+            <taskSize>5037</taskSize>
+            <estimatedDuration>513</estimatedDuration>
+        </Task>
+        <Task name="Workflow_261_Task_6">
+            <taskId>6</taskId>
+            <taskSize>6563</taskSize>
+            <estimatedDuration>603</estimatedDuration>
+        </Task>
+        <Task name="Workflow_261_Task_7">
+            <taskId>7</taskId>
+            <taskSize>739</taskSize>
+            <estimatedDuration>408</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>Sequential</workflowType>
+</sequentialWorkflow>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<taskGroupWorkflow name="Workflow_2190">
+    <workflowId>2190</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/2500pool</inputFilePath>
+    <numberOfTasks>2</numberOfTasks>
+    <costModel>
+        <cost>8341</cost>
+    </costModel>
+    <totalSize>13401</totalSize>
+    <deadline>1494179146571</deadline>
+    <estimatedDuration>170</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_2190_Task_0">
+            <taskId>0</taskId>
+            <taskSize>4364</taskSize>
+            <estimatedDuration>145</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2190_Task_1">
+            <taskId>1</taskId>
+            <taskSize>9037</taskSize>
+            <estimatedDuration>24</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>FullyParallel</workflowType>
+</taskGroupWorkflow>

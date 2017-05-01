@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sequentialWorkflow name="Workflow_580">
+    <workflowId>580</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Sipht_100.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>7214</cost>
+    </costModel>
+    <totalSize>40571</totalSize>
+    <deadline>1493730271167</deadline>
+    <estimatedDuration>4434</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_580_Task_0">
+            <taskId>0</taskId>
+            <taskSize>9845</taskSize>
+            <estimatedDuration>917</estimatedDuration>
+        </Task>
+        <Task name="Workflow_580_Task_1">
+            <taskId>1</taskId>
+            <taskSize>3468</taskSize>
+            <estimatedDuration>462</estimatedDuration>
+        </Task>
+        <Task name="Workflow_580_Task_2">
+            <taskId>2</taskId>
+            <taskSize>4819</taskSize>
+            <estimatedDuration>449</estimatedDuration>
+        </Task>
+        <Task name="Workflow_580_Task_3">
+            <taskId>3</taskId>
+            <taskSize>5826</taskSize>
+            <estimatedDuration>749</estimatedDuration>
+        </Task>
+        <Task name="Workflow_580_Task_4">
+            <taskId>4</taskId>
+            <taskSize>4182</taskSize>
+            <estimatedDuration>560</estimatedDuration>
+        </Task>
+        <Task name="Workflow_580_Task_5">
+            <taskId>5</taskId>
+            <taskSize>6957</taskSize>
+            <estimatedDuration>898</estimatedDuration>
+        </Task>
+        <Task name="Workflow_580_Task_6">
+            <taskId>6</taskId>
+            <taskSize>3658</taskSize>
+            <estimatedDuration>6</estimatedDuration>
+        </Task>
+        <Task name="Workflow_580_Task_7">
+            <taskId>7</taskId>
+            <taskSize>1816</taskSize>
+            <estimatedDuration>336</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>Sequential</workflowType>
+</sequentialWorkflow>

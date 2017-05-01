@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_8534">
+    <workflowId>8534</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Epigenomics_46.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>9221</cost>
+    </costModel>
+    <totalSize>33753</totalSize>
+    <deadline>1494621664850</deadline>
+    <estimatedDuration>6105</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_8534_Task_0">
+            <taskId>0</taskId>
+            <taskSize>1468</taskSize>
+            <estimatedDuration>716</estimatedDuration>
+        </Task>
+        <Task name="Workflow_8534_Task_1">
+            <taskId>1</taskId>
+            <taskSize>5531</taskSize>
+            <estimatedDuration>809</estimatedDuration>
+        </Task>
+        <Task name="Workflow_8534_Task_2">
+            <taskId>2</taskId>
+            <taskSize>7912</taskSize>
+            <estimatedDuration>981</estimatedDuration>
+        </Task>
+        <Task name="Workflow_8534_Task_3">
+            <taskId>3</taskId>
+            <taskSize>4555</taskSize>
+            <estimatedDuration>915</estimatedDuration>
+        </Task>
+        <Task name="Workflow_8534_Task_4">
+            <taskId>4</taskId>
+            <taskSize>7849</taskSize>
+            <estimatedDuration>716</estimatedDuration>
+        </Task>
+        <Task name="Workflow_8534_Task_5">
+            <taskId>5</taskId>
+            <taskSize>3301</taskSize>
+            <estimatedDuration>990</estimatedDuration>
+        </Task>
+        <Task name="Workflow_8534_Task_6">
+            <taskId>6</taskId>
+            <taskSize>1748</taskSize>
+            <estimatedDuration>672</estimatedDuration>
+        </Task>
+        <Task name="Workflow_8534_Task_7">
+            <taskId>7</taskId>
+            <taskSize>1389</taskSize>
+            <estimatedDuration>236</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_360">
+    <workflowId>360</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Epigenomics_100.xml</inputFilePath>
+    <numberOfTasks>5</numberOfTasks>
+    <costModel>
+        <cost>7559</cost>
+    </costModel>
+    <totalSize>12820</totalSize>
+    <deadline>1494638462856</deadline>
+    <estimatedDuration>3019</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_360_Task_0">
+            <taskId>0</taskId>
+            <taskSize>1996</taskSize>
+            <estimatedDuration>772</estimatedDuration>
+        </Task>
+        <Task name="Workflow_360_Task_1">
+            <taskId>1</taskId>
+            <taskSize>2588</taskSize>
+            <estimatedDuration>313</estimatedDuration>
+        </Task>
+        <Task name="Workflow_360_Task_2">
+            <taskId>2</taskId>
+            <taskSize>1234</taskSize>
+            <estimatedDuration>718</estimatedDuration>
+        </Task>
+        <Task name="Workflow_360_Task_3">
+            <taskId>3</taskId>
+            <taskSize>5059</taskSize>
+            <estimatedDuration>690</estimatedDuration>
+        </Task>
+        <Task name="Workflow_360_Task_4">
+            <taskId>4</taskId>
+            <taskSize>1943</taskSize>
+            <estimatedDuration>463</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

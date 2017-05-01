@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sequentialWorkflow name="Workflow_3439">
+    <workflowId>3439</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Epigenomics_24.xml</inputFilePath>
+    <numberOfTasks>1</numberOfTasks>
+    <costModel>
+        <cost>452</cost>
+    </costModel>
+    <totalSize>2660</totalSize>
+    <deadline>1493559887758</deadline>
+    <estimatedDuration>859</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_3439_Task_0">
+            <taskId>0</taskId>
+            <taskSize>2660</taskSize>
+            <estimatedDuration>807</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>Sequential</workflowType>
+</sequentialWorkflow>

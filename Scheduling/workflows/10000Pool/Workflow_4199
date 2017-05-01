@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_4199">
+    <workflowId>4199</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/5000pool</inputFilePath>
+    <numberOfTasks>1</numberOfTasks>
+    <costModel>
+        <cost>661</cost>
+    </costModel>
+    <totalSize>9776</totalSize>
+    <deadline>1494279374533</deadline>
+    <estimatedDuration>1000</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_4199_Task_0">
+            <taskId>0</taskId>
+            <taskSize>9776</taskSize>
+            <estimatedDuration>965</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

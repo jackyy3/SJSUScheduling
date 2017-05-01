@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_2708">
+    <workflowId>2708</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/floodplain.xml</inputFilePath>
+    <numberOfTasks>1</numberOfTasks>
+    <costModel>
+        <cost>4785</cost>
+    </costModel>
+    <totalSize>1859</totalSize>
+    <deadline>1494783623857</deadline>
+    <estimatedDuration>717</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_2708_Task_0">
+            <taskId>0</taskId>
+            <taskSize>1859</taskSize>
+            <estimatedDuration>688</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

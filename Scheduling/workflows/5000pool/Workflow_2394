@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_2394">
+    <workflowId>2394</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/CyberShake_30.xml</inputFilePath>
+    <numberOfTasks>7</numberOfTasks>
+    <costModel>
+        <cost>6864</cost>
+    </costModel>
+    <totalSize>20787</totalSize>
+    <deadline>1493542826446</deadline>
+    <estimatedDuration>2505</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_2394_Task_0">
+            <taskId>0</taskId>
+            <taskSize>2170</taskSize>
+            <estimatedDuration>175</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2394_Task_1">
+            <taskId>1</taskId>
+            <taskSize>2271</taskSize>
+            <estimatedDuration>938</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2394_Task_2">
+            <taskId>2</taskId>
+            <taskSize>4280</taskSize>
+            <estimatedDuration>70</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2394_Task_3">
+            <taskId>3</taskId>
+            <taskSize>3684</taskSize>
+            <estimatedDuration>130</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2394_Task_4">
+            <taskId>4</taskId>
+            <taskSize>4391</taskSize>
+            <estimatedDuration>162</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2394_Task_5">
+            <taskId>5</taskId>
+            <taskSize>3045</taskSize>
+            <estimatedDuration>542</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2394_Task_6">
+            <taskId>6</taskId>
+            <taskSize>946</taskSize>
+            <estimatedDuration>440</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

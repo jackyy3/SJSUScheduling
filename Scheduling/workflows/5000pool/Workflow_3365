@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_3365">
+    <workflowId>3365</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Sipht_1000.xml</inputFilePath>
+    <numberOfTasks>7</numberOfTasks>
+    <costModel>
+        <cost>719</cost>
+    </costModel>
+    <totalSize>29524</totalSize>
+    <deadline>1495475422036</deadline>
+    <estimatedDuration>3914</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_3365_Task_0">
+            <taskId>0</taskId>
+            <taskSize>1906</taskSize>
+            <estimatedDuration>373</estimatedDuration>
+        </Task>
+        <Task name="Workflow_3365_Task_1">
+            <taskId>1</taskId>
+            <taskSize>3897</taskSize>
+            <estimatedDuration>874</estimatedDuration>
+        </Task>
+        <Task name="Workflow_3365_Task_2">
+            <taskId>2</taskId>
+            <taskSize>3048</taskSize>
+            <estimatedDuration>578</estimatedDuration>
+        </Task>
+        <Task name="Workflow_3365_Task_3">
+            <taskId>3</taskId>
+            <taskSize>4089</taskSize>
+            <estimatedDuration>912</estimatedDuration>
+        </Task>
+        <Task name="Workflow_3365_Task_4">
+            <taskId>4</taskId>
+            <taskSize>5917</taskSize>
+            <estimatedDuration>40</estimatedDuration>
+        </Task>
+        <Task name="Workflow_3365_Task_5">
+            <taskId>5</taskId>
+            <taskSize>7347</taskSize>
+            <estimatedDuration>398</estimatedDuration>
+        </Task>
+        <Task name="Workflow_3365_Task_6">
+            <taskId>6</taskId>
+            <taskSize>3320</taskSize>
+            <estimatedDuration>714</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

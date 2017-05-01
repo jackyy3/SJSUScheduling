@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_1794">
+    <workflowId>1794</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Epigenomics_100.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>4307</cost>
+    </costModel>
+    <totalSize>37788</totalSize>
+    <deadline>1494686468085</deadline>
+    <estimatedDuration>3884</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_1794_Task_0">
+            <taskId>0</taskId>
+            <taskSize>2337</taskSize>
+            <estimatedDuration>917</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1794_Task_1">
+            <taskId>1</taskId>
+            <taskSize>3105</taskSize>
+            <estimatedDuration>460</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1794_Task_2">
+            <taskId>2</taskId>
+            <taskSize>2428</taskSize>
+            <estimatedDuration>426</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1794_Task_3">
+            <taskId>3</taskId>
+            <taskSize>3755</taskSize>
+            <estimatedDuration>495</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1794_Task_4">
+            <taskId>4</taskId>
+            <taskSize>8657</taskSize>
+            <estimatedDuration>761</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1794_Task_5">
+            <taskId>5</taskId>
+            <taskSize>1725</taskSize>
+            <estimatedDuration>264</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1794_Task_6">
+            <taskId>6</taskId>
+            <taskSize>7267</taskSize>
+            <estimatedDuration>141</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1794_Task_7">
+            <taskId>7</taskId>
+            <taskSize>8514</taskSize>
+            <estimatedDuration>385</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

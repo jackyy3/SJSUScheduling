@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_5151">
+    <workflowId>5151</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/HEFT_paper.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>4615</cost>
+    </costModel>
+    <totalSize>32378</totalSize>
+    <deadline>1494279837685</deadline>
+    <estimatedDuration>4386</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_5151_Task_0">
+            <taskId>0</taskId>
+            <taskSize>5599</taskSize>
+            <estimatedDuration>573</estimatedDuration>
+        </Task>
+        <Task name="Workflow_5151_Task_1">
+            <taskId>1</taskId>
+            <taskSize>247</taskSize>
+            <estimatedDuration>352</estimatedDuration>
+        </Task>
+        <Task name="Workflow_5151_Task_2">
+            <taskId>2</taskId>
+            <taskSize>3757</taskSize>
+            <estimatedDuration>948</estimatedDuration>
+        </Task>
+        <Task name="Workflow_5151_Task_3">
+            <taskId>3</taskId>
+            <taskSize>9732</taskSize>
+            <estimatedDuration>791</estimatedDuration>
+        </Task>
+        <Task name="Workflow_5151_Task_4">
+            <taskId>4</taskId>
+            <taskSize>2660</taskSize>
+            <estimatedDuration>276</estimatedDuration>
+        </Task>
+        <Task name="Workflow_5151_Task_5">
+            <taskId>5</taskId>
+            <taskSize>5996</taskSize>
+            <estimatedDuration>218</estimatedDuration>
+        </Task>
+        <Task name="Workflow_5151_Task_6">
+            <taskId>6</taskId>
+            <taskSize>2108</taskSize>
+            <estimatedDuration>729</estimatedDuration>
+        </Task>
+        <Task name="Workflow_5151_Task_7">
+            <taskId>7</taskId>
+            <taskSize>2279</taskSize>
+            <estimatedDuration>416</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

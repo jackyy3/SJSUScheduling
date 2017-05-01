@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_7265">
+    <workflowId>7265</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/CyberShake_1000.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>5808</cost>
+    </costModel>
+    <totalSize>45788</totalSize>
+    <deadline>1494072882212</deadline>
+    <estimatedDuration>4605</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_7265_Task_0">
+            <taskId>0</taskId>
+            <taskSize>7067</taskSize>
+            <estimatedDuration>825</estimatedDuration>
+        </Task>
+        <Task name="Workflow_7265_Task_1">
+            <taskId>1</taskId>
+            <taskSize>4187</taskSize>
+            <estimatedDuration>518</estimatedDuration>
+        </Task>
+        <Task name="Workflow_7265_Task_2">
+            <taskId>2</taskId>
+            <taskSize>3760</taskSize>
+            <estimatedDuration>944</estimatedDuration>
+        </Task>
+        <Task name="Workflow_7265_Task_3">
+            <taskId>3</taskId>
+            <taskSize>8664</taskSize>
+            <estimatedDuration>280</estimatedDuration>
+        </Task>
+        <Task name="Workflow_7265_Task_4">
+            <taskId>4</taskId>
+            <taskSize>5888</taskSize>
+            <estimatedDuration>27</estimatedDuration>
+        </Task>
+        <Task name="Workflow_7265_Task_5">
+            <taskId>5</taskId>
+            <taskSize>9282</taskSize>
+            <estimatedDuration>646</estimatedDuration>
+        </Task>
+        <Task name="Workflow_7265_Task_6">
+            <taskId>6</taskId>
+            <taskSize>3141</taskSize>
+            <estimatedDuration>868</estimatedDuration>
+        </Task>
+        <Task name="Workflow_7265_Task_7">
+            <taskId>7</taskId>
+            <taskSize>3799</taskSize>
+            <estimatedDuration>460</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

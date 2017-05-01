@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sequentialWorkflow name="Workflow_2335">
+    <workflowId>2335</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Epigenomics_24.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>4312</cost>
+    </costModel>
+    <totalSize>43425</totalSize>
+    <deadline>1495466454433</deadline>
+    <estimatedDuration>3900</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_2335_Task_0">
+            <taskId>0</taskId>
+            <taskSize>9656</taskSize>
+            <estimatedDuration>919</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2335_Task_1">
+            <taskId>1</taskId>
+            <taskSize>1521</taskSize>
+            <estimatedDuration>122</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2335_Task_2">
+            <taskId>2</taskId>
+            <taskSize>2863</taskSize>
+            <estimatedDuration>523</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2335_Task_3">
+            <taskId>3</taskId>
+            <taskSize>7107</taskSize>
+            <estimatedDuration>343</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2335_Task_4">
+            <taskId>4</taskId>
+            <taskSize>9728</taskSize>
+            <estimatedDuration>976</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2335_Task_5">
+            <taskId>5</taskId>
+            <taskSize>4618</taskSize>
+            <estimatedDuration>441</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2335_Task_6">
+            <taskId>6</taskId>
+            <taskSize>3201</taskSize>
+            <estimatedDuration>441</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2335_Task_7">
+            <taskId>7</taskId>
+            <taskSize>4731</taskSize>
+            <estimatedDuration>84</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>Sequential</workflowType>
+</sequentialWorkflow>

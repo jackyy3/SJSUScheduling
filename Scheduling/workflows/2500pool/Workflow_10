@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sequentialWorkflow name="Workflow_10">
+    <workflowId>10</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Montage_25.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>4176</cost>
+    </costModel>
+    <totalSize>33309</totalSize>
+    <deadline>1494668262869</deadline>
+    <estimatedDuration>5046</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_10_Task_0">
+            <taskId>0</taskId>
+            <taskSize>3761</taskSize>
+            <estimatedDuration>647</estimatedDuration>
+        </Task>
+        <Task name="Workflow_10_Task_1">
+            <taskId>1</taskId>
+            <taskSize>1440</taskSize>
+            <estimatedDuration>907</estimatedDuration>
+        </Task>
+        <Task name="Workflow_10_Task_2">
+            <taskId>2</taskId>
+            <taskSize>9336</taskSize>
+            <estimatedDuration>961</estimatedDuration>
+        </Task>
+        <Task name="Workflow_10_Task_3">
+            <taskId>3</taskId>
+            <taskSize>5359</taskSize>
+            <estimatedDuration>100</estimatedDuration>
+        </Task>
+        <Task name="Workflow_10_Task_4">
+            <taskId>4</taskId>
+            <taskSize>3890</taskSize>
+            <estimatedDuration>933</estimatedDuration>
+        </Task>
+        <Task name="Workflow_10_Task_5">
+            <taskId>5</taskId>
+            <taskSize>4064</taskSize>
+            <estimatedDuration>261</estimatedDuration>
+        </Task>
+        <Task name="Workflow_10_Task_6">
+            <taskId>6</taskId>
+            <taskSize>2528</taskSize>
+            <estimatedDuration>916</estimatedDuration>
+        </Task>
+        <Task name="Workflow_10_Task_7">
+            <taskId>7</taskId>
+            <taskSize>2931</taskSize>
+            <estimatedDuration>297</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>Sequential</workflowType>
+</sequentialWorkflow>

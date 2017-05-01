@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_6269">
+    <workflowId>6269</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/HEFT_paper.xml</inputFilePath>
+    <numberOfTasks>2</numberOfTasks>
+    <costModel>
+        <cost>5482</cost>
+    </costModel>
+    <totalSize>6300</totalSize>
+    <deadline>1493542032040</deadline>
+    <estimatedDuration>884</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_6269_Task_0">
+            <taskId>0</taskId>
+            <taskSize>3224</taskSize>
+            <estimatedDuration>396</estimatedDuration>
+        </Task>
+        <Task name="Workflow_6269_Task_1">
+            <taskId>1</taskId>
+            <taskSize>3076</taskSize>
+            <estimatedDuration>432</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

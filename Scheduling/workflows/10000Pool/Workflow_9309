@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sequentialWorkflow name="Workflow_9309">
+    <workflowId>9309</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Inspiral_1000.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>6313</cost>
+    </costModel>
+    <totalSize>35204</totalSize>
+    <deadline>1494579757140</deadline>
+    <estimatedDuration>4407</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_9309_Task_0">
+            <taskId>0</taskId>
+            <taskSize>5520</taskSize>
+            <estimatedDuration>424</estimatedDuration>
+        </Task>
+        <Task name="Workflow_9309_Task_1">
+            <taskId>1</taskId>
+            <taskSize>8768</taskSize>
+            <estimatedDuration>787</estimatedDuration>
+        </Task>
+        <Task name="Workflow_9309_Task_2">
+            <taskId>2</taskId>
+            <taskSize>2222</taskSize>
+            <estimatedDuration>514</estimatedDuration>
+        </Task>
+        <Task name="Workflow_9309_Task_3">
+            <taskId>3</taskId>
+            <taskSize>3357</taskSize>
+            <estimatedDuration>458</estimatedDuration>
+        </Task>
+        <Task name="Workflow_9309_Task_4">
+            <taskId>4</taskId>
+            <taskSize>6718</taskSize>
+            <estimatedDuration>656</estimatedDuration>
+        </Task>
+        <Task name="Workflow_9309_Task_5">
+            <taskId>5</taskId>
+            <taskSize>2488</taskSize>
+            <estimatedDuration>489</estimatedDuration>
+        </Task>
+        <Task name="Workflow_9309_Task_6">
+            <taskId>6</taskId>
+            <taskSize>2224</taskSize>
+            <estimatedDuration>890</estimatedDuration>
+        </Task>
+        <Task name="Workflow_9309_Task_7">
+            <taskId>7</taskId>
+            <taskSize>3907</taskSize>
+            <estimatedDuration>96</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>Sequential</workflowType>
+</sequentialWorkflow>

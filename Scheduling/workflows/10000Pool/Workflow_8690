@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_8690">
+    <workflowId>8690</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Epigenomics_46.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>4656</cost>
+    </costModel>
+    <totalSize>34774</totalSize>
+    <deadline>1494451211152</deadline>
+    <estimatedDuration>3501</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_8690_Task_0">
+            <taskId>0</taskId>
+            <taskSize>2143</taskSize>
+            <estimatedDuration>271</estimatedDuration>
+        </Task>
+        <Task name="Workflow_8690_Task_1">
+            <taskId>1</taskId>
+            <taskSize>237</taskSize>
+            <estimatedDuration>810</estimatedDuration>
+        </Task>
+        <Task name="Workflow_8690_Task_2">
+            <taskId>2</taskId>
+            <taskSize>6890</taskSize>
+            <estimatedDuration>267</estimatedDuration>
+        </Task>
+        <Task name="Workflow_8690_Task_3">
+            <taskId>3</taskId>
+            <taskSize>6916</taskSize>
+            <estimatedDuration>135</estimatedDuration>
+        </Task>
+        <Task name="Workflow_8690_Task_4">
+            <taskId>4</taskId>
+            <taskSize>9509</taskSize>
+            <estimatedDuration>189</estimatedDuration>
+        </Task>
+        <Task name="Workflow_8690_Task_5">
+            <taskId>5</taskId>
+            <taskSize>5128</taskSize>
+            <estimatedDuration>428</estimatedDuration>
+        </Task>
+        <Task name="Workflow_8690_Task_6">
+            <taskId>6</taskId>
+            <taskSize>1579</taskSize>
+            <estimatedDuration>428</estimatedDuration>
+        </Task>
+        <Task name="Workflow_8690_Task_7">
+            <taskId>7</taskId>
+            <taskSize>2372</taskSize>
+            <estimatedDuration>905</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

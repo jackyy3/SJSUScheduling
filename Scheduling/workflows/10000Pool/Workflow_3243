@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sequentialWorkflow name="Workflow_3243">
+    <workflowId>3243</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Sipht_1000.xml</inputFilePath>
+    <numberOfTasks>7</numberOfTasks>
+    <costModel>
+        <cost>7543</cost>
+    </costModel>
+    <totalSize>30281</totalSize>
+    <deadline>1495551222196</deadline>
+    <estimatedDuration>3835</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_3243_Task_0">
+            <taskId>0</taskId>
+            <taskSize>4807</taskSize>
+            <estimatedDuration>818</estimatedDuration>
+        </Task>
+        <Task name="Workflow_3243_Task_1">
+            <taskId>1</taskId>
+            <taskSize>7929</taskSize>
+            <estimatedDuration>923</estimatedDuration>
+        </Task>
+        <Task name="Workflow_3243_Task_2">
+            <taskId>2</taskId>
+            <taskSize>639</taskSize>
+            <estimatedDuration>960</estimatedDuration>
+        </Task>
+        <Task name="Workflow_3243_Task_3">
+            <taskId>3</taskId>
+            <taskSize>5357</taskSize>
+            <estimatedDuration>557</estimatedDuration>
+        </Task>
+        <Task name="Workflow_3243_Task_4">
+            <taskId>4</taskId>
+            <taskSize>6941</taskSize>
+            <estimatedDuration>315</estimatedDuration>
+        </Task>
+        <Task name="Workflow_3243_Task_5">
+            <taskId>5</taskId>
+            <taskSize>3954</taskSize>
+            <estimatedDuration>206</estimatedDuration>
+        </Task>
+        <Task name="Workflow_3243_Task_6">
+            <taskId>6</taskId>
+            <taskSize>654</taskSize>
+            <estimatedDuration>0</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>Sequential</workflowType>
+</sequentialWorkflow>

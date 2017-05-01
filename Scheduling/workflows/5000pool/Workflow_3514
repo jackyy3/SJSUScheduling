@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sequentialWorkflow name="Workflow_3514">
+    <workflowId>3514</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/CyberShake_100.xml</inputFilePath>
+    <numberOfTasks>4</numberOfTasks>
+    <costModel>
+        <cost>522</cost>
+    </costModel>
+    <totalSize>19738</totalSize>
+    <deadline>1494822231726</deadline>
+    <estimatedDuration>2437</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_3514_Task_0">
+            <taskId>0</taskId>
+            <taskSize>6102</taskSize>
+            <estimatedDuration>132</estimatedDuration>
+        </Task>
+        <Task name="Workflow_3514_Task_1">
+            <taskId>1</taskId>
+            <taskSize>5596</taskSize>
+            <estimatedDuration>948</estimatedDuration>
+        </Task>
+        <Task name="Workflow_3514_Task_2">
+            <taskId>2</taskId>
+            <taskSize>7184</taskSize>
+            <estimatedDuration>678</estimatedDuration>
+        </Task>
+        <Task name="Workflow_3514_Task_3">
+            <taskId>3</taskId>
+            <taskSize>856</taskSize>
+            <estimatedDuration>595</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>Sequential</workflowType>
+</sequentialWorkflow>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_7586">
+    <workflowId>7586</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Sipht_100.xml</inputFilePath>
+    <numberOfTasks>4</numberOfTasks>
+    <costModel>
+        <cost>5134</cost>
+    </costModel>
+    <totalSize>20952</totalSize>
+    <deadline>1493785875734</deadline>
+    <estimatedDuration>1796</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_7586_Task_0">
+            <taskId>0</taskId>
+            <taskSize>7779</taskSize>
+            <estimatedDuration>322</estimatedDuration>
+        </Task>
+        <Task name="Workflow_7586_Task_1">
+            <taskId>1</taskId>
+            <taskSize>1247</taskSize>
+            <estimatedDuration>314</estimatedDuration>
+        </Task>
+        <Task name="Workflow_7586_Task_2">
+            <taskId>2</taskId>
+            <taskSize>4676</taskSize>
+            <estimatedDuration>648</estimatedDuration>
+        </Task>
+        <Task name="Workflow_7586_Task_3">
+            <taskId>3</taskId>
+            <taskSize>7250</taskSize>
+            <estimatedDuration>451</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_291">
+    <workflowId>291</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/CyberShake_50.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>5781</cost>
+    </costModel>
+    <totalSize>32498</totalSize>
+    <deadline>1494996812418</deadline>
+    <estimatedDuration>4617</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_291_Task_0">
+            <taskId>0</taskId>
+            <taskSize>5694</taskSize>
+            <estimatedDuration>771</estimatedDuration>
+        </Task>
+        <Task name="Workflow_291_Task_1">
+            <taskId>1</taskId>
+            <taskSize>8446</taskSize>
+            <estimatedDuration>600</estimatedDuration>
+        </Task>
+        <Task name="Workflow_291_Task_2">
+            <taskId>2</taskId>
+            <taskSize>7987</taskSize>
+            <estimatedDuration>208</estimatedDuration>
+        </Task>
+        <Task name="Workflow_291_Task_3">
+            <taskId>3</taskId>
+            <taskSize>885</taskSize>
+            <estimatedDuration>913</estimatedDuration>
+        </Task>
+        <Task name="Workflow_291_Task_4">
+            <taskId>4</taskId>
+            <taskSize>389</taskSize>
+            <estimatedDuration>30</estimatedDuration>
+        </Task>
+        <Task name="Workflow_291_Task_5">
+            <taskId>5</taskId>
+            <taskSize>1821</taskSize>
+            <estimatedDuration>708</estimatedDuration>
+        </Task>
+        <Task name="Workflow_291_Task_6">
+            <taskId>6</taskId>
+            <taskSize>2941</taskSize>
+            <estimatedDuration>911</estimatedDuration>
+        </Task>
+        <Task name="Workflow_291_Task_7">
+            <taskId>7</taskId>
+            <taskSize>4335</taskSize>
+            <estimatedDuration>443</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

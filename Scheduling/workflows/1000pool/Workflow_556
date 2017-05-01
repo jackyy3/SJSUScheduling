@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_556">
+    <workflowId>556</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/2500pool</inputFilePath>
+    <numberOfTasks>1</numberOfTasks>
+    <costModel>
+        <cost>1486</cost>
+    </costModel>
+    <totalSize>2019</totalSize>
+    <deadline>1493474202114</deadline>
+    <estimatedDuration>895</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_556_Task_0">
+            <taskId>0</taskId>
+            <taskSize>2019</taskSize>
+            <estimatedDuration>806</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

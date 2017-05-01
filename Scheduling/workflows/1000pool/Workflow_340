@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sequentialWorkflow name="Workflow_340">
+    <workflowId>340</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Epigenomics_46.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>3630</cost>
+    </costModel>
+    <totalSize>49169</totalSize>
+    <deadline>1493426947701</deadline>
+    <estimatedDuration>4437</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_340_Task_0">
+            <taskId>0</taskId>
+            <taskSize>9827</taskSize>
+            <estimatedDuration>901</estimatedDuration>
+        </Task>
+        <Task name="Workflow_340_Task_1">
+            <taskId>1</taskId>
+            <taskSize>9196</taskSize>
+            <estimatedDuration>108</estimatedDuration>
+        </Task>
+        <Task name="Workflow_340_Task_2">
+            <taskId>2</taskId>
+            <taskSize>8892</taskSize>
+            <estimatedDuration>846</estimatedDuration>
+        </Task>
+        <Task name="Workflow_340_Task_3">
+            <taskId>3</taskId>
+            <taskSize>4033</taskSize>
+            <estimatedDuration>556</estimatedDuration>
+        </Task>
+        <Task name="Workflow_340_Task_4">
+            <taskId>4</taskId>
+            <taskSize>6392</taskSize>
+            <estimatedDuration>878</estimatedDuration>
+        </Task>
+        <Task name="Workflow_340_Task_5">
+            <taskId>5</taskId>
+            <taskSize>1599</taskSize>
+            <estimatedDuration>431</estimatedDuration>
+        </Task>
+        <Task name="Workflow_340_Task_6">
+            <taskId>6</taskId>
+            <taskSize>1382</taskSize>
+            <estimatedDuration>493</estimatedDuration>
+        </Task>
+        <Task name="Workflow_340_Task_7">
+            <taskId>7</taskId>
+            <taskSize>7848</taskSize>
+            <estimatedDuration>220</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>Sequential</workflowType>
+</sequentialWorkflow>

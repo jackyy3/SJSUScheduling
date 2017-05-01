@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_8074">
+    <workflowId>8074</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/2500pool</inputFilePath>
+    <numberOfTasks>7</numberOfTasks>
+    <costModel>
+        <cost>2838</cost>
+    </costModel>
+    <totalSize>41519</totalSize>
+    <deadline>1494570491166</deadline>
+    <estimatedDuration>3289</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_8074_Task_0">
+            <taskId>0</taskId>
+            <taskSize>618</taskSize>
+            <estimatedDuration>551</estimatedDuration>
+        </Task>
+        <Task name="Workflow_8074_Task_1">
+            <taskId>1</taskId>
+            <taskSize>3513</taskSize>
+            <estimatedDuration>508</estimatedDuration>
+        </Task>
+        <Task name="Workflow_8074_Task_2">
+            <taskId>2</taskId>
+            <taskSize>7548</taskSize>
+            <estimatedDuration>168</estimatedDuration>
+        </Task>
+        <Task name="Workflow_8074_Task_3">
+            <taskId>3</taskId>
+            <taskSize>7254</taskSize>
+            <estimatedDuration>797</estimatedDuration>
+        </Task>
+        <Task name="Workflow_8074_Task_4">
+            <taskId>4</taskId>
+            <taskSize>8782</taskSize>
+            <estimatedDuration>712</estimatedDuration>
+        </Task>
+        <Task name="Workflow_8074_Task_5">
+            <taskId>5</taskId>
+            <taskSize>9764</taskSize>
+            <estimatedDuration>373</estimatedDuration>
+        </Task>
+        <Task name="Workflow_8074_Task_6">
+            <taskId>6</taskId>
+            <taskSize>4040</taskSize>
+            <estimatedDuration>140</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

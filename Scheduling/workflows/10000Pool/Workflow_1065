@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<taskGroupWorkflow name="Workflow_1065">
+    <workflowId>1065</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Inspiral_50.xml</inputFilePath>
+    <numberOfTasks>9</numberOfTasks>
+    <costModel>
+        <cost>6954</cost>
+    </costModel>
+    <totalSize>39132</totalSize>
+    <deadline>1493712703292</deadline>
+    <estimatedDuration>4347</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_1065_Task_0">
+            <taskId>0</taskId>
+            <taskSize>1039</taskSize>
+            <estimatedDuration>776</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1065_Task_1">
+            <taskId>1</taskId>
+            <taskSize>3388</taskSize>
+            <estimatedDuration>229</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1065_Task_2">
+            <taskId>2</taskId>
+            <taskSize>1552</taskSize>
+            <estimatedDuration>557</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1065_Task_3">
+            <taskId>3</taskId>
+            <taskSize>7021</taskSize>
+            <estimatedDuration>387</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1065_Task_4">
+            <taskId>4</taskId>
+            <taskSize>7403</taskSize>
+            <estimatedDuration>551</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1065_Task_5">
+            <taskId>5</taskId>
+            <taskSize>1781</taskSize>
+            <estimatedDuration>840</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1065_Task_6">
+            <taskId>6</taskId>
+            <taskSize>9211</taskSize>
+            <estimatedDuration>406</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1065_Task_7">
+            <taskId>7</taskId>
+            <taskSize>4822</taskSize>
+            <estimatedDuration>432</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1065_Task_8">
+            <taskId>8</taskId>
+            <taskSize>2915</taskSize>
+            <estimatedDuration>136</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>FullyParallel</workflowType>
+</taskGroupWorkflow>

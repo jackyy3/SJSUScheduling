@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_8004">
+    <workflowId>8004</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Montage_25.xml</inputFilePath>
+    <numberOfTasks>7</numberOfTasks>
+    <costModel>
+        <cost>2209</cost>
+    </costModel>
+    <totalSize>23614</totalSize>
+    <deadline>1493784644680</deadline>
+    <estimatedDuration>2725</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_8004_Task_0">
+            <taskId>0</taskId>
+            <taskSize>9077</taskSize>
+            <estimatedDuration>125</estimatedDuration>
+        </Task>
+        <Task name="Workflow_8004_Task_1">
+            <taskId>1</taskId>
+            <taskSize>783</taskSize>
+            <estimatedDuration>800</estimatedDuration>
+        </Task>
+        <Task name="Workflow_8004_Task_2">
+            <taskId>2</taskId>
+            <taskSize>2429</taskSize>
+            <estimatedDuration>432</estimatedDuration>
+        </Task>
+        <Task name="Workflow_8004_Task_3">
+            <taskId>3</taskId>
+            <taskSize>4430</taskSize>
+            <estimatedDuration>817</estimatedDuration>
+        </Task>
+        <Task name="Workflow_8004_Task_4">
+            <taskId>4</taskId>
+            <taskSize>2020</taskSize>
+            <estimatedDuration>54</estimatedDuration>
+        </Task>
+        <Task name="Workflow_8004_Task_5">
+            <taskId>5</taskId>
+            <taskSize>537</taskSize>
+            <estimatedDuration>116</estimatedDuration>
+        </Task>
+        <Task name="Workflow_8004_Task_6">
+            <taskId>6</taskId>
+            <taskSize>4338</taskSize>
+            <estimatedDuration>360</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

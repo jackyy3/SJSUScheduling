@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<taskGroupWorkflow name="Workflow_2399">
+    <workflowId>2399</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Sipht_1000.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>9967</cost>
+    </costModel>
+    <totalSize>40370</totalSize>
+    <deadline>1494298125728</deadline>
+    <estimatedDuration>4907</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_2399_Task_0">
+            <taskId>0</taskId>
+            <taskSize>4676</taskSize>
+            <estimatedDuration>786</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2399_Task_1">
+            <taskId>1</taskId>
+            <taskSize>2210</taskSize>
+            <estimatedDuration>686</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2399_Task_2">
+            <taskId>2</taskId>
+            <taskSize>6928</taskSize>
+            <estimatedDuration>274</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2399_Task_3">
+            <taskId>3</taskId>
+            <taskSize>152</taskSize>
+            <estimatedDuration>913</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2399_Task_4">
+            <taskId>4</taskId>
+            <taskSize>5490</taskSize>
+            <estimatedDuration>128</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2399_Task_5">
+            <taskId>5</taskId>
+            <taskSize>9525</taskSize>
+            <estimatedDuration>975</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2399_Task_6">
+            <taskId>6</taskId>
+            <taskSize>7308</taskSize>
+            <estimatedDuration>986</estimatedDuration>
+        </Task>
+        <Task name="Workflow_2399_Task_7">
+            <taskId>7</taskId>
+            <taskSize>4081</taskSize>
+            <estimatedDuration>126</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>FullyParallel</workflowType>
+</taskGroupWorkflow>

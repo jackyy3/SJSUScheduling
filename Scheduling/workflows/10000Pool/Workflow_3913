@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_3913">
+    <workflowId>3913</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/5000pool</inputFilePath>
+    <numberOfTasks>1</numberOfTasks>
+    <costModel>
+        <cost>3000</cost>
+    </costModel>
+    <totalSize>7480</totalSize>
+    <deadline>1493952856761</deadline>
+    <estimatedDuration>124</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_3913_Task_0">
+            <taskId>0</taskId>
+            <taskSize>7480</taskSize>
+            <estimatedDuration>70</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

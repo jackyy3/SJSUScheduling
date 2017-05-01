@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sequentialWorkflow name="Workflow_4013">
+    <workflowId>4013</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Sipht_60.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>9028</cost>
+    </costModel>
+    <totalSize>39924</totalSize>
+    <deadline>1494594593188</deadline>
+    <estimatedDuration>4223</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_4013_Task_0">
+            <taskId>0</taskId>
+            <taskSize>903</taskSize>
+            <estimatedDuration>89</estimatedDuration>
+        </Task>
+        <Task name="Workflow_4013_Task_1">
+            <taskId>1</taskId>
+            <taskSize>7068</taskSize>
+            <estimatedDuration>946</estimatedDuration>
+        </Task>
+        <Task name="Workflow_4013_Task_2">
+            <taskId>2</taskId>
+            <taskSize>8965</taskSize>
+            <estimatedDuration>667</estimatedDuration>
+        </Task>
+        <Task name="Workflow_4013_Task_3">
+            <taskId>3</taskId>
+            <taskSize>5188</taskSize>
+            <estimatedDuration>162</estimatedDuration>
+        </Task>
+        <Task name="Workflow_4013_Task_4">
+            <taskId>4</taskId>
+            <taskSize>8430</taskSize>
+            <estimatedDuration>555</estimatedDuration>
+        </Task>
+        <Task name="Workflow_4013_Task_5">
+            <taskId>5</taskId>
+            <taskSize>1711</taskSize>
+            <estimatedDuration>426</estimatedDuration>
+        </Task>
+        <Task name="Workflow_4013_Task_6">
+            <taskId>6</taskId>
+            <taskSize>4051</taskSize>
+            <estimatedDuration>965</estimatedDuration>
+        </Task>
+        <Task name="Workflow_4013_Task_7">
+            <taskId>7</taskId>
+            <taskSize>3608</taskSize>
+            <estimatedDuration>326</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>Sequential</workflowType>
+</sequentialWorkflow>

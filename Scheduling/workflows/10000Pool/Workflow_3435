@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_3435">
+    <workflowId>3435</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/HEFT_paper.xml</inputFilePath>
+    <numberOfTasks>6</numberOfTasks>
+    <costModel>
+        <cost>1364</cost>
+    </costModel>
+    <totalSize>31235</totalSize>
+    <deadline>1495148283511</deadline>
+    <estimatedDuration>3650</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_3435_Task_0">
+            <taskId>0</taskId>
+            <taskSize>7009</taskSize>
+            <estimatedDuration>984</estimatedDuration>
+        </Task>
+        <Task name="Workflow_3435_Task_1">
+            <taskId>1</taskId>
+            <taskSize>8272</taskSize>
+            <estimatedDuration>929</estimatedDuration>
+        </Task>
+        <Task name="Workflow_3435_Task_2">
+            <taskId>2</taskId>
+            <taskSize>5893</taskSize>
+            <estimatedDuration>362</estimatedDuration>
+        </Task>
+        <Task name="Workflow_3435_Task_3">
+            <taskId>3</taskId>
+            <taskSize>5858</taskSize>
+            <estimatedDuration>530</estimatedDuration>
+        </Task>
+        <Task name="Workflow_3435_Task_4">
+            <taskId>4</taskId>
+            <taskSize>817</taskSize>
+            <estimatedDuration>228</estimatedDuration>
+        </Task>
+        <Task name="Workflow_3435_Task_5">
+            <taskId>5</taskId>
+            <taskSize>3386</taskSize>
+            <estimatedDuration>589</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

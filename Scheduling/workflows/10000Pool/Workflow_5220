@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<taskGroupWorkflow name="Workflow_5220">
+    <workflowId>5220</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Sipht_100.xml</inputFilePath>
+    <numberOfTasks>6</numberOfTasks>
+    <costModel>
+        <cost>7183</cost>
+    </costModel>
+    <totalSize>35365</totalSize>
+    <deadline>1495488831391</deadline>
+    <estimatedDuration>2828</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_5220_Task_0">
+            <taskId>0</taskId>
+            <taskSize>6984</taskSize>
+            <estimatedDuration>822</estimatedDuration>
+        </Task>
+        <Task name="Workflow_5220_Task_1">
+            <taskId>1</taskId>
+            <taskSize>5523</taskSize>
+            <estimatedDuration>849</estimatedDuration>
+        </Task>
+        <Task name="Workflow_5220_Task_2">
+            <taskId>2</taskId>
+            <taskSize>5207</taskSize>
+            <estimatedDuration>128</estimatedDuration>
+        </Task>
+        <Task name="Workflow_5220_Task_3">
+            <taskId>3</taskId>
+            <taskSize>5233</taskSize>
+            <estimatedDuration>633</estimatedDuration>
+        </Task>
+        <Task name="Workflow_5220_Task_4">
+            <taskId>4</taskId>
+            <taskSize>9876</taskSize>
+            <estimatedDuration>76</estimatedDuration>
+        </Task>
+        <Task name="Workflow_5220_Task_5">
+            <taskId>5</taskId>
+            <taskSize>2542</taskSize>
+            <estimatedDuration>241</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>FullyParallel</workflowType>
+</taskGroupWorkflow>

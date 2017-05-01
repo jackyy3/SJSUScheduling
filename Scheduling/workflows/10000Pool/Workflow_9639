@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_9639">
+    <workflowId>9639</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Sipht_1000.xml</inputFilePath>
+    <numberOfTasks>5</numberOfTasks>
+    <costModel>
+        <cost>242</cost>
+    </costModel>
+    <totalSize>29970</totalSize>
+    <deadline>1495227455908</deadline>
+    <estimatedDuration>2422</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_9639_Task_0">
+            <taskId>0</taskId>
+            <taskSize>9218</taskSize>
+            <estimatedDuration>735</estimatedDuration>
+        </Task>
+        <Task name="Workflow_9639_Task_1">
+            <taskId>1</taskId>
+            <taskSize>4153</taskSize>
+            <estimatedDuration>462</estimatedDuration>
+        </Task>
+        <Task name="Workflow_9639_Task_2">
+            <taskId>2</taskId>
+            <taskSize>8822</taskSize>
+            <estimatedDuration>91</estimatedDuration>
+        </Task>
+        <Task name="Workflow_9639_Task_3">
+            <taskId>3</taskId>
+            <taskSize>7069</taskSize>
+            <estimatedDuration>891</estimatedDuration>
+        </Task>
+        <Task name="Workflow_9639_Task_4">
+            <taskId>4</taskId>
+            <taskSize>708</taskSize>
+            <estimatedDuration>155</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_1687">
+    <workflowId>1687</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Epigenomics_997.xml</inputFilePath>
+    <numberOfTasks>5</numberOfTasks>
+    <costModel>
+        <cost>7086</cost>
+    </costModel>
+    <totalSize>16331</totalSize>
+    <deadline>1494443305178</deadline>
+    <estimatedDuration>1924</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_1687_Task_0">
+            <taskId>0</taskId>
+            <taskSize>1197</taskSize>
+            <estimatedDuration>278</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1687_Task_1">
+            <taskId>1</taskId>
+            <taskSize>3453</taskSize>
+            <estimatedDuration>613</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1687_Task_2">
+            <taskId>2</taskId>
+            <taskSize>2144</taskSize>
+            <estimatedDuration>118</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1687_Task_3">
+            <taskId>3</taskId>
+            <taskSize>7106</taskSize>
+            <estimatedDuration>315</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1687_Task_4">
+            <taskId>4</taskId>
+            <taskSize>2431</taskSize>
+            <estimatedDuration>589</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<taskGroupWorkflow name="Workflow_632">
+    <workflowId>632</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/CyberShake_100.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>5451</cost>
+    </costModel>
+    <totalSize>34919</totalSize>
+    <deadline>1493902115900</deadline>
+    <estimatedDuration>3695</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_632_Task_0">
+            <taskId>0</taskId>
+            <taskSize>2128</taskSize>
+            <estimatedDuration>506</estimatedDuration>
+        </Task>
+        <Task name="Workflow_632_Task_1">
+            <taskId>1</taskId>
+            <taskSize>994</taskSize>
+            <estimatedDuration>362</estimatedDuration>
+        </Task>
+        <Task name="Workflow_632_Task_2">
+            <taskId>2</taskId>
+            <taskSize>9354</taskSize>
+            <estimatedDuration>331</estimatedDuration>
+        </Task>
+        <Task name="Workflow_632_Task_3">
+            <taskId>3</taskId>
+            <taskSize>3874</taskSize>
+            <estimatedDuration>926</estimatedDuration>
+        </Task>
+        <Task name="Workflow_632_Task_4">
+            <taskId>4</taskId>
+            <taskSize>2207</taskSize>
+            <estimatedDuration>849</estimatedDuration>
+        </Task>
+        <Task name="Workflow_632_Task_5">
+            <taskId>5</taskId>
+            <taskSize>7373</taskSize>
+            <estimatedDuration>59</estimatedDuration>
+        </Task>
+        <Task name="Workflow_632_Task_6">
+            <taskId>6</taskId>
+            <taskSize>6106</taskSize>
+            <estimatedDuration>498</estimatedDuration>
+        </Task>
+        <Task name="Workflow_632_Task_7">
+            <taskId>7</taskId>
+            <taskSize>2883</taskSize>
+            <estimatedDuration>111</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>FullyParallel</workflowType>
+</taskGroupWorkflow>
