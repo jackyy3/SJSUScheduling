@@ -97,7 +97,7 @@ public class WorkflowSimBasicExample1 {
 			 * exact vmNum would be smaller than that. Take care.
 			 */
 			int vmNum = 20;// number of vms;
-			File daxFile = new File(args[0]);
+			File daxFile = new File("/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/CyberShake_100.xml");
 			if (!daxFile.exists()) {
 				Log.printLine("Warning: Please replace daxPath with the physical path in your working environment!");
 				return;
@@ -108,7 +108,7 @@ public class WorkflowSimBasicExample1 {
 			 * algorithm should be INVALID such that the planner would not
 			 * override the result of the scheduler
 			 */
-			Parameters.SchedulingAlgorithm sch_method = Parameters.SchedulingAlgorithm.MINMIN;
+			Parameters.SchedulingAlgorithm sch_method = Parameters.SchedulingAlgorithm.FCFS;
 			Parameters.PlanningAlgorithm pln_method = Parameters.PlanningAlgorithm.INVALID;
 			ReplicaCatalog.FileSystem file_system = ReplicaCatalog.FileSystem.SHARED;
 
@@ -128,7 +128,7 @@ public class WorkflowSimBasicExample1 {
 			/**
 			 * Initialize static parameters
 			 */
-			Parameters.init(vmNum, args[0], null, null, op, cp, sch_method,
+			Parameters.init(vmNum, "/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/CyberShake_100.xml", null, null, op, cp, sch_method,
 					pln_method, null, 0);
 			ReplicaCatalog.init(file_system);
 

@@ -39,4 +39,9 @@ public class SchedulingPriority {
 		}
 		return false;
 	}
+
+	@Override
+	public int hashCode() {
+		return Long.valueOf(priorityIndex).hashCode();
+	}
 }

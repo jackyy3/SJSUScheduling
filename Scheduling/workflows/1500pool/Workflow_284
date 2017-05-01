@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<taskGroupWorkflow name="Workflow_284">
+    <workflowId>284</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/floodplain.xml</inputFilePath>
+    <numberOfTasks>1</numberOfTasks>
+    <costModel>
+        <cost>9754</cost>
+    </costModel>
+    <totalSize>9434</totalSize>
+    <deadline>1495243186846</deadline>
+    <estimatedDuration>314</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_284_Task_0">
+            <taskId>0</taskId>
+            <taskSize>9434</taskSize>
+            <estimatedDuration>226</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>FullyParallel</workflowType>
+</taskGroupWorkflow>

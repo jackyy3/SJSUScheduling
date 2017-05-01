@@ -37,9 +37,9 @@ public class SimpleWorkflowSchedulingAlgorithmExample {
             /**
              * Should change this based on real physical path
              */
-            String daxPath = "/Users/zxing/git/WorkflowSim-1.0/config/dax/Montage_100.xml";
+            String daxPath = "/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/CyberShake_100.xml";
 
-            File daxFile = new File(args[0]);
+            File daxFile = new File(daxPath);
             if (!daxFile.exists()) {
                 Log.printLine("Warning: Please replace daxPath with the physical path in your working environment!");
                 return;
@@ -51,7 +51,7 @@ public class SimpleWorkflowSchedulingAlgorithmExample {
              * override the result of the planner
              */
             Parameters.SchedulingAlgorithm sch_method = Parameters.SchedulingAlgorithm.FCFS;
-            Parameters.PlanningAlgorithm pln_method = Parameters.PlanningAlgorithm.INVALID;
+            Parameters.PlanningAlgorithm pln_method = Parameters.PlanningAlgorithm.RANDOM;
             
             Parameters.WorkflowSchedulingAlgorithm w_sch_method = Parameters.WorkflowSchedulingAlgorithm.FCFS;
             
@@ -120,6 +120,7 @@ public class SimpleWorkflowSchedulingAlgorithmExample {
             WorkflowSchedulingUtil.printWorkflows(executedWorkflows);
 
         } catch (Exception e) {
+        	e.printStackTrace();
             Log.printLine("The simulation has been terminated due to an unexpected error");
         }
     }

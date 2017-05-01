@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<taskGroupWorkflow name="Workflow_86">
+    <workflowId>86</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Epigenomics_46.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>3081</cost>
+    </costModel>
+    <totalSize>39585</totalSize>
+    <deadline>1495129776992</deadline>
+    <estimatedDuration>5491</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_86_Task_0">
+            <taskId>0</taskId>
+            <taskSize>8055</taskSize>
+            <estimatedDuration>569</estimatedDuration>
+        </Task>
+        <Task name="Workflow_86_Task_1">
+            <taskId>1</taskId>
+            <taskSize>1483</taskSize>
+            <estimatedDuration>980</estimatedDuration>
+        </Task>
+        <Task name="Workflow_86_Task_2">
+            <taskId>2</taskId>
+            <taskSize>8166</taskSize>
+            <estimatedDuration>739</estimatedDuration>
+        </Task>
+        <Task name="Workflow_86_Task_3">
+            <taskId>3</taskId>
+            <taskSize>2152</taskSize>
+            <estimatedDuration>107</estimatedDuration>
+        </Task>
+        <Task name="Workflow_86_Task_4">
+            <taskId>4</taskId>
+            <taskSize>9676</taskSize>
+            <estimatedDuration>366</estimatedDuration>
+        </Task>
+        <Task name="Workflow_86_Task_5">
+            <taskId>5</taskId>
+            <taskSize>6196</taskSize>
+            <estimatedDuration>885</estimatedDuration>
+        </Task>
+        <Task name="Workflow_86_Task_6">
+            <taskId>6</taskId>
+            <taskSize>3686</taskSize>
+            <estimatedDuration>969</estimatedDuration>
+        </Task>
+        <Task name="Workflow_86_Task_7">
+            <taskId>7</taskId>
+            <taskSize>171</taskSize>
+            <estimatedDuration>789</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>FullyParallel</workflowType>
+</taskGroupWorkflow>

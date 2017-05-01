@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sequentialWorkflow name="Workflow_9">
+    <workflowId>9</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/CyberShake_50.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>6202</cost>
+    </costModel>
+    <totalSize>35006</totalSize>
+    <deadline>1495491047066</deadline>
+    <estimatedDuration>5388</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_9_Task_0">
+            <taskId>0</taskId>
+            <taskSize>6233</taskSize>
+            <estimatedDuration>569</estimatedDuration>
+        </Task>
+        <Task name="Workflow_9_Task_1">
+            <taskId>1</taskId>
+            <taskSize>1524</taskSize>
+            <estimatedDuration>673</estimatedDuration>
+        </Task>
+        <Task name="Workflow_9_Task_2">
+            <taskId>2</taskId>
+            <taskSize>2172</taskSize>
+            <estimatedDuration>740</estimatedDuration>
+        </Task>
+        <Task name="Workflow_9_Task_3">
+            <taskId>3</taskId>
+            <taskSize>597</taskSize>
+            <estimatedDuration>435</estimatedDuration>
+        </Task>
+        <Task name="Workflow_9_Task_4">
+            <taskId>4</taskId>
+            <taskSize>5452</taskSize>
+            <estimatedDuration>387</estimatedDuration>
+        </Task>
+        <Task name="Workflow_9_Task_5">
+            <taskId>5</taskId>
+            <taskSize>6419</taskSize>
+            <estimatedDuration>819</estimatedDuration>
+        </Task>
+        <Task name="Workflow_9_Task_6">
+            <taskId>6</taskId>
+            <taskSize>6297</taskSize>
+            <estimatedDuration>959</estimatedDuration>
+        </Task>
+        <Task name="Workflow_9_Task_7">
+            <taskId>7</taskId>
+            <taskSize>6312</taskSize>
+            <estimatedDuration>749</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>Sequential</workflowType>
+</sequentialWorkflow>

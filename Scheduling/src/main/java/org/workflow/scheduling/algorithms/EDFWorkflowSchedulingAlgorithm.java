@@ -30,8 +30,11 @@ public class EDFWorkflowSchedulingAlgorithm implements WorkflowSchedulingAlgorit
 
 	@Override
 	public SchedulingPriority calculateSchedulingPriority(ClusterSimWorkflow workflow) {
-		long priorityValue = workflow.getDeadline() - System.currentTimeMillis();
-		return new SchedulingPriority(priorityValue);
+		long priorityValue = workflow.getDeadline()/1000 - System.currentTimeMillis()/1000;
+		if(priorityValue <= 0){
+			priorityValue = 1;
+		}
+		return new SchedulingPriority((priorityValue/10000) + (priorityValue%100));
 	}
 
 }

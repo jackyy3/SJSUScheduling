@@ -39,6 +39,10 @@ import javax.xml.bind.annotation.XmlType;
 public class CostModelDefinition {
 
     protected long cost;
+    
+    public CostModelDefinition(){
+    	this.cost = 0;
+    }
 
     public CostModelDefinition(final long cost){
     	this.cost = cost;

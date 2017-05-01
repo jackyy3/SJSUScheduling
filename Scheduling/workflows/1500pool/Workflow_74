@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<taskGroupWorkflow name="Workflow_74">
+    <workflowId>74</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/floodplain.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>7366</cost>
+    </costModel>
+    <totalSize>35656</totalSize>
+    <deadline>1493704622032</deadline>
+    <estimatedDuration>4097</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_74_Task_0">
+            <taskId>0</taskId>
+            <taskSize>3334</taskSize>
+            <estimatedDuration>233</estimatedDuration>
+        </Task>
+        <Task name="Workflow_74_Task_1">
+            <taskId>1</taskId>
+            <taskSize>5417</taskSize>
+            <estimatedDuration>700</estimatedDuration>
+        </Task>
+        <Task name="Workflow_74_Task_2">
+            <taskId>2</taskId>
+            <taskSize>5033</taskSize>
+            <estimatedDuration>703</estimatedDuration>
+        </Task>
+        <Task name="Workflow_74_Task_3">
+            <taskId>3</taskId>
+            <taskSize>5531</taskSize>
+            <estimatedDuration>603</estimatedDuration>
+        </Task>
+        <Task name="Workflow_74_Task_4">
+            <taskId>4</taskId>
+            <taskSize>822</taskSize>
+            <estimatedDuration>495</estimatedDuration>
+        </Task>
+        <Task name="Workflow_74_Task_5">
+            <taskId>5</taskId>
+            <taskSize>2016</taskSize>
+            <estimatedDuration>415</estimatedDuration>
+        </Task>
+        <Task name="Workflow_74_Task_6">
+            <taskId>6</taskId>
+            <taskSize>7670</taskSize>
+            <estimatedDuration>341</estimatedDuration>
+        </Task>
+        <Task name="Workflow_74_Task_7">
+            <taskId>7</taskId>
+            <taskSize>5833</taskSize>
+            <estimatedDuration>542</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>FullyParallel</workflowType>
+</taskGroupWorkflow>

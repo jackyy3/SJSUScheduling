@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sequentialWorkflow name="Workflow_204">
+    <workflowId>204</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Sipht_100.xml</inputFilePath>
+    <numberOfTasks>7</numberOfTasks>
+    <costModel>
+        <cost>2117</cost>
+    </costModel>
+    <totalSize>35712</totalSize>
+    <deadline>1495482567213</deadline>
+    <estimatedDuration>4520</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_204_Task_0">
+            <taskId>0</taskId>
+            <taskSize>1260</taskSize>
+            <estimatedDuration>330</estimatedDuration>
+        </Task>
+        <Task name="Workflow_204_Task_1">
+            <taskId>1</taskId>
+            <taskSize>9211</taskSize>
+            <estimatedDuration>834</estimatedDuration>
+        </Task>
+        <Task name="Workflow_204_Task_2">
+            <taskId>2</taskId>
+            <taskSize>4112</taskSize>
+            <estimatedDuration>899</estimatedDuration>
+        </Task>
+        <Task name="Workflow_204_Task_3">
+            <taskId>3</taskId>
+            <taskSize>9670</taskSize>
+            <estimatedDuration>656</estimatedDuration>
+        </Task>
+        <Task name="Workflow_204_Task_4">
+            <taskId>4</taskId>
+            <taskSize>3955</taskSize>
+            <estimatedDuration>203</estimatedDuration>
+        </Task>
+        <Task name="Workflow_204_Task_5">
+            <taskId>5</taskId>
+            <taskSize>4509</taskSize>
+            <estimatedDuration>927</estimatedDuration>
+        </Task>
+        <Task name="Workflow_204_Task_6">
+            <taskId>6</taskId>
+            <taskSize>2995</taskSize>
+            <estimatedDuration>667</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>Sequential</workflowType>
+</sequentialWorkflow>

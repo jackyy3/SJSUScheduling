@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_200">
+    <workflowId>200</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Inspiral_30.xml</inputFilePath>
+    <numberOfTasks>9</numberOfTasks>
+    <costModel>
+        <cost>8460</cost>
+    </costModel>
+    <totalSize>49469</totalSize>
+    <deadline>1494333542022</deadline>
+    <estimatedDuration>2848</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_200_Task_0">
+            <taskId>0</taskId>
+            <taskSize>7264</taskSize>
+            <estimatedDuration>44</estimatedDuration>
+        </Task>
+        <Task name="Workflow_200_Task_1">
+            <taskId>1</taskId>
+            <taskSize>1073</taskSize>
+            <estimatedDuration>587</estimatedDuration>
+        </Task>
+        <Task name="Workflow_200_Task_2">
+            <taskId>2</taskId>
+            <taskSize>1785</taskSize>
+            <estimatedDuration>280</estimatedDuration>
+        </Task>
+        <Task name="Workflow_200_Task_3">
+            <taskId>3</taskId>
+            <taskSize>2262</taskSize>
+            <estimatedDuration>12</estimatedDuration>
+        </Task>
+        <Task name="Workflow_200_Task_4">
+            <taskId>4</taskId>
+            <taskSize>5293</taskSize>
+            <estimatedDuration>278</estimatedDuration>
+        </Task>
+        <Task name="Workflow_200_Task_5">
+            <taskId>5</taskId>
+            <taskSize>9831</taskSize>
+            <estimatedDuration>26</estimatedDuration>
+        </Task>
+        <Task name="Workflow_200_Task_6">
+            <taskId>6</taskId>
+            <taskSize>5589</taskSize>
+            <estimatedDuration>241</estimatedDuration>
+        </Task>
+        <Task name="Workflow_200_Task_7">
+            <taskId>7</taskId>
+            <taskSize>8544</taskSize>
+            <estimatedDuration>753</estimatedDuration>
+        </Task>
+        <Task name="Workflow_200_Task_8">
+            <taskId>8</taskId>
+            <taskSize>7828</taskSize>
+            <estimatedDuration>606</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

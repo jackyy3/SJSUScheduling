@@ -39,6 +39,9 @@ public class WorkflowSchedulingPool extends AbstractSchedulingPool {
 		if (workflowPool.containsKey(schedulingPriority)) {
 			PoolTasksContainer container = workflowPool.get(schedulingPriority);
 			container.removeFromContainer(workflow);
+			if(container.isContainerEmpty()){
+				workflowPool.remove(schedulingPriority);
+			}
 		}
 	}
 
@@ -71,6 +74,10 @@ public class WorkflowSchedulingPool extends AbstractSchedulingPool {
 			return false;
 		}
 		return true;
+	}
+	
+	public synchronized boolean isPoolEmpty(){
+		return this.workflowPool.isEmpty();
 	}
 	
 	public synchronized long getPoolSize(){

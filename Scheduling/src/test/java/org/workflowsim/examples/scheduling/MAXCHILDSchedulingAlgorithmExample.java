@@ -1,6 +1,6 @@
 package org.workflowsim.examples.scheduling;
 
-import java.io.File;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
@@ -33,11 +33,14 @@ public class MAXCHILDSchedulingAlgorithmExample extends
 			 * exact vmNum would be smaller than that. Take care.
 			 */
 			int vmNum = 5;// number of vms;
-			File daxFile = new File(args[0]);
-			if (!daxFile.exists()) {
-				Log.printLine("Warning: Please replace daxPath with the physical path in your working environment!");
-				return;
-			}
+			List<String> paths = new ArrayList<>();
+			paths.add("workflows/CyberShake_100.xml");
+			paths.add("workflows/CyberShake_100.xml");
+//			File daxFile = new File("workflows/CyberShake_100.xml");
+//			if (!daxFile.exists()) {
+//				Log.printLine("Warning: Please replace daxPath with the physical path in your working environment!");
+//				return;
+//			}
 
 			/**
 			 * Since we are using HEFT planning algorithm, the scheduling
@@ -64,7 +67,7 @@ public class MAXCHILDSchedulingAlgorithmExample extends
 			/**
 			 * Initialize static parameters
 			 */
-			Parameters.init(vmNum, args[0], null, null, op, cp, sch_method,
+			Parameters.init(vmNum, paths, null, null, op, cp, sch_method,
 					pln_method, null, 0);
 			ReplicaCatalog.init(file_system);
 
@@ -109,6 +112,7 @@ public class MAXCHILDSchedulingAlgorithmExample extends
 			printJobList(outputList0);
 		} catch (Exception e) {
 			Log.printLine("The simulation has been terminated due to an unexpected error");
+			e.printStackTrace();
 		}
 	}
 }

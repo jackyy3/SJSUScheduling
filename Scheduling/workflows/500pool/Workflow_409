@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<taskGroupWorkflow name="Workflow_409">
+    <workflowId>409</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/1000pool</inputFilePath>
+    <numberOfTasks>7</numberOfTasks>
+    <costModel>
+        <cost>1157</cost>
+    </costModel>
+    <totalSize>33451</totalSize>
+    <deadline>1494036115062</deadline>
+    <estimatedDuration>5284</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_409_Task_0">
+            <taskId>0</taskId>
+            <taskSize>7188</taskSize>
+            <estimatedDuration>879</estimatedDuration>
+        </Task>
+        <Task name="Workflow_409_Task_1">
+            <taskId>1</taskId>
+            <taskSize>2477</taskSize>
+            <estimatedDuration>882</estimatedDuration>
+        </Task>
+        <Task name="Workflow_409_Task_2">
+            <taskId>2</taskId>
+            <taskSize>8323</taskSize>
+            <estimatedDuration>988</estimatedDuration>
+        </Task>
+        <Task name="Workflow_409_Task_3">
+            <taskId>3</taskId>
+            <taskSize>4368</taskSize>
+            <estimatedDuration>139</estimatedDuration>
+        </Task>
+        <Task name="Workflow_409_Task_4">
+            <taskId>4</taskId>
+            <taskSize>3935</taskSize>
+            <estimatedDuration>682</estimatedDuration>
+        </Task>
+        <Task name="Workflow_409_Task_5">
+            <taskId>5</taskId>
+            <taskSize>4297</taskSize>
+            <estimatedDuration>977</estimatedDuration>
+        </Task>
+        <Task name="Workflow_409_Task_6">
+            <taskId>6</taskId>
+            <taskSize>2863</taskSize>
+            <estimatedDuration>737</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>FullyParallel</workflowType>
+</taskGroupWorkflow>

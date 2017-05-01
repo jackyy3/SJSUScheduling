@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<taskGroupWorkflow name="Workflow_129">
+    <workflowId>129</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Inspiral_50.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>6850</cost>
+    </costModel>
+    <totalSize>29772</totalSize>
+    <deadline>1494402575980</deadline>
+    <estimatedDuration>5345</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_129_Task_0">
+            <taskId>0</taskId>
+            <taskSize>1204</taskSize>
+            <estimatedDuration>984</estimatedDuration>
+        </Task>
+        <Task name="Workflow_129_Task_1">
+            <taskId>1</taskId>
+            <taskSize>131</taskSize>
+            <estimatedDuration>775</estimatedDuration>
+        </Task>
+        <Task name="Workflow_129_Task_2">
+            <taskId>2</taskId>
+            <taskSize>1227</taskSize>
+            <estimatedDuration>224</estimatedDuration>
+        </Task>
+        <Task name="Workflow_129_Task_3">
+            <taskId>3</taskId>
+            <taskSize>1843</taskSize>
+            <estimatedDuration>685</estimatedDuration>
+        </Task>
+        <Task name="Workflow_129_Task_4">
+            <taskId>4</taskId>
+            <taskSize>568</taskSize>
+            <estimatedDuration>836</estimatedDuration>
+        </Task>
+        <Task name="Workflow_129_Task_5">
+            <taskId>5</taskId>
+            <taskSize>7281</taskSize>
+            <estimatedDuration>776</estimatedDuration>
+        </Task>
+        <Task name="Workflow_129_Task_6">
+            <taskId>6</taskId>
+            <taskSize>8347</taskSize>
+            <estimatedDuration>589</estimatedDuration>
+        </Task>
+        <Task name="Workflow_129_Task_7">
+            <taskId>7</taskId>
+            <taskSize>9171</taskSize>
+            <estimatedDuration>403</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>FullyParallel</workflowType>
+</taskGroupWorkflow>

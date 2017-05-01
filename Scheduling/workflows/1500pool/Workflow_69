@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sequentialWorkflow name="Workflow_69">
+    <workflowId>69</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Inspiral_50.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>5948</cost>
+    </costModel>
+    <totalSize>38837</totalSize>
+    <deadline>1494598656585</deadline>
+    <estimatedDuration>3873</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_69_Task_0">
+            <taskId>0</taskId>
+            <taskSize>5054</taskSize>
+            <estimatedDuration>807</estimatedDuration>
+        </Task>
+        <Task name="Workflow_69_Task_1">
+            <taskId>1</taskId>
+            <taskSize>5466</taskSize>
+            <estimatedDuration>265</estimatedDuration>
+        </Task>
+        <Task name="Workflow_69_Task_2">
+            <taskId>2</taskId>
+            <taskSize>6291</taskSize>
+            <estimatedDuration>872</estimatedDuration>
+        </Task>
+        <Task name="Workflow_69_Task_3">
+            <taskId>3</taskId>
+            <taskSize>8033</taskSize>
+            <estimatedDuration>186</estimatedDuration>
+        </Task>
+        <Task name="Workflow_69_Task_4">
+            <taskId>4</taskId>
+            <taskSize>9492</taskSize>
+            <estimatedDuration>203</estimatedDuration>
+        </Task>
+        <Task name="Workflow_69_Task_5">
+            <taskId>5</taskId>
+            <taskSize>2604</taskSize>
+            <estimatedDuration>91</estimatedDuration>
+        </Task>
+        <Task name="Workflow_69_Task_6">
+            <taskId>6</taskId>
+            <taskSize>609</taskSize>
+            <estimatedDuration>479</estimatedDuration>
+        </Task>
+        <Task name="Workflow_69_Task_7">
+            <taskId>7</taskId>
+            <taskSize>1288</taskSize>
+            <estimatedDuration>911</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>Sequential</workflowType>
+</sequentialWorkflow>

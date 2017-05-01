@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<taskGroupWorkflow name="Workflow_14">
+    <workflowId>14</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/floodplain.xml</inputFilePath>
+    <numberOfTasks>5</numberOfTasks>
+    <costModel>
+        <cost>899</cost>
+    </costModel>
+    <totalSize>28377</totalSize>
+    <deadline>1494236537109</deadline>
+    <estimatedDuration>2913</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_14_Task_0">
+            <taskId>0</taskId>
+            <taskSize>4312</taskSize>
+            <estimatedDuration>558</estimatedDuration>
+        </Task>
+        <Task name="Workflow_14_Task_1">
+            <taskId>1</taskId>
+            <taskSize>8368</taskSize>
+            <estimatedDuration>757</estimatedDuration>
+        </Task>
+        <Task name="Workflow_14_Task_2">
+            <taskId>2</taskId>
+            <taskSize>5724</taskSize>
+            <estimatedDuration>875</estimatedDuration>
+        </Task>
+        <Task name="Workflow_14_Task_3">
+            <taskId>3</taskId>
+            <taskSize>8421</taskSize>
+            <estimatedDuration>616</estimatedDuration>
+        </Task>
+        <Task name="Workflow_14_Task_4">
+            <taskId>4</taskId>
+            <taskSize>1552</taskSize>
+            <estimatedDuration>70</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>FullyParallel</workflowType>
+</taskGroupWorkflow>

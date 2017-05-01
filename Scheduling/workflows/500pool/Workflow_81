@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sequentialWorkflow name="Workflow_81">
+    <workflowId>81</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Sipht_60.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>295</cost>
+    </costModel>
+    <totalSize>49517</totalSize>
+    <deadline>1494629980507</deadline>
+    <estimatedDuration>3267</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_81_Task_0">
+            <taskId>0</taskId>
+            <taskSize>9268</taskSize>
+            <estimatedDuration>676</estimatedDuration>
+        </Task>
+        <Task name="Workflow_81_Task_1">
+            <taskId>1</taskId>
+            <taskSize>5746</taskSize>
+            <estimatedDuration>285</estimatedDuration>
+        </Task>
+        <Task name="Workflow_81_Task_2">
+            <taskId>2</taskId>
+            <taskSize>2447</taskSize>
+            <estimatedDuration>477</estimatedDuration>
+        </Task>
+        <Task name="Workflow_81_Task_3">
+            <taskId>3</taskId>
+            <taskSize>8107</taskSize>
+            <estimatedDuration>230</estimatedDuration>
+        </Task>
+        <Task name="Workflow_81_Task_4">
+            <taskId>4</taskId>
+            <taskSize>8591</taskSize>
+            <estimatedDuration>515</estimatedDuration>
+        </Task>
+        <Task name="Workflow_81_Task_5">
+            <taskId>5</taskId>
+            <taskSize>2195</taskSize>
+            <estimatedDuration>127</estimatedDuration>
+        </Task>
+        <Task name="Workflow_81_Task_6">
+            <taskId>6</taskId>
+            <taskSize>8965</taskSize>
+            <estimatedDuration>680</estimatedDuration>
+        </Task>
+        <Task name="Workflow_81_Task_7">
+            <taskId>7</taskId>
+            <taskSize>4198</taskSize>
+            <estimatedDuration>211</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>Sequential</workflowType>
+</sequentialWorkflow>

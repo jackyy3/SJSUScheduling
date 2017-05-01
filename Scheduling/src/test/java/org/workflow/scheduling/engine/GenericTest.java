@@ -16,9 +16,9 @@ public class GenericTest {
 		WorkflowFactory wfF = new RandomWorkflowFactory();
 		WorkflowFileGenerator wg = new WorkflowFileGenerator(wfF);
 		int mod = paths.size();
-		int i = 5000;
+		int i = 2000;
 		while(i > 0){
-			wg.produceSingleWorkflow("5000Pool", paths.get(i % mod));
+			wg.produceSingleWorkflow("2000pool", paths.get(i % mod));
 			i--;
 		}
 	}

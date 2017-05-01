@@ -14,7 +14,7 @@ public class TestWorkflowGenerator {
 		
 		WorkflowFactory wfF = new RandomWorkflowFactory();
 		WorkflowFileGenerator wg = new WorkflowFileGenerator(wfF);
-		List<String> filenames = wg.produceWorkflowFiles();
+		List<String> filenames = wg.produceWorkflowFiles(100);
 		for(String s : filenames){
 			System.out.println(s);
 		}

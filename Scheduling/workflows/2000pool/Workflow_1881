@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<taskGroupWorkflow name="Workflow_1881">
+    <workflowId>1881</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Sipht_60.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>8221</cost>
+    </costModel>
+    <totalSize>37803</totalSize>
+    <deadline>1494291025337</deadline>
+    <estimatedDuration>4310</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_1881_Task_0">
+            <taskId>0</taskId>
+            <taskSize>4113</taskSize>
+            <estimatedDuration>630</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1881_Task_1">
+            <taskId>1</taskId>
+            <taskSize>7016</taskSize>
+            <estimatedDuration>943</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1881_Task_2">
+            <taskId>2</taskId>
+            <taskSize>9726</taskSize>
+            <estimatedDuration>671</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1881_Task_3">
+            <taskId>3</taskId>
+            <taskSize>526</taskSize>
+            <estimatedDuration>46</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1881_Task_4">
+            <taskId>4</taskId>
+            <taskSize>4912</taskSize>
+            <estimatedDuration>558</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1881_Task_5">
+            <taskId>5</taskId>
+            <taskSize>2860</taskSize>
+            <estimatedDuration>611</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1881_Task_6">
+            <taskId>6</taskId>
+            <taskSize>2508</taskSize>
+            <estimatedDuration>611</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1881_Task_7">
+            <taskId>7</taskId>
+            <taskSize>6142</taskSize>
+            <estimatedDuration>185</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>FullyParallel</workflowType>
+</taskGroupWorkflow>

@@ -1,5 +1,6 @@
 package org.workflow.scheduling.pool;
 
+import org.sjsu.wfs.workflow.generation.RandomWorkflowFactory;
 import org.workflow.scheduling.BaseClusterSimWorkflow;
 import org.workflow.scheduling.algorithms.WorkflowSchedulingAlgorithm;
 import org.workflow.scheduling.algorithms.WorkflowSchedulingAlgorithmType;
@@ -19,7 +20,7 @@ public class WorkflowPriorityCalculator extends AbstractSchedulingInputHandler {
 	 * Default constructor.
 	 */
 	public WorkflowPriorityCalculator() {
-		this(WorkflowSchedulingAlgorithmType.FCFS, new InputStreamingListener());
+		this(WorkflowSchedulingAlgorithmType.FCFS, new InputStreamingListener(new RandomWorkflowFactory()));
 	}
 
 	/**

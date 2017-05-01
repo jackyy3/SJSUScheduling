@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sequentialWorkflow name="Workflow_1377">
+    <workflowId>1377</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Montage_1000.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>6658</cost>
+    </costModel>
+    <totalSize>32604</totalSize>
+    <deadline>1495176263266</deadline>
+    <estimatedDuration>3496</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_1377_Task_0">
+            <taskId>0</taskId>
+            <taskSize>1044</taskSize>
+            <estimatedDuration>777</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1377_Task_1">
+            <taskId>1</taskId>
+            <taskSize>6338</taskSize>
+            <estimatedDuration>134</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1377_Task_2">
+            <taskId>2</taskId>
+            <taskSize>6622</taskSize>
+            <estimatedDuration>218</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1377_Task_3">
+            <taskId>3</taskId>
+            <taskSize>4774</taskSize>
+            <estimatedDuration>406</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1377_Task_4">
+            <taskId>4</taskId>
+            <taskSize>3002</taskSize>
+            <estimatedDuration>270</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1377_Task_5">
+            <taskId>5</taskId>
+            <taskSize>6340</taskSize>
+            <estimatedDuration>686</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1377_Task_6">
+            <taskId>6</taskId>
+            <taskSize>2644</taskSize>
+            <estimatedDuration>177</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1377_Task_7">
+            <taskId>7</taskId>
+            <taskSize>1840</taskSize>
+            <estimatedDuration>743</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>Sequential</workflowType>
+</sequentialWorkflow>

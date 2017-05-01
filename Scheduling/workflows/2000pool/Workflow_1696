@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sequentialWorkflow name="Workflow_1696">
+    <workflowId>1696</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/2500pool</inputFilePath>
+    <numberOfTasks>1</numberOfTasks>
+    <costModel>
+        <cost>742</cost>
+    </costModel>
+    <totalSize>9311</totalSize>
+    <deadline>1494498847766</deadline>
+    <estimatedDuration>542</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_1696_Task_0">
+            <taskId>0</taskId>
+            <taskSize>9311</taskSize>
+            <estimatedDuration>487</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>Sequential</workflowType>
+</sequentialWorkflow>

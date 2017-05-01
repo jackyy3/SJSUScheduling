@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sequentialWorkflow name="Workflow_433">
+    <workflowId>433</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/500pool</inputFilePath>
+    <numberOfTasks>7</numberOfTasks>
+    <costModel>
+        <cost>3244</cost>
+    </costModel>
+    <totalSize>37870</totalSize>
+    <deadline>1495757137541</deadline>
+    <estimatedDuration>2287</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_433_Task_0">
+            <taskId>0</taskId>
+            <taskSize>5902</taskSize>
+            <estimatedDuration>183</estimatedDuration>
+        </Task>
+        <Task name="Workflow_433_Task_1">
+            <taskId>1</taskId>
+            <taskSize>5593</taskSize>
+            <estimatedDuration>284</estimatedDuration>
+        </Task>
+        <Task name="Workflow_433_Task_2">
+            <taskId>2</taskId>
+            <taskSize>4761</taskSize>
+            <estimatedDuration>135</estimatedDuration>
+        </Task>
+        <Task name="Workflow_433_Task_3">
+            <taskId>3</taskId>
+            <taskSize>4047</taskSize>
+            <estimatedDuration>438</estimatedDuration>
+        </Task>
+        <Task name="Workflow_433_Task_4">
+            <taskId>4</taskId>
+            <taskSize>7593</taskSize>
+            <estimatedDuration>304</estimatedDuration>
+        </Task>
+        <Task name="Workflow_433_Task_5">
+            <taskId>5</taskId>
+            <taskSize>6790</taskSize>
+            <estimatedDuration>357</estimatedDuration>
+        </Task>
+        <Task name="Workflow_433_Task_6">
+            <taskId>6</taskId>
+            <taskSize>3184</taskSize>
+            <estimatedDuration>518</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>Sequential</workflowType>
+</sequentialWorkflow>

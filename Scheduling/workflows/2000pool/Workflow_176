@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sequentialWorkflow name="Workflow_176">
+    <workflowId>176</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Montage_25.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>4220</cost>
+    </costModel>
+    <totalSize>55706</totalSize>
+    <deadline>1495732545362</deadline>
+    <estimatedDuration>3844</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_176_Task_0">
+            <taskId>0</taskId>
+            <taskSize>8891</taskSize>
+            <estimatedDuration>852</estimatedDuration>
+        </Task>
+        <Task name="Workflow_176_Task_1">
+            <taskId>1</taskId>
+            <taskSize>4958</taskSize>
+            <estimatedDuration>512</estimatedDuration>
+        </Task>
+        <Task name="Workflow_176_Task_2">
+            <taskId>2</taskId>
+            <taskSize>9695</taskSize>
+            <estimatedDuration>278</estimatedDuration>
+        </Task>
+        <Task name="Workflow_176_Task_3">
+            <taskId>3</taskId>
+            <taskSize>3288</taskSize>
+            <estimatedDuration>446</estimatedDuration>
+        </Task>
+        <Task name="Workflow_176_Task_4">
+            <taskId>4</taskId>
+            <taskSize>8029</taskSize>
+            <estimatedDuration>55</estimatedDuration>
+        </Task>
+        <Task name="Workflow_176_Task_5">
+            <taskId>5</taskId>
+            <taskSize>7933</taskSize>
+            <estimatedDuration>53</estimatedDuration>
+        </Task>
+        <Task name="Workflow_176_Task_6">
+            <taskId>6</taskId>
+            <taskSize>6067</taskSize>
+            <estimatedDuration>721</estimatedDuration>
+        </Task>
+        <Task name="Workflow_176_Task_7">
+            <taskId>7</taskId>
+            <taskSize>6845</taskSize>
+            <estimatedDuration>860</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>Sequential</workflowType>
+</sequentialWorkflow>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_599">
+    <workflowId>599</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Inspiral_50.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>873</cost>
+    </costModel>
+    <totalSize>40018</totalSize>
+    <deadline>1495660484233</deadline>
+    <estimatedDuration>3882</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_599_Task_0">
+            <taskId>0</taskId>
+            <taskSize>4939</taskSize>
+            <estimatedDuration>148</estimatedDuration>
+        </Task>
+        <Task name="Workflow_599_Task_1">
+            <taskId>1</taskId>
+            <taskSize>4151</taskSize>
+            <estimatedDuration>445</estimatedDuration>
+        </Task>
+        <Task name="Workflow_599_Task_2">
+            <taskId>2</taskId>
+            <taskSize>1753</taskSize>
+            <estimatedDuration>711</estimatedDuration>
+        </Task>
+        <Task name="Workflow_599_Task_3">
+            <taskId>3</taskId>
+            <taskSize>5466</taskSize>
+            <estimatedDuration>840</estimatedDuration>
+        </Task>
+        <Task name="Workflow_599_Task_4">
+            <taskId>4</taskId>
+            <taskSize>6938</taskSize>
+            <estimatedDuration>948</estimatedDuration>
+        </Task>
+        <Task name="Workflow_599_Task_5">
+            <taskId>5</taskId>
+            <taskSize>6306</taskSize>
+            <estimatedDuration>275</estimatedDuration>
+        </Task>
+        <Task name="Workflow_599_Task_6">
+            <taskId>6</taskId>
+            <taskSize>4206</taskSize>
+            <estimatedDuration>71</estimatedDuration>
+        </Task>
+        <Task name="Workflow_599_Task_7">
+            <taskId>7</taskId>
+            <taskSize>6259</taskSize>
+            <estimatedDuration>422</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

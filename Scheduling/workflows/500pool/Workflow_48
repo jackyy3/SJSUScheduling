@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sequentialWorkflow name="Workflow_48">
+    <workflowId>48</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/1500pool</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>9146</cost>
+    </costModel>
+    <totalSize>44727</totalSize>
+    <deadline>1493847093694</deadline>
+    <estimatedDuration>4028</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_48_Task_0">
+            <taskId>0</taskId>
+            <taskSize>6316</taskSize>
+            <estimatedDuration>771</estimatedDuration>
+        </Task>
+        <Task name="Workflow_48_Task_1">
+            <taskId>1</taskId>
+            <taskSize>2716</taskSize>
+            <estimatedDuration>800</estimatedDuration>
+        </Task>
+        <Task name="Workflow_48_Task_2">
+            <taskId>2</taskId>
+            <taskSize>9292</taskSize>
+            <estimatedDuration>533</estimatedDuration>
+        </Task>
+        <Task name="Workflow_48_Task_3">
+            <taskId>3</taskId>
+            <taskSize>1061</taskSize>
+            <estimatedDuration>600</estimatedDuration>
+        </Task>
+        <Task name="Workflow_48_Task_4">
+            <taskId>4</taskId>
+            <taskSize>9422</taskSize>
+            <estimatedDuration>514</estimatedDuration>
+        </Task>
+        <Task name="Workflow_48_Task_5">
+            <taskId>5</taskId>
+            <taskSize>2054</taskSize>
+            <estimatedDuration>147</estimatedDuration>
+        </Task>
+        <Task name="Workflow_48_Task_6">
+            <taskId>6</taskId>
+            <taskSize>9208</taskSize>
+            <estimatedDuration>263</estimatedDuration>
+        </Task>
+        <Task name="Workflow_48_Task_7">
+            <taskId>7</taskId>
+            <taskSize>4658</taskSize>
+            <estimatedDuration>338</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>Sequential</workflowType>
+</sequentialWorkflow>

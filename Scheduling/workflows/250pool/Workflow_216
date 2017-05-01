@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_216">
+    <workflowId>216</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/2500pool</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>1153</cost>
+    </costModel>
+    <totalSize>25665</totalSize>
+    <deadline>1493972182323</deadline>
+    <estimatedDuration>3639</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_216_Task_0">
+            <taskId>0</taskId>
+            <taskSize>1508</taskSize>
+            <estimatedDuration>499</estimatedDuration>
+        </Task>
+        <Task name="Workflow_216_Task_1">
+            <taskId>1</taskId>
+            <taskSize>1035</taskSize>
+            <estimatedDuration>165</estimatedDuration>
+        </Task>
+        <Task name="Workflow_216_Task_2">
+            <taskId>2</taskId>
+            <taskSize>3860</taskSize>
+            <estimatedDuration>127</estimatedDuration>
+        </Task>
+        <Task name="Workflow_216_Task_3">
+            <taskId>3</taskId>
+            <taskSize>647</taskSize>
+            <estimatedDuration>950</estimatedDuration>
+        </Task>
+        <Task name="Workflow_216_Task_4">
+            <taskId>4</taskId>
+            <taskSize>5336</taskSize>
+            <estimatedDuration>504</estimatedDuration>
+        </Task>
+        <Task name="Workflow_216_Task_5">
+            <taskId>5</taskId>
+            <taskSize>8398</taskSize>
+            <estimatedDuration>148</estimatedDuration>
+        </Task>
+        <Task name="Workflow_216_Task_6">
+            <taskId>6</taskId>
+            <taskSize>2817</taskSize>
+            <estimatedDuration>440</estimatedDuration>
+        </Task>
+        <Task name="Workflow_216_Task_7">
+            <taskId>7</taskId>
+            <taskSize>2064</taskSize>
+            <estimatedDuration>722</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

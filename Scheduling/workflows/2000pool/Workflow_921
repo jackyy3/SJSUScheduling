@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_921">
+    <workflowId>921</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Sipht_60.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>1750</cost>
+    </costModel>
+    <totalSize>38830</totalSize>
+    <deadline>1494878350182</deadline>
+    <estimatedDuration>3803</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_921_Task_0">
+            <taskId>0</taskId>
+            <taskSize>1732</taskSize>
+            <estimatedDuration>313</estimatedDuration>
+        </Task>
+        <Task name="Workflow_921_Task_1">
+            <taskId>1</taskId>
+            <taskSize>8646</taskSize>
+            <estimatedDuration>245</estimatedDuration>
+        </Task>
+        <Task name="Workflow_921_Task_2">
+            <taskId>2</taskId>
+            <taskSize>1690</taskSize>
+            <estimatedDuration>645</estimatedDuration>
+        </Task>
+        <Task name="Workflow_921_Task_3">
+            <taskId>3</taskId>
+            <taskSize>8953</taskSize>
+            <estimatedDuration>396</estimatedDuration>
+        </Task>
+        <Task name="Workflow_921_Task_4">
+            <taskId>4</taskId>
+            <taskSize>8527</taskSize>
+            <estimatedDuration>943</estimatedDuration>
+        </Task>
+        <Task name="Workflow_921_Task_5">
+            <taskId>5</taskId>
+            <taskSize>4948</taskSize>
+            <estimatedDuration>398</estimatedDuration>
+        </Task>
+        <Task name="Workflow_921_Task_6">
+            <taskId>6</taskId>
+            <taskSize>3143</taskSize>
+            <estimatedDuration>355</estimatedDuration>
+        </Task>
+        <Task name="Workflow_921_Task_7">
+            <taskId>7</taskId>
+            <taskSize>1191</taskSize>
+            <estimatedDuration>486</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

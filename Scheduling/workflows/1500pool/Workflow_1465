@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<taskGroupWorkflow name="Workflow_1465">
+    <workflowId>1465</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/250pool</inputFilePath>
+    <numberOfTasks>6</numberOfTasks>
+    <costModel>
+        <cost>3997</cost>
+    </costModel>
+    <totalSize>32468</totalSize>
+    <deadline>1495636688844</deadline>
+    <estimatedDuration>4404</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_1465_Task_0">
+            <taskId>0</taskId>
+            <taskSize>8359</taskSize>
+            <estimatedDuration>742</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1465_Task_1">
+            <taskId>1</taskId>
+            <taskSize>4671</taskSize>
+            <estimatedDuration>825</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1465_Task_2">
+            <taskId>2</taskId>
+            <taskSize>5127</taskSize>
+            <estimatedDuration>502</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1465_Task_3">
+            <taskId>3</taskId>
+            <taskSize>6561</taskSize>
+            <estimatedDuration>856</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1465_Task_4">
+            <taskId>4</taskId>
+            <taskSize>2650</taskSize>
+            <estimatedDuration>771</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1465_Task_5">
+            <taskId>5</taskId>
+            <taskSize>5100</taskSize>
+            <estimatedDuration>656</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>FullyParallel</workflowType>
+</taskGroupWorkflow>

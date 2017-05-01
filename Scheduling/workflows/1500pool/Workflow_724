@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<taskGroupWorkflow name="Workflow_724">
+    <workflowId>724</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Sipht_100.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>8298</cost>
+    </costModel>
+    <totalSize>54652</totalSize>
+    <deadline>1495563153703</deadline>
+    <estimatedDuration>4026</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_724_Task_0">
+            <taskId>0</taskId>
+            <taskSize>2776</taskSize>
+            <estimatedDuration>193</estimatedDuration>
+        </Task>
+        <Task name="Workflow_724_Task_1">
+            <taskId>1</taskId>
+            <taskSize>5561</taskSize>
+            <estimatedDuration>72</estimatedDuration>
+        </Task>
+        <Task name="Workflow_724_Task_2">
+            <taskId>2</taskId>
+            <taskSize>8729</taskSize>
+            <estimatedDuration>996</estimatedDuration>
+        </Task>
+        <Task name="Workflow_724_Task_3">
+            <taskId>3</taskId>
+            <taskSize>9541</taskSize>
+            <estimatedDuration>878</estimatedDuration>
+        </Task>
+        <Task name="Workflow_724_Task_4">
+            <taskId>4</taskId>
+            <taskSize>8754</taskSize>
+            <estimatedDuration>313</estimatedDuration>
+        </Task>
+        <Task name="Workflow_724_Task_5">
+            <taskId>5</taskId>
+            <taskSize>8159</taskSize>
+            <estimatedDuration>660</estimatedDuration>
+        </Task>
+        <Task name="Workflow_724_Task_6">
+            <taskId>6</taskId>
+            <taskSize>8950</taskSize>
+            <estimatedDuration>282</estimatedDuration>
+        </Task>
+        <Task name="Workflow_724_Task_7">
+            <taskId>7</taskId>
+            <taskSize>2182</taskSize>
+            <estimatedDuration>620</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>FullyParallel</workflowType>
+</taskGroupWorkflow>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_699">
+    <workflowId>699</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/CyberShake_50.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>23</cost>
+    </costModel>
+    <totalSize>45164</totalSize>
+    <deadline>1494930603981</deadline>
+    <estimatedDuration>4073</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_699_Task_0">
+            <taskId>0</taskId>
+            <taskSize>990</taskSize>
+            <estimatedDuration>871</estimatedDuration>
+        </Task>
+        <Task name="Workflow_699_Task_1">
+            <taskId>1</taskId>
+            <taskSize>845</taskSize>
+            <estimatedDuration>814</estimatedDuration>
+        </Task>
+        <Task name="Workflow_699_Task_2">
+            <taskId>2</taskId>
+            <taskSize>9417</taskSize>
+            <estimatedDuration>571</estimatedDuration>
+        </Task>
+        <Task name="Workflow_699_Task_3">
+            <taskId>3</taskId>
+            <taskSize>9191</taskSize>
+            <estimatedDuration>692</estimatedDuration>
+        </Task>
+        <Task name="Workflow_699_Task_4">
+            <taskId>4</taskId>
+            <taskSize>9542</taskSize>
+            <estimatedDuration>52</estimatedDuration>
+        </Task>
+        <Task name="Workflow_699_Task_5">
+            <taskId>5</taskId>
+            <taskSize>6481</taskSize>
+            <estimatedDuration>895</estimatedDuration>
+        </Task>
+        <Task name="Workflow_699_Task_6">
+            <taskId>6</taskId>
+            <taskSize>3901</taskSize>
+            <estimatedDuration>87</estimatedDuration>
+        </Task>
+        <Task name="Workflow_699_Task_7">
+            <taskId>7</taskId>
+            <taskSize>4797</taskSize>
+            <estimatedDuration>27</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

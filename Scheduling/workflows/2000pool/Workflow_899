@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<taskGroupWorkflow name="Workflow_899">
+    <workflowId>899</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Inspiral_50.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>46</cost>
+    </costModel>
+    <totalSize>47141</totalSize>
+    <deadline>1493807428932</deadline>
+    <estimatedDuration>3189</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_899_Task_0">
+            <taskId>0</taskId>
+            <taskSize>5090</taskSize>
+            <estimatedDuration>360</estimatedDuration>
+        </Task>
+        <Task name="Workflow_899_Task_1">
+            <taskId>1</taskId>
+            <taskSize>9090</taskSize>
+            <estimatedDuration>814</estimatedDuration>
+        </Task>
+        <Task name="Workflow_899_Task_2">
+            <taskId>2</taskId>
+            <taskSize>5852</taskSize>
+            <estimatedDuration>340</estimatedDuration>
+        </Task>
+        <Task name="Workflow_899_Task_3">
+            <taskId>3</taskId>
+            <taskSize>2862</taskSize>
+            <estimatedDuration>702</estimatedDuration>
+        </Task>
+        <Task name="Workflow_899_Task_4">
+            <taskId>4</taskId>
+            <taskSize>6010</taskSize>
+            <estimatedDuration>123</estimatedDuration>
+        </Task>
+        <Task name="Workflow_899_Task_5">
+            <taskId>5</taskId>
+            <taskSize>6445</taskSize>
+            <estimatedDuration>586</estimatedDuration>
+        </Task>
+        <Task name="Workflow_899_Task_6">
+            <taskId>6</taskId>
+            <taskSize>6115</taskSize>
+            <estimatedDuration>33</estimatedDuration>
+        </Task>
+        <Task name="Workflow_899_Task_7">
+            <taskId>7</taskId>
+            <taskSize>5677</taskSize>
+            <estimatedDuration>185</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>FullyParallel</workflowType>
+</taskGroupWorkflow>

@@ -32,12 +32,12 @@ public class PoolTasksContainer {
 		this.workflows.remove(workflow);
 	}
 
-	public boolean isContainerEmpty() {
+	public synchronized boolean isContainerEmpty() {
         return this.workflows.isEmpty();
 	}
 	
 	public BaseClusterSimWorkflow retrieveNextWorkflow(final SchedulingPriority schedulingPriority){
-		if(this.schedulingPriority != schedulingPriority || this.isContainerEmpty()){
+		if((!this.schedulingPriority.equals(schedulingPriority)) || this.isContainerEmpty()){
 			return null;
 		}
 		BaseClusterSimWorkflow bwf = this.workflows.get(0);

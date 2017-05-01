@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sequentialWorkflow name="Workflow_332">
+    <workflowId>332</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Sipht_30.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>9381</cost>
+    </costModel>
+    <totalSize>51702</totalSize>
+    <deadline>1494470589692</deadline>
+    <estimatedDuration>3767</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_332_Task_0">
+            <taskId>0</taskId>
+            <taskSize>9386</taskSize>
+            <estimatedDuration>98</estimatedDuration>
+        </Task>
+        <Task name="Workflow_332_Task_1">
+            <taskId>1</taskId>
+            <taskSize>8485</taskSize>
+            <estimatedDuration>329</estimatedDuration>
+        </Task>
+        <Task name="Workflow_332_Task_2">
+            <taskId>2</taskId>
+            <taskSize>1750</taskSize>
+            <estimatedDuration>626</estimatedDuration>
+        </Task>
+        <Task name="Workflow_332_Task_3">
+            <taskId>3</taskId>
+            <taskSize>7716</taskSize>
+            <estimatedDuration>611</estimatedDuration>
+        </Task>
+        <Task name="Workflow_332_Task_4">
+            <taskId>4</taskId>
+            <taskSize>6188</taskSize>
+            <estimatedDuration>381</estimatedDuration>
+        </Task>
+        <Task name="Workflow_332_Task_5">
+            <taskId>5</taskId>
+            <taskSize>773</taskSize>
+            <estimatedDuration>255</estimatedDuration>
+        </Task>
+        <Task name="Workflow_332_Task_6">
+            <taskId>6</taskId>
+            <taskSize>8722</taskSize>
+            <estimatedDuration>907</estimatedDuration>
+        </Task>
+        <Task name="Workflow_332_Task_7">
+            <taskId>7</taskId>
+            <taskSize>8682</taskSize>
+            <estimatedDuration>530</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>Sequential</workflowType>
+</sequentialWorkflow>

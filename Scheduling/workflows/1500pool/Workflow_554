@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sequentialWorkflow name="Workflow_554">
+    <workflowId>554</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/floodplain.xml</inputFilePath>
+    <numberOfTasks>5</numberOfTasks>
+    <costModel>
+        <cost>4161</cost>
+    </costModel>
+    <totalSize>30426</totalSize>
+    <deadline>1494601978228</deadline>
+    <estimatedDuration>1183</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_554_Task_0">
+            <taskId>0</taskId>
+            <taskSize>9061</taskSize>
+            <estimatedDuration>84</estimatedDuration>
+        </Task>
+        <Task name="Workflow_554_Task_1">
+            <taskId>1</taskId>
+            <taskSize>4203</taskSize>
+            <estimatedDuration>556</estimatedDuration>
+        </Task>
+        <Task name="Workflow_554_Task_2">
+            <taskId>2</taskId>
+            <taskSize>4883</taskSize>
+            <estimatedDuration>70</estimatedDuration>
+        </Task>
+        <Task name="Workflow_554_Task_3">
+            <taskId>3</taskId>
+            <taskSize>6584</taskSize>
+            <estimatedDuration>203</estimatedDuration>
+        </Task>
+        <Task name="Workflow_554_Task_4">
+            <taskId>4</taskId>
+            <taskSize>5695</taskSize>
+            <estimatedDuration>269</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>Sequential</workflowType>
+</sequentialWorkflow>

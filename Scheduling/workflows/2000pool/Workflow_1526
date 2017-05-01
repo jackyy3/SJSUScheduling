@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<taskGroupWorkflow name="Workflow_1526">
+    <workflowId>1526</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Montage_25.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>7550</cost>
+    </costModel>
+    <totalSize>37701</totalSize>
+    <deadline>1494116215114</deadline>
+    <estimatedDuration>3612</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_1526_Task_0">
+            <taskId>0</taskId>
+            <taskSize>2538</taskSize>
+            <estimatedDuration>295</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1526_Task_1">
+            <taskId>1</taskId>
+            <taskSize>3866</taskSize>
+            <estimatedDuration>925</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1526_Task_2">
+            <taskId>2</taskId>
+            <taskSize>2749</taskSize>
+            <estimatedDuration>501</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1526_Task_3">
+            <taskId>3</taskId>
+            <taskSize>9786</taskSize>
+            <estimatedDuration>54</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1526_Task_4">
+            <taskId>4</taskId>
+            <taskSize>2779</taskSize>
+            <estimatedDuration>918</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1526_Task_5">
+            <taskId>5</taskId>
+            <taskSize>6512</taskSize>
+            <estimatedDuration>595</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1526_Task_6">
+            <taskId>6</taskId>
+            <taskSize>2047</taskSize>
+            <estimatedDuration>279</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1526_Task_7">
+            <taskId>7</taskId>
+            <taskSize>7424</taskSize>
+            <estimatedDuration>37</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>FullyParallel</workflowType>
+</taskGroupWorkflow>

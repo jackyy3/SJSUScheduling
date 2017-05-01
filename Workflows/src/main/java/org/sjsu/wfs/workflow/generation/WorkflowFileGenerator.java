@@ -18,13 +18,13 @@ public class WorkflowFileGenerator {
 		this.workflowFactory = workflowFactory;
 	}
 
-	public List<Workflow> produceWorkflows() {
-		List<Workflow> workflows = workflowFactory.createWorkflows(100);
+	public List<Workflow> produceWorkflows(final int num) {
+		List<Workflow> workflows = workflowFactory.createWorkflows(num);
 		return workflows;
 	}
 
-	public List<String> produceWorkflowFiles() {
-		List<Workflow> workflows = this.produceWorkflows();
+	public List<String> produceWorkflowFiles(final int num) {
+		List<Workflow> workflows = this.produceWorkflows(num);
 		List<String> fileNames = new ArrayList<>();
 		try {
 			JAXBContext jaxbContext = JAXBContext.newInstance(Workflow.class);
@@ -35,6 +35,53 @@ public class WorkflowFileGenerator {
 			for (Workflow wf : workflows) {
 				String fileName = wf.getName();
 				File file = new File("workflows/" + fileName);
+				fileNames.add(file.getAbsolutePath());
+
+				jaxbMarshaller.marshal(wf, file);
+				jaxbMarshaller.marshal(wf, System.out);
+			}
+
+		} catch (JAXBException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		return fileNames;
+	}
+
+	public String produceSingleWorkflow(final String subPath, final String dataPath) {
+		Workflow wf = this.workflowFactory.createSingleWorkflow(dataPath);
+		String fileName = null;
+		try {
+			JAXBContext jaxbContext = JAXBContext.newInstance(Workflow.class);
+			Marshaller jaxbMarshaller = jaxbContext.createMarshaller();
+			// output pretty printed
+			jaxbMarshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
+
+			fileName = wf.getName();
+			File file = new File("workflows/" +subPath + "/" + fileName);
+
+			jaxbMarshaller.marshal(wf, file);
+			//jaxbMarshaller.marshal(wf, System.out);
+
+		} catch (JAXBException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		return fileName;
+	}
+
+	public List<String> produceWorkflowFiles(final int num, final String subPath) {
+		List<Workflow> workflows = this.produceWorkflows(num);
+		List<String> fileNames = new ArrayList<>();
+		try {
+			JAXBContext jaxbContext = JAXBContext.newInstance(Workflow.class);
+			Marshaller jaxbMarshaller = jaxbContext.createMarshaller();
+			// output pretty printed
+			jaxbMarshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
+
+			for (Workflow wf : workflows) {
+				String fileName = wf.getName();
+				File file = new File("workflows/" + subPath + "/" + fileName);
 				fileNames.add(file.getAbsolutePath());
 
 				jaxbMarshaller.marshal(wf, file);

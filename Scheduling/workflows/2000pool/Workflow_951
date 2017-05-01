@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sequentialWorkflow name="Workflow_951">
+    <workflowId>951</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Sipht_60.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>6672</cost>
+    </costModel>
+    <totalSize>28906</totalSize>
+    <deadline>1493918266754</deadline>
+    <estimatedDuration>3949</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_951_Task_0">
+            <taskId>0</taskId>
+            <taskSize>2215</taskSize>
+            <estimatedDuration>716</estimatedDuration>
+        </Task>
+        <Task name="Workflow_951_Task_1">
+            <taskId>1</taskId>
+            <taskSize>9556</taskSize>
+            <estimatedDuration>229</estimatedDuration>
+        </Task>
+        <Task name="Workflow_951_Task_2">
+            <taskId>2</taskId>
+            <taskSize>1414</taskSize>
+            <estimatedDuration>206</estimatedDuration>
+        </Task>
+        <Task name="Workflow_951_Task_3">
+            <taskId>3</taskId>
+            <taskSize>3034</taskSize>
+            <estimatedDuration>42</estimatedDuration>
+        </Task>
+        <Task name="Workflow_951_Task_4">
+            <taskId>4</taskId>
+            <taskSize>2383</taskSize>
+            <estimatedDuration>924</estimatedDuration>
+        </Task>
+        <Task name="Workflow_951_Task_5">
+            <taskId>5</taskId>
+            <taskSize>38</taskSize>
+            <estimatedDuration>625</estimatedDuration>
+        </Task>
+        <Task name="Workflow_951_Task_6">
+            <taskId>6</taskId>
+            <taskSize>3032</taskSize>
+            <estimatedDuration>582</estimatedDuration>
+        </Task>
+        <Task name="Workflow_951_Task_7">
+            <taskId>7</taskId>
+            <taskSize>7234</taskSize>
+            <estimatedDuration>589</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>Sequential</workflowType>
+</sequentialWorkflow>

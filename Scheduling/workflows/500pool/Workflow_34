@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sequentialWorkflow name="Workflow_34">
+    <workflowId>34</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/floodplain.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>792</cost>
+    </costModel>
+    <totalSize>44051</totalSize>
+    <deadline>1495577589872</deadline>
+    <estimatedDuration>5482</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_34_Task_0">
+            <taskId>0</taskId>
+            <taskSize>8922</taskSize>
+            <estimatedDuration>764</estimatedDuration>
+        </Task>
+        <Task name="Workflow_34_Task_1">
+            <taskId>1</taskId>
+            <taskSize>7755</taskSize>
+            <estimatedDuration>953</estimatedDuration>
+        </Task>
+        <Task name="Workflow_34_Task_2">
+            <taskId>2</taskId>
+            <taskSize>1492</taskSize>
+            <estimatedDuration>940</estimatedDuration>
+        </Task>
+        <Task name="Workflow_34_Task_3">
+            <taskId>3</taskId>
+            <taskSize>1524</taskSize>
+            <estimatedDuration>637</estimatedDuration>
+        </Task>
+        <Task name="Workflow_34_Task_4">
+            <taskId>4</taskId>
+            <taskSize>3542</taskSize>
+            <estimatedDuration>303</estimatedDuration>
+        </Task>
+        <Task name="Workflow_34_Task_5">
+            <taskId>5</taskId>
+            <taskSize>8579</taskSize>
+            <estimatedDuration>371</estimatedDuration>
+        </Task>
+        <Task name="Workflow_34_Task_6">
+            <taskId>6</taskId>
+            <taskSize>6575</taskSize>
+            <estimatedDuration>675</estimatedDuration>
+        </Task>
+        <Task name="Workflow_34_Task_7">
+            <taskId>7</taskId>
+            <taskSize>5662</taskSize>
+            <estimatedDuration>785</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>Sequential</workflowType>
+</sequentialWorkflow>

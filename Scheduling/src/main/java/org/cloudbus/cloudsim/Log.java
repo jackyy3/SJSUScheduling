@@ -35,13 +35,13 @@ public class Log {
 	 * @param message the message
 	 */
 	public static void print(String message) {
-		if (!isDisabled()) {
-			try {
-				getOutput().write(message.getBytes());
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
-		}
+//		if (!isDisabled()) {
+//			try {
+//				getOutput().write(message.getBytes());
+//			} catch (IOException e) {
+//				e.printStackTrace();
+//			}
+//		}
 	}
 
 	/**

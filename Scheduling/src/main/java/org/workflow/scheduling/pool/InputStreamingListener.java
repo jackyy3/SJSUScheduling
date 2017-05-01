@@ -1,7 +1,6 @@
 package org.workflow.scheduling.pool;
 
 import org.sjsu.wfs.workflow.Workflow;
-import org.sjsu.wfs.workflow.generation.RandomWorkflowFactory;
 import org.sjsu.wfs.workflow.generation.WorkflowFactory;
 import org.workflow.scheduling.BaseClusterSimWorkflow;
 import org.workflow.scheduling.adapter.GenericWorkflowAdapter;
@@ -13,7 +12,11 @@ import org.workflow.scheduling.adapter.GenericWorkflowAdapter;
  */
 public class InputStreamingListener {
 
-	private WorkflowFactory wfFactory = new RandomWorkflowFactory();
+	private WorkflowFactory wfFactory;
+	
+	public InputStreamingListener(final WorkflowFactory wfFactory){
+		this.wfFactory = wfFactory;
+	}
 
 	/**
 	 * Return next workflow for scheduling.

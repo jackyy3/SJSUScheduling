@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_294">
+    <workflowId>294</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Sipht_100.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>5001</cost>
+    </costModel>
+    <totalSize>42722</totalSize>
+    <deadline>1494005738709</deadline>
+    <estimatedDuration>2756</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_294_Task_0">
+            <taskId>0</taskId>
+            <taskSize>6117</taskSize>
+            <estimatedDuration>187</estimatedDuration>
+        </Task>
+        <Task name="Workflow_294_Task_1">
+            <taskId>1</taskId>
+            <taskSize>9559</taskSize>
+            <estimatedDuration>453</estimatedDuration>
+        </Task>
+        <Task name="Workflow_294_Task_2">
+            <taskId>2</taskId>
+            <taskSize>6885</taskSize>
+            <estimatedDuration>34</estimatedDuration>
+        </Task>
+        <Task name="Workflow_294_Task_3">
+            <taskId>3</taskId>
+            <taskSize>5636</taskSize>
+            <estimatedDuration>472</estimatedDuration>
+        </Task>
+        <Task name="Workflow_294_Task_4">
+            <taskId>4</taskId>
+            <taskSize>4376</taskSize>
+            <estimatedDuration>150</estimatedDuration>
+        </Task>
+        <Task name="Workflow_294_Task_5">
+            <taskId>5</taskId>
+            <taskSize>688</taskSize>
+            <estimatedDuration>276</estimatedDuration>
+        </Task>
+        <Task name="Workflow_294_Task_6">
+            <taskId>6</taskId>
+            <taskSize>2336</taskSize>
+            <estimatedDuration>347</estimatedDuration>
+        </Task>
+        <Task name="Workflow_294_Task_7">
+            <taskId>7</taskId>
+            <taskSize>7125</taskSize>
+            <estimatedDuration>814</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

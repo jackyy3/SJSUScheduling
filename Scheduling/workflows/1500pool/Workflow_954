@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_954">
+    <workflowId>954</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/5000pool</inputFilePath>
+    <numberOfTasks>5</numberOfTasks>
+    <costModel>
+        <cost>6540</cost>
+    </costModel>
+    <totalSize>36916</totalSize>
+    <deadline>1495334903850</deadline>
+    <estimatedDuration>2627</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_954_Task_0">
+            <taskId>0</taskId>
+            <taskSize>9961</taskSize>
+            <estimatedDuration>254</estimatedDuration>
+        </Task>
+        <Task name="Workflow_954_Task_1">
+            <taskId>1</taskId>
+            <taskSize>9948</taskSize>
+            <estimatedDuration>453</estimatedDuration>
+        </Task>
+        <Task name="Workflow_954_Task_2">
+            <taskId>2</taskId>
+            <taskSize>1802</taskSize>
+            <estimatedDuration>389</estimatedDuration>
+        </Task>
+        <Task name="Workflow_954_Task_3">
+            <taskId>3</taskId>
+            <taskSize>7681</taskSize>
+            <estimatedDuration>671</estimatedDuration>
+        </Task>
+        <Task name="Workflow_954_Task_4">
+            <taskId>4</taskId>
+            <taskSize>7524</taskSize>
+            <estimatedDuration>781</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

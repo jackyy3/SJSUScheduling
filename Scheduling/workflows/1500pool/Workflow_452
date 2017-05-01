@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sequentialWorkflow name="Workflow_452">
+    <workflowId>452</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Sipht_30.xml</inputFilePath>
+    <numberOfTasks>1</numberOfTasks>
+    <costModel>
+        <cost>4412</cost>
+    </costModel>
+    <totalSize>7087</totalSize>
+    <deadline>1495182902980</deadline>
+    <estimatedDuration>921</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_452_Task_0">
+            <taskId>0</taskId>
+            <taskSize>7087</taskSize>
+            <estimatedDuration>863</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>Sequential</workflowType>
+</sequentialWorkflow>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_1086">
+    <workflowId>1086</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Epigenomics_46.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>511</cost>
+    </costModel>
+    <totalSize>39041</totalSize>
+    <deadline>1494180697511</deadline>
+    <estimatedDuration>5531</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_1086_Task_0">
+            <taskId>0</taskId>
+            <taskSize>2815</taskSize>
+            <estimatedDuration>403</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1086_Task_1">
+            <taskId>1</taskId>
+            <taskSize>6692</taskSize>
+            <estimatedDuration>743</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1086_Task_2">
+            <taskId>2</taskId>
+            <taskSize>9855</taskSize>
+            <estimatedDuration>764</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1086_Task_3">
+            <taskId>3</taskId>
+            <taskSize>5852</taskSize>
+            <estimatedDuration>388</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1086_Task_4">
+            <taskId>4</taskId>
+            <taskSize>940</taskSize>
+            <estimatedDuration>978</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1086_Task_5">
+            <taskId>5</taskId>
+            <taskSize>3216</taskSize>
+            <estimatedDuration>739</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1086_Task_6">
+            <taskId>6</taskId>
+            <taskSize>4998</taskSize>
+            <estimatedDuration>604</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1086_Task_7">
+            <taskId>7</taskId>
+            <taskSize>4673</taskSize>
+            <estimatedDuration>887</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>

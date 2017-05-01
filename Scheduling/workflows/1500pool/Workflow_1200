@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sequentialWorkflow name="Workflow_1200">
+    <workflowId>1200</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/10000Pool</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>5327</cost>
+    </costModel>
+    <totalSize>32858</totalSize>
+    <deadline>1494087068760</deadline>
+    <estimatedDuration>5302</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_1200_Task_0">
+            <taskId>0</taskId>
+            <taskSize>1288</taskSize>
+            <estimatedDuration>95</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1200_Task_1">
+            <taskId>1</taskId>
+            <taskSize>6554</taskSize>
+            <estimatedDuration>682</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1200_Task_2">
+            <taskId>2</taskId>
+            <taskSize>6624</taskSize>
+            <estimatedDuration>874</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1200_Task_3">
+            <taskId>3</taskId>
+            <taskSize>1284</taskSize>
+            <estimatedDuration>909</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1200_Task_4">
+            <taskId>4</taskId>
+            <taskSize>438</taskSize>
+            <estimatedDuration>951</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1200_Task_5">
+            <taskId>5</taskId>
+            <taskSize>1642</taskSize>
+            <estimatedDuration>717</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1200_Task_6">
+            <taskId>6</taskId>
+            <taskSize>6362</taskSize>
+            <estimatedDuration>435</estimatedDuration>
+        </Task>
+        <Task name="Workflow_1200_Task_7">
+            <taskId>7</taskId>
+            <taskSize>8666</taskSize>
+            <estimatedDuration>567</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>Sequential</workflowType>
+</sequentialWorkflow>

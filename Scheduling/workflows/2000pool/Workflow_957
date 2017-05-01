@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sequentialWorkflow name="Workflow_957">
+    <workflowId>957</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/Montage_1000.xml</inputFilePath>
+    <numberOfTasks>8</numberOfTasks>
+    <costModel>
+        <cost>9026</cost>
+    </costModel>
+    <totalSize>15782</totalSize>
+    <deadline>1493658517071</deadline>
+    <estimatedDuration>4510</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_957_Task_0">
+            <taskId>0</taskId>
+            <taskSize>2443</taskSize>
+            <estimatedDuration>915</estimatedDuration>
+        </Task>
+        <Task name="Workflow_957_Task_1">
+            <taskId>1</taskId>
+            <taskSize>433</taskSize>
+            <estimatedDuration>997</estimatedDuration>
+        </Task>
+        <Task name="Workflow_957_Task_2">
+            <taskId>2</taskId>
+            <taskSize>6474</taskSize>
+            <estimatedDuration>662</estimatedDuration>
+        </Task>
+        <Task name="Workflow_957_Task_3">
+            <taskId>3</taskId>
+            <taskSize>297</taskSize>
+            <estimatedDuration>754</estimatedDuration>
+        </Task>
+        <Task name="Workflow_957_Task_4">
+            <taskId>4</taskId>
+            <taskSize>312</taskSize>
+            <estimatedDuration>56</estimatedDuration>
+        </Task>
+        <Task name="Workflow_957_Task_5">
+            <taskId>5</taskId>
+            <taskSize>4821</taskSize>
+            <estimatedDuration>755</estimatedDuration>
+        </Task>
+        <Task name="Workflow_957_Task_6">
+            <taskId>6</taskId>
+            <taskSize>910</taskSize>
+            <estimatedDuration>73</estimatedDuration>
+        </Task>
+        <Task name="Workflow_957_Task_7">
+            <taskId>7</taskId>
+            <taskSize>92</taskSize>
+            <estimatedDuration>232</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>Sequential</workflowType>
+</sequentialWorkflow>

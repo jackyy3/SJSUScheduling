@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<chainWorkflow name="Workflow_854">
+    <workflowId>854</workflowId>
+    <inputFilePath>/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/floodplain.xml</inputFilePath>
+    <numberOfTasks>4</numberOfTasks>
+    <costModel>
+        <cost>8214</cost>
+    </costModel>
+    <totalSize>12481</totalSize>
+    <deadline>1495538386513</deadline>
+    <estimatedDuration>2004</estimatedDuration>
+    <tasks>
+        <Task name="Workflow_854_Task_0">
+            <taskId>0</taskId>
+            <taskSize>103</taskSize>
+            <estimatedDuration>528</estimatedDuration>
+        </Task>
+        <Task name="Workflow_854_Task_1">
+            <taskId>1</taskId>
+            <taskSize>4958</taskSize>
+            <estimatedDuration>365</estimatedDuration>
+        </Task>
+        <Task name="Workflow_854_Task_2">
+            <taskId>2</taskId>
+            <taskSize>1267</taskSize>
+            <estimatedDuration>120</estimatedDuration>
+        </Task>
+        <Task name="Workflow_854_Task_3">
+            <taskId>3</taskId>
+            <taskSize>6153</taskSize>
+            <estimatedDuration>939</estimatedDuration>
+        </Task>
+    </tasks>
+    <workflowType>PartialParallel</workflowType>
+</chainWorkflow>
