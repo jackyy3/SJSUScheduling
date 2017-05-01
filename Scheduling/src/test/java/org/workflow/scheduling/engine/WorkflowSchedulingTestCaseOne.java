@@ -20,15 +20,26 @@ public class WorkflowSchedulingTestCaseOne {
 	@Test
 	public void testSchedulingFlow() throws IOException {
 
-		int[] sizes = { 1000, 1500 };
+		int[] sizes = { 250, 500, 1000, 1500, 2000, 2500 };
 		int[] poolStatus = { 0, 1 };
 
 		for (int p : poolStatus) {
+
+			SimulationConfig.INSTANCE.setPoolStatus(p);
+			String ps;
+			if (p == 0) {
+				ps = "Static";
+			} else {
+				ps = "Dynamic";
+			}
+
 			for (int s : sizes) {
+
 				String filePath = "/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/" + String.valueOf(s)
 						+ "pool/";
 
-				WorkflowSchedulingOutputHandler handler = new WorkflowSchedulingOutputHandler(new RealTimeWorkflowProcessor());
+				WorkflowSchedulingOutputHandler handler = new WorkflowSchedulingOutputHandler(
+						new RealTimeWorkflowProcessor());
 				WorkflowSchedulingPool pool = new WorkflowSchedulingPool();
 				WorkflowPriorityCalculator calculator = new WorkflowPriorityCalculator(
 						WorkflowSchedulingAlgorithmType.EDF,
@@ -40,14 +51,6 @@ public class WorkflowSchedulingTestCaseOne {
 				List<Long> tardinesses = sr.getTardiness();
 				List<Long> durations = sr.getDuration();
 				long overallDuration = sr.getTotalDuration();
-
-				String ps;
-				if (p == 0) {
-					ps = "Static";
-				} else {
-					ps = "Dynamic";
-				}
-				SimulationConfig.INSTANCE.setPoolStatus(p);
 
 				// TODO: use StringBuilder
 				String fileName_tardiness = "TestResult/" + String.valueOf(s) + "_" + ps + "_tardiness.txt";
@@ -84,7 +87,7 @@ public class WorkflowSchedulingTestCaseOne {
 	}
 
 	@Test
-	public void testConfig(){
+	public void testConfig() {
 		SimulationConfig.INSTANCE.setPoolStatus(1);
 		Assert.assertTrue(SimulationConfig.INSTANCE.getPoolStatus() == 1);
 		SimulationConfig.INSTANCE.setPoolStatus(0);
