@@ -1,6 +1,7 @@
 package org.workflow.scheduling.engine;
 
 import java.util.List;
+import java.util.concurrent.Future;
 
 import org.workflow.process.ExecutionResult.ExecutionStatus;
 
@@ -11,6 +12,8 @@ public class SimResult {
 	private long overallStartTime;
 	private long overallCompletionTime;
 	private long overallDuration;
+	
+	private Future future;
 
 	public SimResult(final SimResultBuilder builder) {
 		this.status = builder.getStatus();
@@ -19,6 +22,7 @@ public class SimResult {
 		this.overallCompletionTime = builder.getOverallCompletionTime();
 		this.overallStartTime = builder.getOverallStartTime();
 		this.overallDuration = this.overallCompletionTime - this.overallStartTime;
+		this.future = future;
 	}
 
 	public long getTotalDuration() {
@@ -59,6 +63,10 @@ public class SimResult {
 	public long getOverallCompletionTime() {
 		return overallCompletionTime;
 	}
+	
+	public Future getFuture(){
+		return this.future;
+	}
 
 	static class SimResultBuilder {
 		private ExecutionStatus status;
@@ -66,6 +74,8 @@ public class SimResult {
 		private List<Long> durations;
 		private long overallStartTime;
 		private long overallCompletionTime;
+		
+		private Future future;
 
 		public SimResultBuilder() {
 		}
@@ -94,9 +104,18 @@ public class SimResult {
 			this.durations = durations;
 			return this;
 		}
+		
+		public SimResultBuilder future(Future future) {
+			this.future = future;
+			return this;
+		}
 
 		public SimResult build() {
 			return new SimResult(this);
+		}
+		
+		public Future getFuture(){
+			return this.future;
 		}
 
 		/**

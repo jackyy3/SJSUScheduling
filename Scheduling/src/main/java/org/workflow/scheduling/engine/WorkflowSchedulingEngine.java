@@ -3,6 +3,7 @@ package org.workflow.scheduling.engine;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
@@ -71,6 +72,31 @@ public final class WorkflowSchedulingEngine {
 		Future<?> scheduler_9 = executorService.submit(new AddInputs());
 		Future<?> scheduler_10 = executorService.submit(new AddInputs());
 		
+		try {
+			Thread.sleep(20000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		scheduler_1.cancel(true);
+		scheduler_2.cancel(true);
+		scheduler_3.cancel(true);
+		scheduler_4.cancel(true);
+		scheduler_5.cancel(true);
+		scheduler_6.cancel(true);
+		scheduler_7.cancel(true);
+		scheduler_8.cancel(true);
+		scheduler_9.cancel(true);
+		scheduler_10.cancel(true);
+		
+		try {
+			Thread.sleep(20000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 		srb.overallCompletionTime(System.currentTimeMillis());
 		for(Result<BaseClusterSimWorkflow> r : results){
 			durations.add(r.getLifeTimeDuration());
@@ -79,6 +105,8 @@ public final class WorkflowSchedulingEngine {
 		srb.duration(durations);
 		srb.tardiness(tardinesses);
 		srb.executionStatus(ExecutionStatus.SUCCESSFUL);
+		srb.future(processor);
+		
 		return srb.build();
 
 	}
@@ -118,10 +146,15 @@ public final class WorkflowSchedulingEngine {
 				try {
 					Thread.sleep(2000+ran.nextInt(1000));
 				} catch (InterruptedException e) {
-					e.printStackTrace();
+					try {
+						this.wait();
+					} catch (InterruptedException e1) {
+						// TODO Auto-generated catch block
+						e1.printStackTrace();
+					}
 				}
 				BaseClusterSimWorkflow bcw = scheduler.getNextWorkflow();
-				System.out.println("I am a new input");
+				System.out.println("I am a new input, current pool size is " + String.valueOf(pool.getPoolSize()));
 				if (bcw != null) {
 					bcw.setArrivalTime(System.currentTimeMillis());
 					pool.addToPool(bcw);

@@ -1,6 +1,8 @@
 package org.workflow.scheduling.engine;
 
 import java.util.List;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.Future;
 
 import org.junit.Test;
 import org.sjsu.wfs.workflow.generation.RandomWorkflowFactory;
@@ -42,6 +44,14 @@ public class GenericTest {
 		WorkflowSchedulingEngine engine = new WorkflowSchedulingEngine(calculator, pool, handler);
 
 		SimResult sr = engine.start();
-		Thread.sleep(1000000);
+		List<Long> tardinesses = sr.getTardiness();
+		List<Long> durations = sr.getDuration();
+		long ovarallDurartion = sr.getTotalDuration();
+		long completionTime = sr.getOverallCompletionTime();
+		long startime = sr.getOverallStartTime();
+		System.out.println("Number of tasks executed " + String.valueOf(tardinesses.size()));
+		System.out.println("Total duration is " + String.valueOf(ovarallDurartion) + " in miliseconds");
+
+		//System.out.println(sr.toString());
 	}
 }
