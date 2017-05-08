@@ -3,6 +3,9 @@ package org.workflow.scheduling.engine;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
 
 import org.workflow.process.ExecutionResult.ExecutionStatus;
 import org.workflow.process.Result;
@@ -22,8 +25,7 @@ public final class WorkflowSchedulingEngine {
 	private WorkflowSchedulingPool pool;
 	private WorkflowSchedulingOutputHandler outputHandler;
 
-//	private ExecutorService executorService = new ThreadPoolExecutor(50, 50, Long.MAX_VALUE, TimeUnit.MILLISECONDS,
-//			new ArrayBlockingQueue(50));
+	private ExecutorService executorService = Executors.newFixedThreadPool(10);
 	private List<Result<BaseClusterSimWorkflow>> results = new ArrayList<Result<BaseClusterSimWorkflow>>();
 
 	private static final int SCHED_BALANCE_ROTATOR = 17;
@@ -50,15 +52,35 @@ public final class WorkflowSchedulingEngine {
 	/**
 	 * Start point for scheduling flow.
 	 */
-	public void start() {
+	public SimResult start() {
 
-		// (new WFExecutor()).run();
-		(new AddInputs()).run();
-		// (new WFExecutor()).run();
-		// this.executorService.submit(new AddInputs());
-		// this.executorService.submit(new WFExecutor());
-		//
-		// this.executorService.shutdown();
+		SimResultBuilder srb = new SimResultBuilder();
+		List<Long> durations = new ArrayList<Long>();
+		List<Long> tardinesses = new ArrayList<Long>();
+		srb.overallStartTime(System.currentTimeMillis());
+		
+		Future<?> processor = executorService.submit(new WFExecutor(10000));
+		Future<?> scheduler_1 = executorService.submit(new AddInputs());
+		Future<?> scheduler_2 = executorService.submit(new AddInputs());
+		Future<?> scheduler_3 = executorService.submit(new AddInputs());
+		Future<?> scheduler_4 = executorService.submit(new AddInputs());
+		Future<?> scheduler_5 = executorService.submit(new AddInputs());
+		Future<?> scheduler_6 = executorService.submit(new AddInputs());
+		Future<?> scheduler_7 = executorService.submit(new AddInputs());
+		Future<?> scheduler_8 = executorService.submit(new AddInputs());
+		Future<?> scheduler_9 = executorService.submit(new AddInputs());
+		Future<?> scheduler_10 = executorService.submit(new AddInputs());
+		
+		srb.overallCompletionTime(System.currentTimeMillis());
+		for(Result<BaseClusterSimWorkflow> r : results){
+			durations.add(r.getLifeTimeDuration());
+			tardinesses.add(r.getTardiness());
+		}
+		srb.duration(durations);
+		srb.tardiness(tardinesses);
+		srb.executionStatus(ExecutionStatus.SUCCESSFUL);
+		return srb.build();
+
 	}
 
 	/**
@@ -87,42 +109,24 @@ public final class WorkflowSchedulingEngine {
 	 */
 	class AddInputs implements Runnable {
 
-		StringBuffer sb = new StringBuffer();
+		//global
 		Random ran = new Random();
-		int count = 0;
 
 		@Override
 		public void run() {
-			while (true && count < POOL_SIZE) {
+			while (true) {
 				try {
-					Thread.sleep(ran.nextInt(1000));
+					Thread.sleep(2000+ran.nextInt(1000));
 				} catch (InterruptedException e) {
 					e.printStackTrace();
 				}
 				BaseClusterSimWorkflow bcw = scheduler.getNextWorkflow();
+				System.out.println("I am a new input");
 				if (bcw != null) {
 					bcw.setArrivalTime(System.currentTimeMillis());
 					pool.addToPool(bcw);
-
-					// sb.append("Current workflow is
-					// ").append(bcw.getWorkflowName()).append("; The priority
-					// is ")
-					// .append(bcw.getSchedulingPriority().getPriorityIndex()).append(";
-					// Scheduling Pool size is ")
-					// .append(pool.getPoolSize());
-
-					// System.out.println(sb.toString());
-					// sb.delete(0, sb.length());
-					count++;
-					if(SimulationConfig.INSTANCE.getPoolStatus() != 0){
-						if ((ran.nextInt(1000) / 7) % 2 == 0) {
-							(new WFExecutor(ran.nextInt(100))).run();
-						}
-					}
-					// outputHandler.execute(bcw);
 				}
 			}
-			(new WFExecutor(POOL_SIZE)).run();
 		}
 	}
 
@@ -132,9 +136,10 @@ public final class WorkflowSchedulingEngine {
 	class WFExecutor implements Runnable {
 
 		long seq_id = 0;
+		//global
 		Random ran = new Random();
 		long limit = Long.MAX_VALUE;
-		long counter = 0;
+		
 
 		public void setLimit(final long limit) {
 			this.limit = limit;
@@ -150,19 +155,20 @@ public final class WorkflowSchedulingEngine {
 
 		@Override
 		public void run() {
-			while (true && (counter < limit)) {
-				counter++;
-				long counter2 = 0;
+			while (true) {
+				try {
+					Thread.sleep(ran.nextInt(1000));
+				} catch (InterruptedException e) {
+					e.printStackTrace();
+				}
 				long curPriorityIndex;
 				if ((++seq_id) / SCHED_BALANCE_ROTATOR != 0) {
 					curPriorityIndex = 0;
 				} else {
-					curPriorityIndex = 0;// SCHED_BALANCE_ROTATOR +
-											// ran.nextLong();
+					curPriorityIndex = SCHED_BALANCE_ROTATOR + ran.nextInt(100);
 				}
 				boolean foundNextWF = false;
-				while (!foundNextWF && (counter2 < 100000)) {
-					counter2++;
+				while (!foundNextWF && curPriorityIndex < 10000) {
 					SchedulingPriority sp = new SchedulingPriority(curPriorityIndex);
 					if (pool.poolContainsWF(sp)) {
 						foundNextWF = true;

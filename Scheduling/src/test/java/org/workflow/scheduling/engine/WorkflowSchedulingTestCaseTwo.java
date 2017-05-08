@@ -2,18 +2,15 @@ package org.workflow.scheduling.engine;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
-import java.util.concurrent.ThreadPoolExecutor;
-import java.util.concurrent.TimeUnit;
 
 import org.junit.Test;
 
 public class WorkflowSchedulingTestCaseTwo {
 
-	private ExecutorService executorService = new ThreadPoolExecutor(50, 50, Long.MAX_VALUE, TimeUnit.MILLISECONDS,
-			new ArrayBlockingQueue(50));
+	private ExecutorService executorService = Executors.newFixedThreadPool(4);
 
 	@Test
 	public void testSchedulingFlowParallel() {
@@ -25,7 +22,8 @@ public class WorkflowSchedulingTestCaseTwo {
 		for (int p : poolStatus) {
 			for (int s : sizes) {
 				WorkflowSchedulingTestCaseTwoCallable wstctc = new WorkflowSchedulingTestCaseTwoCallable(s, p);
-				futures.add(executorService.submit(wstctc));
+				Future future = executorService.submit(wstctc);
+				futures.add(future);
 			}
 		}
 

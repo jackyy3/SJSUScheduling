@@ -20,8 +20,8 @@ public class WorkflowSchedulingTestCaseOne {
 	@Test
 	public void testSchedulingFlow() throws IOException {
 
-		int[] sizes = { 250, 500, 1000, 1500, 2000, 2500 };
-		int[] poolStatus = { 0, 1 };
+		int[] sizes = { 10000 };
+		int[] poolStatus = { 0};
 
 		for (int p : poolStatus) {
 
@@ -47,7 +47,8 @@ public class WorkflowSchedulingTestCaseOne {
 
 				WorkflowSchedulingEngine engine = new WorkflowSchedulingEngine(calculator, pool, handler);
 
-				SimResult sr = engine.start(s);
+				//SimResult sr = engine.start(s);
+				SimResult sr = engine.start();
 				List<Long> tardinesses = sr.getTardiness();
 				List<Long> durations = sr.getDuration();
 				long overallDuration = sr.getTotalDuration();

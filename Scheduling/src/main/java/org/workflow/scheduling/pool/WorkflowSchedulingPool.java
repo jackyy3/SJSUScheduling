@@ -2,6 +2,7 @@ package org.workflow.scheduling.pool;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 
 import org.workflow.scheduling.BaseClusterSimWorkflow;
 
@@ -10,7 +11,7 @@ import org.workflow.scheduling.BaseClusterSimWorkflow;
  */
 public class WorkflowSchedulingPool extends AbstractSchedulingPool {
 
-	private final Map<SchedulingPriority, PoolTasksContainer> workflowPool = new HashMap<>();
+	private final Map<SchedulingPriority, PoolTasksContainer> workflowPool = new ConcurrentHashMap<>();
 
 	/**
 	 * Add Workflow to Ready Pool.

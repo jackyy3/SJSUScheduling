@@ -159,6 +159,7 @@ public final class WorkflowSchedulingEngine2 {
 
 		@Override
 		public void run() {
+			 counter = 0;
 			while (true && (counter < limit)) {
 				counter++;
 				long counter2 = 0;

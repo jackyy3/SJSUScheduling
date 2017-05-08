@@ -73,6 +73,7 @@ public class RandomWorkflowFactory implements WorkflowFactory {
 		wb.tasksContainer(tc);
 		wb.totalSize(totalSize);
 		wb.numberOfTasks(numberOfTasks);
+		wb.inputFilePath("workflows/10000pool/workflow_0");
 		wb.estimatedDuration(estimatedWorkflowDuration + this.getNextRandomNumber(100));
 		return wb.build();
 	}
