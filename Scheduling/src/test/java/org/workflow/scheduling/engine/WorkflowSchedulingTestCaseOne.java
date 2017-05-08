@@ -20,8 +20,8 @@ public class WorkflowSchedulingTestCaseOne {
 	@Test
 	public void testSchedulingFlow() throws IOException {
 
-		int[] sizes = { 10000 };
-		int[] poolStatus = { 0};
+		int[] sizes = { 50, 25};
+		int[] poolStatus = { 0, 1};
 
 		for (int p : poolStatus) {
 
@@ -35,7 +35,7 @@ public class WorkflowSchedulingTestCaseOne {
 
 			for (int s : sizes) {
 
-				String filePath = "/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/" + String.valueOf(s)
+				String filePath = "/Users/zxing/git_4/SJSUScheduling/Scheduling/workflows/" + String.valueOf(s * 100)
 						+ "pool/";
 
 				WorkflowSchedulingOutputHandler handler = new WorkflowSchedulingOutputHandler(
@@ -45,10 +45,10 @@ public class WorkflowSchedulingTestCaseOne {
 						WorkflowSchedulingAlgorithmType.EDF,
 						new InputStreamingListener(new StaticWorkflowFactory(filePath)));
 
-				WorkflowSchedulingEngine engine = new WorkflowSchedulingEngine(calculator, pool, handler);
+				WorkflowSchedulingEngine2 engine = new WorkflowSchedulingEngine2(calculator, pool, handler, s, p);
 
-				//SimResult sr = engine.start(s);
-				SimResult sr = engine.start();
+				SimResult sr = engine.start(s);
+				//SimResult sr = engine.start();
 				List<Long> tardinesses = sr.getTardiness();
 				List<Long> durations = sr.getDuration();
 				long overallDuration = sr.getTotalDuration();
@@ -62,23 +62,23 @@ public class WorkflowSchedulingTestCaseOne {
 				File file_duration = new File(fileName_duration);
 				File file_total = new File(fileName_total);
 
-				FileWriter fw_tardiness = new FileWriter(file_tardiness);
+				FileWriter fw_tardiness = new FileWriter(file_tardiness, false);
 				for (Long lt : tardinesses) {
 					fw_tardiness.write(String.valueOf(lt) + "\n");
 				}
 
-				FileWriter fw_duration = new FileWriter(file_duration);
+				FileWriter fw_duration = new FileWriter(file_duration, false);
 				for (Long ld : durations) {
 					fw_duration.write(String.valueOf(ld) + "\n"); // TODO: use
 																	// //
 																	// StringBuilder
 				}
 
-				FileWriter fw_total = new FileWriter(file_total);
+				FileWriter fw_total = new FileWriter(file_total, false);
 				fw_total.write(String.valueOf(overallDuration)); // TODO: use
 																	// StringBuilder
 
-				System.out.println("All good_" + String.valueOf(s) + "-" + String.valueOf(p));
+				System.out.println("All good_" + String.valueOf(s) + "-" + ps);
 				fw_tardiness.close();
 				fw_duration.close();
 				fw_total.close();

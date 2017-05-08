@@ -22,8 +22,9 @@ public final class WorkflowSchedulingEngine2 {
 	private WorkflowSchedulingPool pool;
 	private WorkflowSchedulingOutputHandler outputHandler;
 
-//	private ExecutorService executorService = new ThreadPoolExecutor(50, 50, Long.MAX_VALUE, TimeUnit.MILLISECONDS,
-//			new ArrayBlockingQueue(50));
+	// private ExecutorService executorService = new ThreadPoolExecutor(50, 50,
+	// Long.MAX_VALUE, TimeUnit.MILLISECONDS,
+	// new ArrayBlockingQueue(50));
 	private List<Result<BaseClusterSimWorkflow>> results = new ArrayList<Result<BaseClusterSimWorkflow>>();
 
 	private static final int SCHED_BALANCE_ROTATOR = 17;
@@ -60,7 +61,7 @@ public final class WorkflowSchedulingEngine2 {
 		srb.overallStartTime(System.currentTimeMillis());
 		(new AddInputs()).run();
 		srb.overallCompletionTime(System.currentTimeMillis());
-		for(Result<BaseClusterSimWorkflow> r : results){
+		for (Result<BaseClusterSimWorkflow> r : results) {
 			durations.add(r.getLifeTimeDuration());
 			tardinesses.add(r.getTardiness());
 		}
@@ -81,7 +82,7 @@ public final class WorkflowSchedulingEngine2 {
 		srb.overallStartTime(System.currentTimeMillis());
 		(new AddInputs()).run();
 		srb.overallCompletionTime(System.currentTimeMillis());
-		for(Result<BaseClusterSimWorkflow> r : results){
+		for (Result<BaseClusterSimWorkflow> r : results) {
 			durations.add(r.getLifeTimeDuration());
 			tardinesses.add(r.getTardiness());
 		}
@@ -103,25 +104,18 @@ public final class WorkflowSchedulingEngine2 {
 		@Override
 		public void run() {
 			while (true && count < POOL_SIZE) {
-				try {
-					Thread.sleep(ran.nextInt(1000));
-				} catch (InterruptedException e) {
-					e.printStackTrace();
-				}
+				
 				BaseClusterSimWorkflow bcw = scheduler.getNextWorkflow();
 				if (bcw != null) {
 					bcw.setArrivalTime(System.currentTimeMillis());
 					pool.addToPool(bcw);
 
-					// sb.append("Current workflow is
-					// ").append(bcw.getWorkflowName()).append("; The priority
-					// is ")
-					// .append(bcw.getSchedulingPriority().getPriorityIndex()).append(";
-					// Scheduling Pool size is ")
-					// .append(pool.getPoolSize());
+					 sb.append("Current workflow is").append(bcw.getWorkflowName()).append("; The priorityis ")
+					 .append(bcw.getSchedulingPriority().getPriorityIndex()).append(";Scheduling Pool size is ")
+					 .append(pool.getPoolSize());
 
-					// System.out.println(sb.toString());
-					// sb.delete(0, sb.length());
+					 System.out.println(sb.toString());
+					 sb.delete(0, sb.length());
 					count++;
 					if(POOL_STATUS != 0){
 						if ((ran.nextInt(1000) / 7) % 2 == 0) {
@@ -159,7 +153,7 @@ public final class WorkflowSchedulingEngine2 {
 
 		@Override
 		public void run() {
-			 counter = 0;
+			counter = 0;
 			while (true && (counter < limit)) {
 				counter++;
 				long counter2 = 0;
@@ -202,4 +196,3 @@ public final class WorkflowSchedulingEngine2 {
 
 	}
 }
-
